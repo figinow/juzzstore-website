@@ -28,14 +28,17 @@ const products = [
   {
     name: 'Desk File Organizer',
     desc: 'A compact organizer for documents, papers, and notes to keep your table looking clean and easier to manage.',
+    image: '/images/file-organizer.jpg',
   },
   {
     name: 'Movable Side Organizer',
     desc: 'A larger organizer with more storage space for side-table use, suitable for home setups, work corners, or small business use.',
+    image: '/images/side-organizer.jpg',
   },
   {
     name: 'Useful Everyday Picks',
     desc: 'Curated practical items that help make daily tasks, small spaces, and work areas easier to handle.',
+    image: '/images/everyday-tools.jpg',
   },
 ];
 
@@ -336,7 +339,9 @@ export default function JuzzStoreWebsite() {
           <div className="grid gap-6 md:grid-cols-3">
             {products.map((product) => (
               <Card key={product.name} className="overflow-hidden rounded-[1.75rem] border-gray-200 shadow-sm">
-                <div className="h-48 bg-gradient-to-br from-neutral-200 via-neutral-100 to-white" />
+                <div className="aspect-[4/3] w-full overflow-hidden">
+                  <img src={product.image} alt={product.name} className="h-full w-full object-cover" />
+                </div>
                 <CardContent className="p-6">
                   <h4 className="text-lg font-semibold">{product.name}</h4>
                   <p className="mt-3 text-sm leading-6 text-neutral-600">{product.desc}</p>
