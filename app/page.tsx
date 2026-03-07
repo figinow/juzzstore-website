@@ -29,16 +29,22 @@ const products = [
     name: 'Desk File Organizer',
     desc: 'A compact organizer for documents, papers, and notes to keep your table looking clean and easier to manage.',
     image: '/images/file-organizer.jpg',
+    link: '#',
+    button: 'Coming Soon',
   },
   {
     name: 'Movable Side Organizer',
     desc: 'A larger organizer with more storage space for side-table use, suitable for home setups, work corners, or small business use.',
     image: '/images/side-organizer.jpg',
+    link: '#',
+    button: 'Coming Soon',
   },
   {
     name: 'Useful Everyday Picks',
     desc: 'Curated practical items that help make daily tasks, small spaces, and work areas easier to handle.',
     image: '/images/everyday-tools.jpg',
+    link: '#',
+    button: 'Explore Picks',
   },
 ];
 
@@ -345,9 +351,11 @@ export default function JuzzStoreWebsite() {
                 <CardContent className="p-6">
                   <h4 className="text-lg font-semibold">{product.name}</h4>
                   <p className="mt-3 text-sm leading-6 text-neutral-600">{product.desc}</p>
-                  <Button variant="outline" className="mt-5 rounded-2xl">
-                    View Details
-                  </Button>
+                  <a href={product.link} target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" className="mt-5 rounded-2xl">
+                      {product.button}
+                    </Button>
+                  </a>
                 </CardContent>
               </Card>
             ))}
