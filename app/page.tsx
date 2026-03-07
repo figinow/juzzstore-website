@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { Package, Sparkles, Monitor, Briefcase, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { Card, CardContent } from './components/ui/card';
 import { Button } from './components/ui/button';
+
 const features = [
   {
     icon: <Monitor className="h-5 w-5" />,
@@ -263,7 +264,7 @@ export default function JuzzStoreWebsite() {
             <div className="rounded-[1.75rem] border border-gray-200 bg-white p-6 shadow-sm">
               <div className="mb-4 text-sm font-semibold text-red-500">Before</div>
               <div className="flex h-56 items-center justify-center rounded-2xl bg-neutral-100 text-sm text-neutral-400">
-                Messy desk with scattered papers
+                <img src="/images/messy-desk.jpg" alt="Messy desk with scattered papers" className="h-56 w-full rounded-2xl object-cover" />
               </div>
               <p className="mt-4 text-sm text-neutral-600">
                 Papers pile up, documents get lost, and the desk feels stressful to work on.
@@ -273,7 +274,7 @@ export default function JuzzStoreWebsite() {
             <div className="rounded-[1.75rem] border border-gray-200 bg-white p-6 shadow-sm">
               <div className="mb-4 text-sm font-semibold text-emerald-600">After</div>
               <div className="flex h-56 items-center justify-center rounded-2xl bg-neutral-100 text-sm text-neutral-400">
-                Organized desk using file organizer
+                <img src="/images/organized-desk.jpg" alt="Organized desk using file organizer" className="h-56 w-full rounded-2xl object-cover" />
               </div>
               <p className="mt-4 text-sm text-neutral-600">
                 Documents are neatly arranged, the workspace looks cleaner, and everything is easier
@@ -287,7 +288,7 @@ export default function JuzzStoreWebsite() {
           <div className="grid gap-8 rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:grid-cols-2 md:p-10">
             <div className="flex items-center justify-center">
               <div className="flex h-72 w-full items-center justify-center rounded-3xl bg-neutral-100 text-sm text-neutral-400">
-                File Organizer Product Image
+                <img src="/images/file-organizer.jpg" alt="File organizer product" className="h-72 w-full rounded-3xl object-cover" />
               </div>
             </div>
 
