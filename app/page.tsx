@@ -388,8 +388,12 @@ export default function JuzzStoreWebsite() {
               </p>
             </div>
             <div className="flex items-center justify-center">
-              <div className="flex h-72 w-full items-center justify-center rounded-3xl bg-neutral-100 text-sm text-neutral-400">
-                Founder workspace image
+              <div className="w-full overflow-hidden rounded-3xl bg-neutral-100">
+                <img
+                  src="/images/workflow-sketch.jpg"
+                  alt="JuzzStore workflow sketch showing messy desk to organized workspace idea"
+                  className="w-full h-[320px] object-cover"
+                />
               </div>
             </div>
           </div>
