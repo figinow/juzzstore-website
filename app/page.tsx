@@ -453,21 +453,41 @@ export default function JuzzStoreWebsite() {
                 Follow JuzzStore for practical everyday ideas, useful product finds, and simple solutions that make daily life easier.
               </h3>
               <p className="mt-4 max-w-2xl text-sm leading-6 text-white/75 md:text-base">
-                Follow JuzzStore across our marketplaces and social channels where we share useful
-                everyday finds, practical tools, and new product ideas. You can also explore our
-                curated picks directly from our storefront.
-              </p>
+                Follow JuzzStore across our marketplaces and social channels where we share useful everyday finds, practical tools, and new product ideas.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
-                <Button className="rounded-2xl bg-white px-6 py-6 text-sm font-medium text-gray-900 hover:bg-white/90">
-                  Contact Us
-                </Button>
-                <Button
-                  variant="outline"
-                  className="rounded-2xl border-white/20 bg-transparent px-6 py-6 text-sm font-medium text-white hover:bg-white/10"
-                >
-                  Visit Shop
-                </Button>
+                <a href="https://www.tiktok.com/@sgjuzzstore" target="_blank" rel="noopener noreferrer">
+                  <Button className="rounded-2xl bg-white px-6 py-6 text-sm font-medium text-gray-900 hover:bg-white/90">
+                    TikTok Shop
+                  </Button>
+                </a>
+
+                <a href="https://shopee.sg/juzzstore" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    variant="outline"
+                    className="rounded-2xl border-white/20 bg-transparent px-6 py-6 text-sm font-medium text-white hover:bg-white/10"
+                  >
+                    Shopee
+                  </Button>
+                </a>
+
+                <a href="https://www.lazada.sg/shop/juzzstore1619756229" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    variant="outline"
+                    className="rounded-2xl border-white/20 bg-transparent px-6 py-6 text-sm font-medium text-white hover:bg-white/10"
+                  >
+                    Lazada
+                  </Button>
+                </a>
+
+                <a href="https://www.amazon.sg/s?me=A28J2A4JBMU8V2&marketplaceID=A19VAU5U5O7RUS" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    variant="outline"
+                    className="rounded-2xl border-white/20 bg-transparent px-6 py-6 text-sm font-medium text-white hover:bg-white/10"
+                  >
+                    Amazon
+                  </Button>
+                </a>
               </div>
             </div>
           </div>
