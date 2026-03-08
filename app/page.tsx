@@ -352,8 +352,9 @@ export default function JuzzStoreWebsite() {
                   <h4 className="text-lg font-semibold">{product.name}</h4>
                   <p className="mt-3 text-sm leading-6 text-neutral-600">{product.desc}</p>
                   <a href={product.link} target="_blank" rel="noopener noreferrer">
-                    <Button variant="outline" className="mt-5 rounded-2xl">
+                    <Button variant="outline" className="mt-5 rounded-2xl flex items-center gap-2">
                       {product.button}
+                      {product.link !== '#' && <ArrowRight className="h-4 w-4" />}
                     </Button>
                   </a>
                 </CardContent>
