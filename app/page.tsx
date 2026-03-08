@@ -125,7 +125,7 @@ export default function JuzzStoreWebsite() {
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <a href="https://www.tiktok.com/@sgjuzzstore" target="_blank" rel="noopener noreferrer">
-                  <Button className="rounded-2xl bg-white px-6 py-6 text-sm font-medium text-gray-900 hover:bg-white/90">
+                  <Button className="rounded-2xl bg-emerald-600 px-6 py-6 text-sm font-medium text-white hover:bg-emerald-700">
                     TikTok Shop
                   </Button>
                 </a>
