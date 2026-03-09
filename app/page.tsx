@@ -124,11 +124,6 @@ export default function JuzzStoreWebsite() {
                 JuzzStore offers practical everyday tools, simple organizers, and useful gadgets designed to solve small daily problems and make everyday routines easier to manage.
               </p>
               <div className="mt-8 flex items-center gap-6">
-                <a href="mailto:support@juzzstore.com" className="flex items-center gap-2 hover:opacity-80">
-                  <img src="/icons/email.png" alt="Email" className="h-9 w-9" />
-                  <span className="text-sm">Email</span>
-                </a>
-
                 <a href="https://www.tiktok.com/@sgjuzzstore" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:opacity-80">
                   <img src="/icons/tiktok.png" alt="TikTok" className="h-9 w-9" />
                   <span className="text-sm">TikTok</span>
