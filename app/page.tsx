@@ -123,38 +123,25 @@ export default function JuzzStoreWebsite() {
               <p className="mt-6 max-w-xl text-base leading-7 text-neutral-600 md:text-lg">
                 JuzzStore offers practical everyday tools, simple organizers, and useful gadgets designed to solve small daily problems and make everyday routines easier to manage.
               </p>
-              <div className="mt-8 flex flex-wrap gap-4">
-                <a href="https://www.tiktok.com/@sgjuzzstore" target="_blank" rel="noopener noreferrer">
-                  <Button className="rounded-2xl bg-emerald-600 px-6 py-6 text-sm font-medium text-white hover:bg-emerald-700">
-                    TikTok Shop
-                  </Button>
+              <div className="mt-8 flex items-center gap-6">
+                <a href="mailto:contact@juzzstore.com" className="flex items-center gap-2 hover:opacity-80">
+                  <img src="/icons/email.png" alt="Email" className="h-9 w-9" />
+                  <span className="text-sm">Email</span>
                 </a>
 
-                <a href="https://shopee.sg/juzzstore" target="_blank" rel="noopener noreferrer">
-                  <Button
-                    variant="outline"
-                    className="rounded-2xl border-white/20 bg-transparent px-6 py-6 text-sm font-medium text-white hover:bg-white/10"
-                  >
-                    Shopee
-                  </Button>
+                <a href="https://www.tiktok.com/@sgjuzzstore" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:opacity-80">
+                  <img src="/icons/tiktok.png" alt="TikTok" className="h-9 w-9" />
+                  <span className="text-sm">TikTok</span>
                 </a>
 
-                <a href="https://www.lazada.sg/shop/juzzstore1619756229" target="_blank" rel="noopener noreferrer">
-                  <Button
-                    variant="outline"
-                    className="rounded-2xl border-white/20 bg-transparent px-6 py-6 text-sm font-medium text-white hover:bg-white/10"
-                  >
-                    Lazada
-                  </Button>
+                <a href="https://shopee.sg/juzzstore" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:opacity-80">
+                  <img src="/icons/shopee.png" alt="Shopee" className="h-9 w-9" />
+                  <span className="text-sm">Shopee</span>
                 </a>
 
-                <a href="https://www.amazon.sg/s?me=A28J2A4JBMU8V2&marketplaceID=A19VAU5U5O7RUS" target="_blank" rel="noopener noreferrer">
-                  <Button
-                    variant="outline"
-                    className="rounded-2xl border-white/20 bg-transparent px-6 py-6 text-sm font-medium text-white hover:bg-white/10"
-                  >
-                    Amazon
-                  </Button>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:opacity-80">
+                  <img src="/icons/facebook.png" alt="Facebook" className="h-9 w-9" />
+                  <span className="text-sm">Facebook</span>
                 </a>
               </div>
             </motion.div>
@@ -455,44 +442,40 @@ export default function JuzzStoreWebsite() {
               <p className="mt-4 max-w-2xl text-sm leading-6 text-white/75 md:text-base">
                 Follow JuzzStore across our marketplaces and social channels where we share useful everyday finds, practical tools, and new product ideas.
               </p>
-              <div className="mt-8 flex flex-wrap gap-4">
-                <a href="https://www.tiktok.com/@sgjuzzstore" target="_blank" rel="noopener noreferrer">
-                  <Button className="rounded-2xl bg-emerald-700 px-6 py-6 text-sm font-medium text-white hover:bg-emerald-800">
-                    TikTok Shop
-                  </Button>
+              <div className="mt-8 flex items-center gap-8">
+                <a href="mailto:contact@juzzstore.com" className="flex flex-col items-center gap-2 hover:opacity-90">
+                  <img src="/icons/email.png" alt="Email" className="h-9 w-9 transition-transform hover:scale-110" />
+                  <span className="text-sm">Email</span>
                 </a>
 
-                <a href="https://shopee.sg/juzzstore" target="_blank" rel="noopener noreferrer">
-                  <Button
-                    variant="outline"
-                    className="rounded-2xl border-white/20 bg-transparent px-6 py-6 text-sm font-medium text-white hover:bg-white/10"
-                  >
-                    Shopee
-                  </Button>
+                <a href="https://www.tiktok.com/@sgjuzzstore" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 hover:opacity-90">
+                  <img src="/icons/tiktok.png" alt="TikTok" className="h-9 w-9 transition-transform hover:scale-110" />
+                  <span className="text-sm">TikTok</span>
                 </a>
 
-                <a href="https://www.lazada.sg/shop/juzzstore1619756229" target="_blank" rel="noopener noreferrer">
-                  <Button
-                    variant="outline"
-                    className="rounded-2xl border-white/20 bg-transparent px-6 py-6 text-sm font-medium text-white hover:bg-white/10"
-                  >
-                    Lazada
-                  </Button>
+                <a href="https://shopee.sg/juzzstore" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 hover:opacity-90">
+                  <img src="/icons/shopee.png" alt="Shopee" className="h-9 w-9 transition-transform hover:scale-110" />
+                  <span className="text-sm">Shopee</span>
                 </a>
 
-                <a href="https://www.amazon.sg/s?me=A28J2A4JBMU8V2&marketplaceID=A19VAU5U5O7RUS" target="_blank" rel="noopener noreferrer">
-                  <Button
-                    variant="outline"
-                    className="rounded-2xl border-white/20 bg-transparent px-6 py-6 text-sm font-medium text-white hover:bg-white/10"
-                  >
-                    Amazon
-                  </Button>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 hover:opacity-90">
+                  <img src="/icons/facebook.png" alt="Facebook" className="h-9 w-9 transition-transform hover:scale-110" />
+                  <span className="text-sm">Facebook</span>
                 </a>
               </div>
             </div>
           </div>
         </section>
       </main>
+
+      <footer className="border-t border-gray-200 bg-white">
+        <div className="mx-auto max-w-7xl px-6 py-8 text-center text-sm text-neutral-500">
+          <div className="font-medium text-neutral-700">JuzzStore</div>
+          <div className="mt-1">Make it Simple</div>
+          <div className="mt-2">Singapore</div>
+          <div className="mt-3 text-xs text-neutral-400">© 2026 JuzzStore. All rights reserved.</div>
+        </div>
+      </footer>
     </div>
   );
 }
