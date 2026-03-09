@@ -192,8 +192,7 @@ export default function JuzzStoreWebsite() {
               </h2>
               <p className="mt-4 max-w-2xl leading-7 text-neutral-600">
                 JuzzStore is built around practical everyday solutions, with a current focus on organizers, useful tools, and simple products that support home setups, daily tasks, and small business routines.
-              </p>
-            </div>
+          </div>
             <div className="rounded-[1.5rem] bg-emerald-600 p-6 text-white shadow-lg">
               <div className="text-sm text-white/70">Our focus</div>
               <div className="mt-3 text-2xl font-semibold">
