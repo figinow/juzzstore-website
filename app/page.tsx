@@ -459,6 +459,10 @@ export default function JuzzStoreWebsite() {
         </section>
       </main>
 
+      <div className="mx-auto max-w-7xl px-6 pb-4 text-center text-xs text-neutral-400">
+        JuzzStore offers practical desk organizers, everyday workspace tools, and simple solutions for home offices, small businesses, and daily setups.
+      </div>
+
       <footer className="border-t border-gray-200 bg-white">
         <div className="mx-auto max-w-7xl px-6 py-8 text-center text-sm text-neutral-500">
           <div className="font-medium text-neutral-700">JuzzStore</div>
