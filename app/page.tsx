@@ -200,8 +200,7 @@ export default function JuzzStoreWebsite() {
               </div>
               <p className="mt-4 text-sm leading-6 text-white/75">
                 From cluttered corners to everyday mess, JuzzStore focuses on practical improvements that make small spaces and daily routines easier to manage.
-              </p>
-            </div>
+          </div>
           </div>
         </section>
 
@@ -248,8 +247,7 @@ export default function JuzzStoreWebsite() {
               </h3>
               <p className="mt-4 leading-7 text-neutral-600">
                 Many people struggle with papers piling up, clutter building up, and limited space at home or work. When everything is scattered, daily tasks feel more tiring and harder to manage.
-              </p>
-            </div>
+          </div>
             <div className="flex flex-col justify-center">
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-emerald-600">
                 Our Solution
