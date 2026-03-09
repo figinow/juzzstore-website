@@ -192,7 +192,8 @@ export default function JuzzStoreWebsite() {
               </h2>
               <p className="mt-4 max-w-2xl leading-7 text-neutral-600">
                 JuzzStore is built around practical everyday solutions, with a current focus on organizers, useful tools, and simple products that support home setups, daily tasks, and small business routines.
-          </div>
+              </p>
+            </div>
             <div className="rounded-[1.5rem] bg-emerald-600 p-6 text-white shadow-lg">
               <div className="text-sm text-white/70">Our focus</div>
               <div className="mt-3 text-2xl font-semibold">
@@ -200,7 +201,8 @@ export default function JuzzStoreWebsite() {
               </div>
               <p className="mt-4 text-sm leading-6 text-white/75">
                 From cluttered corners to everyday mess, JuzzStore focuses on practical improvements that make small spaces and daily routines easier to manage.
-          </div>
+              </p>
+            </div>
           </div>
         </section>
 
@@ -247,7 +249,8 @@ export default function JuzzStoreWebsite() {
               </h3>
               <p className="mt-4 leading-7 text-neutral-600">
                 Many people struggle with papers piling up, clutter building up, and limited space at home or work. When everything is scattered, daily tasks feel more tiring and harder to manage.
-          </div>
+              </p>
+            </div>
             <div className="flex flex-col justify-center">
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-emerald-600">
                 Our Solution
@@ -342,8 +345,6 @@ export default function JuzzStoreWebsite() {
                 Product categories for practical everyday use.
               </h3>
             </div>
-            
-            </p>
           </div>
 
           <div className="grid gap-6 md:grid-cols-3">
@@ -406,7 +407,7 @@ export default function JuzzStoreWebsite() {
               </p>
             </div>
             <div className="flex items-center justify-center">
-              <div className="w-full overflow-hidden rounded-3xl bg-neutral-100">
+              <div className="aspect-[4/3] w-full overflow-hidden rounded-3xl bg-neutral-100">
                 <img
                   src="/images/workflow-sketch.jpg"
                   alt="JuzzStore workflow sketch showing messy desk to organized workspace idea"
