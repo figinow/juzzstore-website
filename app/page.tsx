@@ -348,9 +348,7 @@ export default function JuzzStoreWebsite() {
                 Product categories for practical everyday use.
               </h3>
             </div>
-            <p className="max-w-lg text-sm leading-6 text-neutral-600">
-              Showcase product categories here first, then replace with your real products, photos,
-              pricing, and shop links later.
+            
             </p>
           </div>
 
