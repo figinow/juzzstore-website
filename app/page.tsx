@@ -124,7 +124,7 @@ export default function JuzzStoreWebsite() {
                 JuzzStore offers practical everyday tools, simple organizers, and useful gadgets designed to solve small daily problems and make everyday routines easier to manage.
               </p>
               <div className="mt-8 flex items-center gap-6">
-                <a href="mailto:contact@juzzstore.com" className="flex items-center gap-2 hover:opacity-80">
+                <a href="mailto:support@juzzstore.com" className="flex items-center gap-2 hover:opacity-80">
                   <img src="/icons/email.png" alt="Email" className="h-9 w-9" />
                   <span className="text-sm">Email</span>
                 </a>
@@ -443,24 +443,20 @@ export default function JuzzStoreWebsite() {
                 Follow JuzzStore across our marketplaces and social channels where we share useful everyday finds, practical tools, and new product ideas.
               </p>
               <div className="mt-8 flex items-center gap-8">
-                <a href="mailto:contact@juzzstore.com" className="flex flex-col items-center gap-2 hover:opacity-90">
+                <a href="mailto:support@juzzstore.com" className="hover:opacity-90">
                   <img src="/icons/email.png" alt="Email" className="h-9 w-9 transition-transform hover:scale-110" />
-                  <span className="text-sm">Email</span>
                 </a>
 
-                <a href="https://www.tiktok.com/@sgjuzzstore" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 hover:opacity-90">
+                <a href="https://www.tiktok.com/@sgjuzzstore" target="_blank" rel="noopener noreferrer" className="hover:opacity-90">
                   <img src="/icons/tiktok.png" alt="TikTok" className="h-9 w-9 transition-transform hover:scale-110" />
-                  <span className="text-sm">TikTok</span>
                 </a>
 
-                <a href="https://shopee.sg/juzzstore" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 hover:opacity-90">
+                <a href="https://shopee.sg/juzzstore" target="_blank" rel="noopener noreferrer" className="hover:opacity-90">
                   <img src="/icons/shopee.png" alt="Shopee" className="h-9 w-9 transition-transform hover:scale-110" />
-                  <span className="text-sm">Shopee</span>
                 </a>
 
-                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 hover:opacity-90">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-90">
                   <img src="/icons/facebook.png" alt="Facebook" className="h-9 w-9 transition-transform hover:scale-110" />
-                  <span className="text-sm">Facebook</span>
                 </a>
               </div>
             </div>
