@@ -411,7 +411,7 @@ export default function JuzzStoreWebsite() {
                 <img
                   src="/images/workflow-sketch.jpg"
                   alt="JuzzStore workflow sketch showing messy desk to organized workspace idea"
-                  className="w-full h-[320px] object-cover"
+                  className="h-full w-full object-cover"}]}
                 />
               </div>
             </div>
