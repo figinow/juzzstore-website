@@ -356,7 +356,7 @@ export default function JuzzStoreWebsite() {
                 <CardContent className="p-6">
                   <h4 className="text-lg font-semibold">{product.name}</h4>
                   <p className="mt-3 text-sm leading-6 text-neutral-600">{product.desc}</p>
-                  product.link === '#' ? (
+                  {product.link === '#' ? (
                     <Button
                       variant="outline"
                       className="mt-5 rounded-2xl opacity-60 cursor-default"
@@ -371,7 +371,7 @@ export default function JuzzStoreWebsite() {
                         <ArrowRight className="h-4 w-4" />
                       </Button>
                     </a>
-                  )
+                  )}
                 </CardContent>
               </Card>
             ))}
