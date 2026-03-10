@@ -29,8 +29,8 @@ const products = [
     name: 'Desk File Organizer',
     desc: 'A compact organizer for documents, papers, and notes to keep your table looking clean and easier to manage.',
     image: '/images/file-organizer.jpg',
-    link: '#',
-    button: 'Coming Soon',
+    link: '/products/desk-file-organizer',
+    button: 'View Product',
   },
   {
     name: 'Movable Side Organizer',
@@ -329,7 +329,7 @@ export default function JuzzStoreWebsite() {
               </ul>
 
               <div className="mt-8">
-                <a href="#products"><Button className="rounded-2xl px-6 py-6 text-sm font-medium">View Product</Button></a>
+                <a href="/products/desk-file-organizer"><Button className="rounded-2xl px-6 py-6 text-sm font-medium">View Product</Button></a>
               </div>
             </div>
           </div>
@@ -356,12 +356,22 @@ export default function JuzzStoreWebsite() {
                 <CardContent className="p-6">
                   <h4 className="text-lg font-semibold">{product.name}</h4>
                   <p className="mt-3 text-sm leading-6 text-neutral-600">{product.desc}</p>
-                  <a href={product.link} target="_blank" rel="noopener noreferrer">
-                    <Button variant="outline" className="mt-5 rounded-2xl flex items-center gap-2">
+                  product.link === '#' ? (
+                    <Button
+                      variant="outline"
+                      className="mt-5 rounded-2xl opacity-60 cursor-default"
+                      disabled
+                    >
                       {product.button}
-                      {product.link !== '#' && <ArrowRight className="h-4 w-4" />}
                     </Button>
-                  </a>
+                  ) : (
+                    <a href={product.link} target={product.link.startsWith('http') ? '_blank' : undefined} rel={product.link.startsWith('http') ? 'noopener noreferrer' : undefined}>
+                      <Button variant="outline" className="mt-5 rounded-2xl flex items-center gap-2">
+                        {product.button}
+                        <ArrowRight className="h-4 w-4" />
+                      </Button>
+                    </a>
+                  )
                 </CardContent>
               </Card>
             ))}
