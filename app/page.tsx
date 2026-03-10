@@ -43,7 +43,7 @@ const products = [
     name: 'Useful Everyday Picks',
     desc: 'Curated practical items that help make daily tasks, small spaces, and work areas easier to handle.',
     image: '/images/everyday-tools.jpg',
-    link: 'https://collshp.com/figinow?view=storefront',
+    link: '/products/everyday-picks',
     button: 'Explore Picks',
   },
 ];
