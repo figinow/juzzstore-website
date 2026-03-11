@@ -34,8 +34,8 @@ const products = [
     button: 'View Product',
   },
   {
-    name: 'Movable Side Organizer',
-    desc: 'A larger organizer with more storage space for side-table use, suitable for home setups, work corners, or small business use.',
+    name: 'Storage Organizer',
+    desc: 'A practical storage organizer designed to keep everyday items neatly arranged for home desks, workspaces, or small business setups.',
     image: '/images/side-organizer.jpg',
     link: '#',
     button: 'Coming Soon',
