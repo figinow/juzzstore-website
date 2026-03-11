@@ -14,9 +14,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}
-<Analytics />
-</body>
+      <body>
+        {children}
+
+        <Analytics />
+
+        <script async src="https://www.tiktok.com/embed.js"></script>
+
+      </body>
     </html>
   );
 }

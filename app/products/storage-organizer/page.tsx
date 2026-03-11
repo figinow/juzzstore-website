@@ -72,7 +72,20 @@ export default function StorageOrganizerPage() {
                 Stackable and movable
               </div>
             </div>
+<div className="mt-12">
+  <h3 className="text-xl font-semibold mb-4">
+    See it in action
+  </h3>
 
+  <blockquote
+    className="tiktok-embed"
+    cite="https://www.tiktok.com/@juzzstoresg/video/7416864309034142983?_r=1&_t=ZS-94axDpglS8j"
+    data-video-id="7416864309034142983?_r=1&_t=ZS-94axDpglS8j"
+    style={{ maxWidth: '605px', minWidth: '325px' }}
+  >
+    <section></section>
+  </blockquote>
+</div>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
                 href="https://vt.tiktok.com/ZS9dbVSqcUhGo-rrrFG/"
