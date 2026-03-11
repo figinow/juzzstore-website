@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { Package, Sparkles, Monitor, Briefcase, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { Package, Sparkles, Monitor, Briefcase, ArrowRight, CheckCircle2, Menu, X } from 'lucide-react';
 import { Card, CardContent } from './components/ui/card';
 import { Button } from './components/ui/button';
 
@@ -74,6 +74,7 @@ function JuzzStoreLogo() {
 }
 
 export default function JuzzStoreWebsite() {
+  const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
       <header className="sticky top-0 z-40 border-b border-gray-200/80 bg-white/90 backdrop-blur">
@@ -88,7 +89,7 @@ export default function JuzzStoreWebsite() {
             </div>
           </div>
 
-          <nav className="flex gap-4 text-sm text-neutral-600 md:gap-8">
+          <nav className="hidden gap-8 text-sm text-neutral-600 md:flex">
             <a href="#about" className="transition hover:text-gray-900">
               About
             </a>
@@ -102,7 +103,35 @@ export default function JuzzStoreWebsite() {
               Contact
             </a>
           </nav>
+
+          <button
+            type="button"
+            className="inline-flex items-center justify-center rounded-xl border border-gray-200 p-2 text-neutral-700 md:hidden"
+            aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
+            onClick={() => setMobileMenuOpen((open) => !open)}
+          >
+            {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+          </button>
         </div>
+
+        {mobileMenuOpen && (
+          <div className="border-t border-gray-200 bg-white px-6 py-4 md:hidden">
+            <nav className="flex flex-col gap-4 text-sm text-neutral-600">
+              <a href="#about" className="transition hover:text-gray-900" onClick={() => setMobileMenuOpen(false)}>
+                About
+              </a>
+              <a href="#features" className="transition hover:text-gray-900" onClick={() => setMobileMenuOpen(false)}>
+                Why JuzzStore
+              </a>
+              <a href="#products" className="transition hover:text-gray-900" onClick={() => setMobileMenuOpen(false)}>
+                Products
+              </a>
+              <a href="#contact" className="transition hover:text-gray-900" onClick={() => setMobileMenuOpen(false)}>
+                Contact
+              </a>
+            </nav>
+          </div>
+        )}
       </header>
 
       <main>
