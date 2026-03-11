@@ -61,10 +61,7 @@ export default function DrawerOrganizerPage() {
 
           {/* tiktok video */}
           <div className="mt-10">
-  <h3 className="mb-4 text-xl font-semibold">
-    See it in action
-  </h3>
-
+ 
   <div className="overflow-hidden rounded-2xl border border-gray-200 bg-white">
     <iframe
       src="https://www.tiktok.com/player/v1/7455556033352699154"
