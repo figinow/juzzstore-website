@@ -77,7 +77,7 @@ export default function DrawerOrganizerPage() {
             <div className="mt-12 flex justify-center">
               <iframe
                 src="https://www.tiktok.com/player/v1/7455556033352699154"
-                className="w-full max-w-[380px] rounded-2xl border border-gray-200"
+                className="w-full max-w-[320px] rounded-2xl border border-gray-200"
                 style={{ height: '570px' }}
                 allow="fullscreen"
               />
