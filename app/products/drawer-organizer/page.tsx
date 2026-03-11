@@ -60,16 +60,14 @@ export default function DrawerOrganizerPage() {
 
 
           {/* tiktok video */}
-          <div className="mt-10">
- 
-  <div className="overflow-hidden rounded-2xl border border-gray-200 bg-white">
-    <iframe
-      src="https://www.tiktok.com/player/v1/7455556033352699154"
-      className="w-full"
-      style={{ height: '740px' }}
-      allow="fullscreen"
-    />
-  </div>
+         <div className="mt-10 flex justify-center">
+  <iframe
+    src="https://www.tiktok.com/player/v1/7455556033352699154"
+    className="w-full max-w-[380px] rounded-2xl border border-gray-200"
+    style={{ height: '675px' }}
+    allow="fullscreen"
+  />
+</div>
 </div>
 
 
