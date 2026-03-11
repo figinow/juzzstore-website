@@ -283,7 +283,7 @@ export default function JuzzStoreWebsite() {
             <div className="rounded-[1.75rem] border border-gray-200 bg-white p-6 shadow-sm">
               <div className="mb-4 text-sm font-semibold text-red-500">Before</div>
               <div className="aspect-[4/3] w-full overflow-hidden rounded-2xl bg-neutral-100">
-                <Image src="/images/messy-desk.jpg" alt="Messy desk with scattered papers" className="h-full w-full object-cover" width={1200} height={900} width={1200} height={900} />
+                <Image src="/images/messy-desk.jpg" alt="Messy desk with scattered papers" className="h-full w-full object-cover" width={1200} height={900} />
               </div>
               <p className="mt-4 text-sm text-neutral-600">
                 Papers pile up, documents get lost, and the desk feels stressful to work on.
@@ -293,7 +293,7 @@ export default function JuzzStoreWebsite() {
             <div className="rounded-[1.75rem] border border-gray-200 bg-white p-6 shadow-sm">
               <div className="mb-4 text-sm font-semibold text-emerald-600">After</div>
               <div className="aspect-[4/3] w-full overflow-hidden rounded-2xl bg-neutral-100">
-                <Image src="/images/organized-desk.jpg" alt="Organized desk using file organizer" className="h-full w-full object-cover" width={1200} height={900} width={1200} height={900} />
+                <Image src="/images/organized-desk.jpg" alt="Organized desk using file organizer" className="h-full w-full object-cover" width={1200} height={900} />
               </div>
               <p className="mt-4 text-sm text-neutral-600">
                 Documents are neatly arranged, the workspace looks cleaner, and everything is easier
@@ -307,7 +307,7 @@ export default function JuzzStoreWebsite() {
           <div className="grid gap-8 rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:grid-cols-2 md:p-10">
             <div className="flex items-center justify-center">
               <div className="aspect-[4/3] w-full overflow-hidden rounded-3xl bg-neutral-100">
-                <Image src="/images/file-organizer.jpg" alt="File organizer product" className="h-full w-full object-cover" width={1200} height={900} width={1200} height={900} />
+                <Image src="/images/file-organizer.jpg" alt="File organizer product" className="h-full w-full object-cover" width={1200} height={900} />
               </div>
             </div>
 
@@ -352,7 +352,7 @@ export default function JuzzStoreWebsite() {
             {products.map((product) => (
               <Card key={product.name} className="overflow-hidden rounded-[1.75rem] border-gray-200 shadow-sm">
                 <div className="aspect-[4/3] w-full overflow-hidden">
-                  <Image src={product.image} alt={product.name} className="h-full w-full object-cover" width={1200} height={900} width={1200} height={900} />
+                  <Image src={product.image} alt={product.name} className="h-full w-full object-cover" width={1200} height={900} />
                 </div>
                 <CardContent className="p-6">
                   <h4 className="text-lg font-semibold">{product.name}</h4>
@@ -419,10 +419,12 @@ export default function JuzzStoreWebsite() {
             </div>
             <div className="flex items-center justify-center">
               <div className="aspect-[4/3] w-full overflow-hidden rounded-3xl bg-neutral-100">
-                <img
+                <Image
                   src="/images/workflow-sketch.jpg"
                   alt="JuzzStore workflow sketch showing messy desk to organized workspace idea"
-                  className="h-full w-full object-cover" width={1200} height={900} width={1200} height={900}
+                  className="h-full w-full object-cover"
+                  width={1200}
+                  height={900}
                 />
               </div>
             </div>
