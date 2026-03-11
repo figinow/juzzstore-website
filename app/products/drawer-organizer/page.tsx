@@ -82,7 +82,7 @@ export default function DrawerOrganizerPage() {
           <div className="mt-10 flex gap-4">
 
             <a
-              href="https://collshp.com/figinow?view=storefront"
+              href="https://vt.tiktok.com/ZS9dqeg6snKqd-Tjtx0/"
               target="_blank"
               rel="noopener noreferrer"
             >
