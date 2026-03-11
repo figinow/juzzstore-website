@@ -64,7 +64,7 @@ export default function DrawerOrganizerPage() {
  
   <div className="overflow-hidden rounded-2xl border border-gray-200 bg-white">
     <iframe
-      src="https://www.tiktok.com/@krisctk/video/7455556033352699154"
+      src="https://www.tiktok.com/player/v1/7455556033352699154"
       className="w-full"
       style={{ maxWidth: '380px', minWidth: '260px' }}
       allow="fullscreen"
