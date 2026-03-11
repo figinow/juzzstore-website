@@ -88,7 +88,7 @@ export default function JuzzStoreWebsite() {
             </div>
           </div>
 
-          <nav className="hidden gap-8 text-sm text-neutral-600 md:flex">
+          <nav className="flex gap-4 text-sm text-neutral-600 md:gap-8">
             <a href="#about" className="transition hover:text-gray-900">
               About
             </a>
