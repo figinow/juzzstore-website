@@ -75,7 +75,7 @@ export default function StorageOrganizerPage() {
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="https://www.tiktok.com/@sgjuzzstore"
+                href="https://vt.tiktok.com/ZS9dbVSqcUhGo-rrrFG/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
