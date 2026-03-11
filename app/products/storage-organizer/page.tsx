@@ -246,6 +246,7 @@ export default function StorageOrganizerPage() {
           </div>
         </section>
       </main>
+<script async src="https://www.tiktok.com/embed.js"></script>
     </div>
   );
 }
