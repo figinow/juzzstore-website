@@ -80,7 +80,6 @@ export default function StorageOrganizerPage() {
     allow="fullscreen"
   />
 </div>
-</div>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
                 href="https://vt.tiktok.com/ZS9dbVSqcUhGo-rrrFG/"
