@@ -76,7 +76,7 @@ export default function StorageOrganizerPage() {
   <iframe
     src="https://www.tiktok.com/player/v1/7416864309034142983"
     className="w-full max-w-[380px] rounded-2xl border border-gray-200"
-    style={{ height: '675px' }}
+    style={{ height: '570px' }}
     allow="fullscreen"
   />
 </div>

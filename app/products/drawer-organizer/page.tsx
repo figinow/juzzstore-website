@@ -78,7 +78,7 @@ export default function DrawerOrganizerPage() {
               <iframe
                 src="https://www.tiktok.com/player/v1/7455556033352699154"
                 className="w-full max-w-[380px] rounded-2xl border border-gray-200"
-                style={{ height: '675px' }}
+                style={{ height: '570px' }}
                 allow="fullscreen"
               />
             </div>
