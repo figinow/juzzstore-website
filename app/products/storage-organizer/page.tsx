@@ -73,15 +73,12 @@ export default function StorageOrganizerPage() {
               </div>
             </div>
 <div className="mt-12">
-  <h3 className="text-xl font-semibold mb-4">
-    See it in action
-  </h3>
 
   <blockquote
     className="tiktok-embed"
-    cite="https://www.tiktok.com/@juzzstoresg/video/7416864309034142983?_r=1&_t=ZS-94axDpglS8j"
-    data-video-id="7416864309034142983?_r=1&_t=ZS-94axDpglS8j"
-    style={{ maxWidth: '605px', minWidth: '325px' }}
+    cite="https://www.tiktok.com/@juzzstoresg/video/7416864309034142983"
+    data-video-id="7416864309034142983"
+    style={{ maxWidth: '380px', minWidth: '260px' }}
   >
     <section></section>
   </blockquote>
@@ -246,7 +243,6 @@ export default function StorageOrganizerPage() {
           </div>
         </section>
       </main>
-<script async src="https://www.tiktok.com/embed.js"></script>
     </div>
   );
 }
