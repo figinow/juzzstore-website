@@ -68,7 +68,7 @@ export default function DrawerOrganizerPage() {
     allow="fullscreen"
   />
 </div>
-</div>
+
 
 
           {/* buttons */}
