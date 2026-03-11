@@ -1,6 +1,6 @@
 'use client';
 
-import Script from "next/script";
+
 import { ArrowLeft } from 'lucide-react';
 import { Button } from '../../components/ui/button';
 
@@ -61,21 +61,19 @@ export default function DrawerOrganizerPage() {
 
           {/* tiktok video */}
           <div className="mt-10">
+  <h3 className="mb-4 text-xl font-semibold">
+    See it in action
+  </h3>
 
-            <h3 className="text-xl font-semibold mb-4">
-              See it in action
-            </h3>
-
-            <blockquote
-              className="tiktok-embed"
-              cite="https://www.tiktok.com/@krisctk/video/7455556033352699154"
-              data-video-id="7455556033352699154"
-              style={{ maxWidth: '605px', minWidth: '325px' }}
-            >
-              <section></section>
-            </blockquote>
-
-          </div>
+  <div className="overflow-hidden rounded-2xl border border-gray-200 bg-white">
+    <iframe
+      src="https://www.tiktok.com/player/v1/7455556033352699154"
+      className="w-full"
+      style={{ height: '740px' }}
+      allow="fullscreen"
+    />
+  </div>
+</div>
 
 
           {/* buttons */}
@@ -105,7 +103,7 @@ export default function DrawerOrganizerPage() {
 
 
       {/* TikTok embed script */}
-      <Script async src="https://www.tiktok.com/embed.js"></Script>
+     
 
     </div>
   );
