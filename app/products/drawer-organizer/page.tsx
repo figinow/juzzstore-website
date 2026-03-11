@@ -27,13 +27,15 @@ export default function DrawerOrganizerPage() {
 
 
         {/* product image */}
-        <div className="rounded-3xl overflow-hidden bg-white border">
-          <img
-            src="/images/drawer-organizer.jpg"
-            alt="Drawer Organizer"
-            className="w-full h-full object-cover"
-          />
-        </div>
+       <div className="rounded-3xl overflow-hidden bg-white border p-4">
+  <div className="flex items-center justify-center bg-white">
+    <img
+      src="/images/drawer-organizer.jpg"
+      alt="Drawer Organizer"
+      className="max-h-[520px] w-auto max-w-full object-contain"
+    />
+  </div>
+</div>
 
 
         {/* product info */}
