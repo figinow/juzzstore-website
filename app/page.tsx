@@ -35,10 +35,10 @@ const products = [
   },
   {
     name: 'Storage Organizer',
-    desc: 'A practical storage organizer designed to keep everyday items neatly arranged for home desks, workspaces, or small business setups.',
-    image: '/images/side-organizer.jpg',
-    link: '#',
-    button: 'Coming Soon',
+    desc: 'A practical foldable storage organizer designed to keep clothes, blankets, and household items neatly arranged while saving space.',
+    image: '/images/storage-organizer.jpg',
+    link: '/products/storage-organizer',
+    button: 'View Product',
   },
   {
     name: 'Useful Everyday Picks',
