@@ -1,7 +1,12 @@
-'use client';
-
 import { ArrowLeft, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { Button } from '../../components/ui/button';
+
+/* SEO metadata */
+export const metadata = {
+  title: 'Storage Organizer | JuzzStore',
+  description:
+    'A foldable transparent storage organizer designed to keep household items neatly arranged while saving space at home.',
+};
 
 const highlights = [
   'Transparent design makes stored items easier to see at a glance',
@@ -57,8 +62,8 @@ export default function StorageOrganizerPage() {
 
             <p className="mt-5 max-w-xl text-base leading-7 text-neutral-600 md:text-lg">
               A practical foldable storage organizer designed to keep household items neatly arranged
-              while saving space. The transparent design makes it easier to see what is stored inside,
-              while the stackable structure helps organize vertically.
+              while saving space. Its transparent panels make it easier to see what is stored inside,
+              while the stackable structure helps keep storage areas more organized.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3 text-sm text-neutral-600">
@@ -72,14 +77,16 @@ export default function StorageOrganizerPage() {
                 Stackable and movable
               </div>
             </div>
-<div className="mt-12 flex justify-center">
-  <iframe
-    src="https://www.tiktok.com/player/v1/7416864309034142983"
-    className="w-full max-w-[320px] rounded-2xl border border-gray-200"
-    style={{ height: '570px' }}
-    allow="fullscreen"
-  />
-</div>
+
+            <div className="mt-12 flex justify-center">
+              <iframe
+                src="https://www.tiktok.com/player/v1/7416864309034142983"
+                className="w-full max-w-[320px] rounded-2xl border border-gray-200"
+                style={{ height: '570px' }}
+                allow="fullscreen"
+              />
+            </div>
+
             <div className="mt-8 flex flex-wrap gap-4">
               <a
                 href="https://vt.tiktok.com/ZS9dbVSqcUhGo-rrrFG/"
@@ -136,17 +143,17 @@ export default function StorageOrganizerPage() {
                 Product overview
               </div>
               <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                A simple storage box that makes household organization easier.
+                A simple storage box that makes home organization easier.
               </h3>
               <p className="mt-4 leading-7 text-neutral-600">
                 Unlike traditional solid storage boxes, this organizer uses transparent panels so the
                 contents are easier to identify without opening every container. This helps reduce the
-                time spent searching for things.
+                time spent searching for things and keeps storage corners more manageable.
               </p>
               <p className="mt-4 leading-7 text-neutral-600">
                 The side opening design makes access more convenient, while the foldable structure
                 helps save space when the organizer is not in use. It is suitable for bedrooms,
-                living rooms, balconies, and general home storage corners.
+                living rooms, balconies, and general home storage areas.
               </p>
             </div>
 
@@ -184,19 +191,19 @@ export default function StorageOrganizerPage() {
             </div>
 
             <div className="grid gap-6 md:grid-cols-2">
-              <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
+              <div className="overflow-hidden rounded-[1.5rem] bg-neutral-100">
                 <img
                   src="/images/storage-organizer-side-opening.jpg"
                   alt="Storage organizer side opening access"
-                  className="w-full h-auto object-contain"
+                  className="h-auto w-full object-contain"
                 />
               </div>
 
-              <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
+              <div className="overflow-hidden rounded-[1.5rem] bg-neutral-100">
                 <img
                   src="/images/storage-organizer-movable.jpg"
                   alt="Storage organizer pulley wheel design"
-                  className="w-full h-auto object-contain"
+                  className="h-auto w-full object-contain"
                 />
               </div>
             </div>
@@ -210,20 +217,16 @@ export default function StorageOrganizerPage() {
                 Explore more
               </div>
               <h3 className="mt-3 text-2xl font-semibold tracking-tight md:text-4xl">
-                Discover more practical organizers and useful everyday picks.
+                Discover more helpful tools to organize life.
               </h3>
               <p className="mt-4 max-w-2xl text-sm leading-6 text-white/75 md:text-base">
-                Browse simple products and storage ideas designed to make home, work, and daily life
-                easier to manage.
+                Browse practical tools and organizing ideas designed to make home, workspace, and
+                daily life easier to manage.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
-                <a
-                  href="https://collshp.com/figinow?view=storefront"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="/products/everyday-picks">
                   <Button className="rounded-2xl bg-white px-6 py-6 text-sm font-medium text-gray-900 hover:bg-white/90">
-                    Explore Useful Picks
+                    Explore Helpful Tools
                   </Button>
                 </a>
 
