@@ -46,7 +46,7 @@ export default function EverydayPicksPage() {
           <div className="mt-10 flex gap-4">
 
             <a
-              href="https://collshp.com/figinow?view=storefront"
+              href="https://collshp.com/figinow/category/2921929"
               target="_blank"
               rel="noopener noreferrer"
             >

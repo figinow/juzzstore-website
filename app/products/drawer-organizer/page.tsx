@@ -229,7 +229,7 @@ export default function DrawerOrganizerPage() {
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <a
-                  href="https://collshp.com/figinow?view=storefront"
+                  href="https://collshp.com/figinow/category/2921929"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
