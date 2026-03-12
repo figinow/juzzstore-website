@@ -191,26 +191,24 @@ export default function DrawerOrganizerPage() {
               </h3>
             </div>
 
-            <div className="grid gap-6 md:grid-cols-2">
-              <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
-                <img
-                  src="/images/drawer-organizer-a4.jpg"
-                  alt="Drawer organizer fits A4 paper"
-                  className="w-full h-auto object-contain"
-                />
-              </div>
+            <div className="grid gap-6 md:grid-cols-3">
+  <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
+    <img
+      src="/images/drawer-organizer-a4.jpg"
+      alt="Drawer organizer fits A4 paper"
+      className="w-full h-auto object-contain"
+    />
+  </div>
 
-              <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
-                <img
-                  src="/images/drawer-organizer-pull.jpg"
-                  alt="Drawer organizer smooth pulling drawer"
-                  className="w-full h-auto object-contain"
-                />
-              </div>
-            </div>
+  <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
+    <img
+      src="/images/drawer-organizer-pull.jpg"
+      alt="Drawer organizer smooth pulling drawer"
+      className="w-full h-auto object-contain"
+    />
+  </div>
 
-            <div className="mt-6 flex justify-center">
-  <div className="max-w-[700px] overflow-hidden rounded-[1.5rem] bg-neutral-100">
+  <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
     <img
       src="/images/drawer-organizer-capacity.jpg"
       alt="Drawer organizer high capacity desktop setup"
