@@ -7,31 +7,31 @@ const tools = [
   {
     name: 'Travel Organizer Bag',
     description: 'Keep your travel essentials neatly sorted and easy to access.',
-    href: '/products/travel-organizer-bag',
+    href: '/products/everyday-picks/travel-organizer-bag',
     image: '/images/travel-organizer-bag.jpg',
   },
   {
     name: 'Vacuum Compression Bag',
     description: 'Save luggage and storage space by compressing bulky items.',
-    href: '/products/vacuum-compression-bag',
+    href: '/products/everyday-picks/vacuum-compression-bag',
     image: '/images/vacuum-compression-bag.jpg',
   },
   {
     name: 'Cable Organizer',
     description: 'Reduce desk clutter and keep charging cables in place.',
-    href: '/products/cable-organizer',
+    href: '/products/everyday-picks/cable-organizer',
     image: '/images/cable-organizer.jpg',
   },
   {
     name: 'Drawer Divider',
     description: 'Separate small items neatly inside drawers and storage spaces.',
-    href: '/products/drawer-divider',
+    href: '/products/everyday-picks/drawer-divider',
     image: '/images/drawer-divider.jpg',
   },
   {
     name: 'Bag Sealer',
     description: 'Help keep opened food packs sealed and more organized.',
-    href: '/products/bag-sealer',
+    href: '/products/everyday-picks/bag-sealer',
     image: '/images/bag-sealer.jpg',
   },
 ];
