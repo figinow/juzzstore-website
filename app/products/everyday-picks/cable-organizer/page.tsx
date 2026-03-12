@@ -81,7 +81,7 @@ export default function CableOrganizerPage() {
 
             <div className="mt-12 flex justify-center">
               <iframe
-                src="https://www.tiktok.com/@juzzstoresg/video/7520532755931729170"
+                src="https://www.tiktok.com/player/v1/7520532755931729170"
                 className="w-full max-w-[320px] rounded-2xl border border-gray-200"
                 style={{ height: '570px' }}
                 allow="fullscreen"
