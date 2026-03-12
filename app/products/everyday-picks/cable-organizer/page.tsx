@@ -1,5 +1,5 @@
 import { ArrowLeft, ArrowRight, CheckCircle2 } from 'lucide-react';
-import { Button } from '../../components/ui/button';
+import { Button } from '../../../components/ui/button';
 
 /* SEO metadata */
 export const metadata = {
