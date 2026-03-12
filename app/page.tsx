@@ -506,6 +506,13 @@ export default function JuzzStoreWebsite() {
           <div className="mt-1">Make it Simple</div>
           <div className="mt-2">Singapore</div>
           <div className="mt-3 text-xs text-neutral-400">© 2026 JuzzStore. All rights reserved.</div>
+<div className="mt-3">
+  <a
+    href="/desk-organization-guide"
+    className="text-xs text-neutral-500 hover:text-neutral-800"
+  >
+    Desk Organization Guide
+  </a>
         </div>
       </footer>
     </div>
