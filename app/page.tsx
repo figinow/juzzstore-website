@@ -371,10 +371,10 @@ export default function JuzzStoreWebsite() {
           <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
-                Featured Direction
+                Featured Products
               </div>
               <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                Product categories for practical everyday use.
+                Practical products designed to help organize daily life.
               </h3>
             </div>
           </div>
