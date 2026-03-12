@@ -5,6 +5,9 @@ import './globals.css';
 export const metadata = {
   title: "JuzzStore",
   description: "Make it Simple",
+icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
