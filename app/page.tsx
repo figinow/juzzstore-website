@@ -513,7 +513,8 @@ export default function JuzzStoreWebsite() {
   >
     Desk Organization Guide
   </a>
-        </div>
+   </div>    
+ </div>
       </footer>
     </div>
   );
