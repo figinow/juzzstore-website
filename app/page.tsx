@@ -83,9 +83,9 @@ export default function JuzzStoreWebsite() {
 <Image
   src="/logo/juzzstore-logo.png"
   alt="JuzzStore Logo"
-  width={320}
-  height={100}
-  className="h-16 w-auto"
+  width={260}
+  height={80}
+  className="h-14 w-auto"
   priority
 />
 
