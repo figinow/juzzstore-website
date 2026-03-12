@@ -88,11 +88,7 @@ export default function JuzzStoreWebsite() {
   className="h-10 w-auto"
   priority
 />
-</div>
-            <div>
-              <div className="text-lg font-semibold tracking-tight">JuzzStore</div>
-              <div className="text-xs text-neutral-500">Make it Simple</div>
-            </div>
+
           </a>
 
           <nav className="hidden gap-8 text-sm text-neutral-600 md:flex">
