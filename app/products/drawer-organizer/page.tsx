@@ -209,14 +209,15 @@ export default function DrawerOrganizerPage() {
               </div>
             </div>
 
-            <div className="mt-6 rounded-[1.5rem] overflow-hidden bg-neutral-100">
-              <img
-                src="/images/drawer-organizer-capacity.jpg"
-                alt="Drawer organizer high capacity desktop setup"
-                className="w-full h-auto object-contain"
-              />
-            </div>
-          </div>
+            <div className="mt-6 flex justify-center">
+  <div className="max-w-[700px] overflow-hidden rounded-[1.5rem] bg-neutral-100">
+    <img
+      src="/images/drawer-organizer-capacity.jpg"
+      alt="Drawer organizer high capacity desktop setup"
+      className="w-full h-auto object-contain"
+    />
+  </div>
+</div>
         </section>
 
         <section className="mx-auto max-w-7xl px-6 pb-12 md:pb-16">
