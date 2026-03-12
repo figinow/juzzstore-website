@@ -505,7 +505,6 @@ export default function JuzzStoreWebsite() {
           <div className="font-medium text-neutral-700">JuzzStore</div>
           <div className="mt-1">Make it Simple</div>
           <div className="mt-2">Singapore</div>
-          <div className="mt-3 text-xs text-neutral-400">© 2026 JuzzStore. All rights reserved.</div>
 <div className="mt-3">
   <a
     href="/desk-organization-guide"
@@ -513,7 +512,9 @@ export default function JuzzStoreWebsite() {
   >
     Desk Organization Guide
   </a>
-   </div>    
+   </div> 
+          <div className="mt-3 text-xs text-neutral-400">© 2026 JuzzStore. All rights reserved.</div>
+   
  </div>
       </footer>
     </div>
