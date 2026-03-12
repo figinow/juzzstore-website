@@ -80,9 +80,16 @@ export default function JuzzStoreWebsite() {
       <header className="sticky top-0 z-40 border-b border-gray-200/80 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a href="/" className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-emerald-600 text-white shadow-sm">
-              <JuzzStoreLogo />
-            </div>
+           <div className="flex items-center justify-center">
+  <Image
+    src="/juzzstore-logo.png"
+    alt="JuzzStore Logo"
+    width={48}
+    height={48}
+    className="h-12 w-auto"
+    priority
+  />
+</div>
             <div>
               <div className="text-lg font-semibold tracking-tight">JuzzStore</div>
               <div className="text-xs text-neutral-500">Make it Simple</div>
