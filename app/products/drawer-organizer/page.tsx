@@ -216,6 +216,7 @@ export default function DrawerOrganizerPage() {
     />
   </div>
 </div>
+</div>
         </section>
 
         <section className="mx-auto max-w-7xl px-6 pb-12 md:pb-16">
