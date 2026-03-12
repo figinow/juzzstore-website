@@ -1,7 +1,12 @@
-'use client';
-
 import { ArrowLeft, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { Button } from '../../components/ui/button';
+
+/* SEO metadata */
+export const metadata = {
+  title: 'Drawer Organizer | JuzzStore',
+  description:
+    'A multi-layer desktop drawer organizer designed to keep stationery, notes, makeup and everyday small items neatly arranged.',
+};
 
 const highlights = [
   'Multi-layer storage with drawers and top compartments',
@@ -56,10 +61,10 @@ export default function DrawerOrganizerPage() {
             </h1>
 
             <p className="mt-5 max-w-xl text-base leading-7 text-neutral-600 md:text-lg">
-              A practical desktop storage organizer designed to keep stationery, office tools,
-              notes, makeup, and everyday small items neatly arranged and easier to reach. The
-              top tray keeps frequently used items visible, while the drawers help keep smaller
-              things tidy and out of sight.
+              A practical desktop organizer designed to keep stationery, office tools,
+              notes, makeup, and everyday small items neatly arranged and easier to reach.
+              The top tray keeps frequently used items visible, while the drawers help
+              keep smaller things tidy and out of sight.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3 text-sm text-neutral-600">
@@ -221,20 +226,16 @@ export default function DrawerOrganizerPage() {
                 Explore more
               </div>
               <h3 className="mt-3 text-2xl font-semibold tracking-tight md:text-4xl">
-                Discover more practical organizers and useful everyday picks.
+                Discover more helpful tools to organize life.
               </h3>
               <p className="mt-4 max-w-2xl text-sm leading-6 text-white/75 md:text-base">
-                Browse simple products and useful storage ideas designed to make desks, work corners,
-                and daily routines easier to manage.
+                Browse practical tools and organizing ideas designed to make desks, work corners,
+                and daily life easier to manage.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
-                <a
-                  href="https://collshp.com/figinow/category/2921929"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="/products/everyday-picks">
                   <Button className="rounded-2xl bg-white px-6 py-6 text-sm font-medium text-gray-900 hover:bg-white/90">
-                    Explore Useful Picks
+                    Explore Helpful Tools
                   </Button>
                 </a>
 
