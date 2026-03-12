@@ -81,10 +81,10 @@ export default function JuzzStoreWebsite() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a href="/" className="flex items-center gap-3">
 <Image
-  src="/juzzstore-logo.png"
+  src="/logo/juzzstore-logo.png"
   alt="JuzzStore Logo"
-  width={160}
-  height={50}
+  width={180}
+  height={60}
   className="h-10 w-auto"
   priority
 />
