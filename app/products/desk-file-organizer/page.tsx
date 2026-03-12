@@ -1,7 +1,12 @@
-'use client';
-
 import { ArrowLeft } from 'lucide-react';
 import { Button } from '../../components/ui/button';
+
+/* SEO metadata */
+export const metadata = {
+  title: 'Desk File Organizer | JuzzStore',
+  description:
+    'A practical desk file organizer that keeps documents, folders and paperwork neatly arranged on your desk.',
+};
 
 export default function DeskFileOrganizerPage() {
   return (
@@ -32,14 +37,15 @@ export default function DeskFileOrganizerPage() {
           </h1>
 
           <p className="mt-6 text-neutral-600 leading-7">
-            A simple multi-tier desk organizer designed to keep documents,
-            magazines, papers, and everyday desk items neatly arranged.
+            A practical multi-tier desk organizer designed to keep documents,
+            folders, magazines, and paperwork neatly arranged while saving
+            valuable desk space.
           </p>
 
           <ul className="mt-8 space-y-2 text-sm text-neutral-700">
             <li>• Multi-layer design for documents and magazines</li>
+            <li>• Helps keep paperwork organized and easy to access</li>
             <li>• Saves desk space</li>
-            <li>• Keeps paperwork visible and organized</li>
             <li>• Suitable for home offices and small workspaces</li>
           </ul>
 
@@ -62,6 +68,26 @@ export default function DeskFileOrganizerPage() {
             </a>
 
           </div>
+
+          {/* Internal link to tools */}
+          <div className="mt-14 border-t pt-10">
+            <h2 className="text-lg font-semibold">
+              Helpful Tools to Organize Life
+            </h2>
+
+            <p className="mt-3 text-sm text-neutral-600">
+              Discover practical tools that help organize your workspace,
+              travel items, and everyday essentials.
+            </p>
+
+            <a
+              href="/products/everyday-picks"
+              className="inline-block mt-4 text-sm font-medium text-neutral-900 hover:underline"
+            >
+              Explore Helpful Tools →
+            </a>
+          </div>
+
         </div>
 
       </main>
