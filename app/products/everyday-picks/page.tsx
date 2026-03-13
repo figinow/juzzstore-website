@@ -36,7 +36,7 @@ const tools = [
   },
 {
     name: 'Drawer Retractable Divider',
-    description: 'Help keep opened food packs sealed and more organized.',
+    description: 'Create neat sections inside drawers for clothes and small daily items.',
     href: '/products/everyday-picks/drawer-retractable-divider',
     image: '/images/drawer-retractable-divider.jpg',
   },
