@@ -233,7 +233,83 @@ export default function CableOrganizerPage() {
           </div>
 
         </section>
+{/* Why it stands out */}
+<section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
+  <div className="rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:p-10">
+    <div className="mb-6">
+      <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
+        Why it stands out
+      </div>
 
+      <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
+        Designed to keep cables organized and out of sight.
+      </h3>
+    </div>
+
+    <div className="grid gap-6 md:grid-cols-3">
+      <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
+        <img
+          src="/images/cable-organizer-install.jpg"
+          alt="Cable organizer installed under desk"
+          className="w-full h-auto object-contain"
+        />
+      </div>
+
+      <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
+        <img
+          src="/images/cable-organizer-before-after.jpg"
+          alt="Before and after using under desk cable organizer"
+          className="w-full h-auto object-contain"
+        />
+      </div>
+
+      <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
+        <img
+          src="/images/cable-organizer-load.jpg"
+          alt="Cable organizer strong load-bearing design"
+          className="w-full h-auto object-contain"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+{/* Bottom CTA */}
+<section className="mx-auto max-w-7xl px-6 pb-12 md:pb-16">
+  <div className="rounded-[2rem] bg-emerald-600 px-8 py-10 text-white shadow-xl md:px-10 md:py-12">
+    <div className="max-w-3xl">
+      <div className="text-sm font-medium uppercase tracking-[0.18em] text-white/60">
+        Explore more
+      </div>
+
+      <h3 className="mt-3 text-2xl font-semibold tracking-tight md:text-4xl">
+        Discover more helpful tools to organize life.
+      </h3>
+
+      <p className="mt-4 max-w-2xl text-sm leading-6 text-white/75 md:text-base">
+        Browse practical organizers and useful tools designed to make desks,
+        home offices, and everyday routines easier to manage.
+      </p>
+
+      <div className="mt-8 flex flex-wrap gap-4">
+        <a href="/products/everyday-picks">
+          <Button className="rounded-2xl bg-white px-6 py-6 text-sm font-medium text-gray-900 hover:bg-white/90">
+            Explore Helpful Tools
+          </Button>
+        </a>
+
+        <a href="/">
+          <Button
+            variant="outline"
+            className="rounded-2xl border-white/20 bg-transparent px-6 py-6 text-sm font-medium text-white hover:bg-white/10"
+          >
+            Back to Homepage
+          </Button>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
       </main>
     </div>
   );
