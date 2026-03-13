@@ -99,7 +99,7 @@ export default function DrawerRetractableDividerPage() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="https://vt.tiktok.com/ZS9dvxCjTd39q-Ll8iV/"
+                href="https://vt.tiktok.com/ZS9dvXM9C2T8W-YBEIv/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
