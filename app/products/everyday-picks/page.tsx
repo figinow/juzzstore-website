@@ -13,8 +13,8 @@ const tools = [
   {
     name: 'Vacuum Compression Bag',
     description: 'Save luggage and storage space by compressing bulky items.',
-    href: '/products/everyday-picks/vacuum-compression-bag',
-    image: '/images/vacuum-compression-bag.jpg',
+    href: '/products/everyday-picks/vacuum-compression-',
+    image: '/images/vacuum-compression-quilt.jpg',
   },
   {
     name: 'Cable Organizer',
