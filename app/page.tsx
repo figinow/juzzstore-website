@@ -361,7 +361,7 @@ export default function JuzzStoreWebsite() {
               </ul>
 
               <div className="mt-8">
-                <a href="/products/desk-file-organizer"><Button className="rounded-2xl px-6 py-6 text-sm font-medium">View Product</Button></a>
+                <a href="/products/desk-organizers/desk-file-organizer"><Button className="rounded-2xl px-6 py-6 text-sm font-medium">View Product</Button></a>
               </div>
             </div>
           </div>
