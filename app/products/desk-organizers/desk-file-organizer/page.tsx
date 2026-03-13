@@ -234,7 +234,7 @@ export default function DeskFileOrganizerPage() {
                 home offices, and everyday routines easier to manage.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
-                <a href="/products/desk-organizers">
+                <a href="/products/everyday-picks">
                   <Button className="rounded-2xl bg-white px-6 py-6 text-sm font-medium text-gray-900 hover:bg-white/90">
                     Explore Helpful Tools
                   </Button>
