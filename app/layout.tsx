@@ -1,3 +1,4 @@
+import BackToTop from '../components/back-to-top';
 import { Analytics } from '@vercel/analytics/react'
 
 import './globals.css';
@@ -23,7 +24,7 @@ export default function RootLayout({
         <Analytics />
 
         <script async src="https://www.tiktok.com/embed.js"></script>
-
+<BackToTop />
       </body>
     </html>
   );
