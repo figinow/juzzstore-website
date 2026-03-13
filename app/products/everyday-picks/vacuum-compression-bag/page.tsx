@@ -48,7 +48,7 @@ export default function VacuumCompressionBagPage() {
           <div className="rounded-[2rem] border border-gray-200 bg-white p-5 shadow-sm md:p-6">
             <div className="flex items-center justify-center rounded-[1.5rem] bg-neutral-100 p-4">
               <img
-                src="/images/vacuum-compression-bag.jpg"
+                src="/images/vacuum-compression-quilt.jpg"
                 alt="Vacuum compression bag with cordless air pump"
                 className="max-h-[520px] w-auto max-w-full object-contain"
               />
@@ -239,7 +239,7 @@ export default function VacuumCompressionBagPage() {
             <div className="mt-6 grid gap-6 md:grid-cols-3">
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/vacuum-compression-quilt.jpg"
+                  src="/images/vacuum-compression-size.jpg"
                   alt="Vacuum compression bag for quilts and bedding"
                   className="w-full h-auto object-contain"
                 />
@@ -273,7 +273,7 @@ export default function VacuumCompressionBagPage() {
 
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/vacuum-compression-size.jpg"
+                  src="/images/vacuum-compression-bag.jpg"
                   alt="Vacuum compression bag medium size and storage capacity"
                   className="w-full h-auto object-contain"
                 />
