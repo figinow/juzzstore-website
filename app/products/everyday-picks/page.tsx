@@ -16,12 +16,7 @@ const tools = [
     href: '/products/everyday-picks/vacuum-compression-bag',
     image: '/images/vacuum-compression-quilt.jpg',
   },
-  {
-    name: 'Cable Organizer',
-    description: 'Reduce desk clutter and keep charging cables in place.',
-    href: '/products/everyday-picks/cable-organizer',
-    image: '/images/cable-organizer.jpg',
-  },
+ 
   {
     name: 'Drawer Divider',
     description: 'Separate small items neatly inside drawers and storage spaces.',
