@@ -30,7 +30,7 @@ const products = [
     name: 'Desk File Organizer',
     desc: 'A compact organizer for documents, papers, and notes to keep your table looking clean and easier to manage.',
     image: '/images/file-organizer.jpg',
-    link: '/products/desk-organizers/desk-file-organizer',
+    link: '/products/desk-organizers',
     button: 'View Product',
   },
   {
