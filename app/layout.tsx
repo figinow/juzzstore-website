@@ -1,4 +1,4 @@
-import BackToTop from '../components/back-to-top';
+import BackToTop from './components/back-to-top';
 import { Analytics } from '@vercel/analytics/react'
 
 import './globals.css';
