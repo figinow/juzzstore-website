@@ -78,7 +78,7 @@ export default function TravelOrganizerBagPage() {
                 Easy travel packing
               </div>
            
-
+</div>
             <div className="mt-10 flex flex-wrap gap-4">
               <a
                 href="https://vt.tiktok.com/ZS9d73mfwwBpd-tpkPx/"
