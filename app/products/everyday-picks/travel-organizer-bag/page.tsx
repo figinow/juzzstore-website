@@ -77,9 +77,20 @@ export default function TravelOrganizerBagPage() {
               <div className="rounded-full border border-gray-200 bg-white px-4 py-2">
                 Easy travel packing
               </div>
-           
-</div>
-            <div className="mt-10 flex flex-wrap gap-4">
+            </div>
+          </div>
+        </section>
+
+        <section className="mx-auto max-w-7xl px-6 pb-4 md:pb-8">
+          <div className="flex flex-col items-center">
+            <iframe
+              src="https://www.tiktok.com/player/v1/7579940829402336519"
+              className="w-full max-w-[320px] rounded-2xl border border-gray-200"
+              style={{ height: '570px' }}
+              allow="fullscreen"
+            />
+
+            <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
                 href="https://vt.tiktok.com/ZS9d73mfwwBpd-tpkPx/"
                 target="_blank"
@@ -99,16 +110,7 @@ export default function TravelOrganizerBagPage() {
             </div>
           </div>
         </section>
-<section className="mx-auto max-w-7xl px-6 pb-4 md:pb-8">
-  <div className="flex justify-center">
-    <iframe
-      src="https://www.tiktok.com/player/v1/7579940829402336519"
-      className="w-full max-w-[320px] rounded-2xl border border-gray-200"
-      style={{ height: '570px' }}
-      allow="fullscreen"
-    />
-  </div>
-</section>
+
         <section className="mx-auto max-w-7xl px-6 py-4 md:py-8">
           <div className="grid gap-6 md:grid-cols-2">
             <div className="rounded-[1.75rem] border border-gray-200 bg-white p-6 shadow-sm">
