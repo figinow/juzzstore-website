@@ -34,6 +34,13 @@ const tools = [
     href: '/products/everyday-picks/bag-sealer',
     image: '/images/bag-sealer.jpg',
   },
+{
+    name: 'Drawer Retractable Divider',
+    description: 'Help keep opened food packs sealed and more organized.',
+    href: '/products/everyday-picks/drawer-retractable-divider',
+    image: '/images/drawer-retractable-divider.jpg',
+  },
+
 ];
 
 export default function EverydayPicksPage() {
