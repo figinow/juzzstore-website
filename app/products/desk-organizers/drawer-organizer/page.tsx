@@ -33,7 +33,7 @@ export default function DrawerOrganizerPage() {
             className="inline-flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900"
           >
             <ArrowLeft className="h-4 w-4" />
-            Back to Homepage
+            Back to Desk Organizers
           </a>
           <div className="text-sm font-medium text-neutral-500">Drawer Organizer</div>
         </div>
