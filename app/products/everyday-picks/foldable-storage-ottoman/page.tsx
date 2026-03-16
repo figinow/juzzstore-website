@@ -99,7 +99,7 @@ export default function FoldableStorageOttomanPage() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="https://vt.tiktok.com/ZS9R8fLLE1oqo-Dosmt/"
+                href="https://vt.tiktok.com/ZS9R8QwAfc9rb-L77fq//"
                 target="_blank"
                 rel="noopener noreferrer"
               >
