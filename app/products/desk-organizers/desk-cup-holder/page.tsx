@@ -221,7 +221,7 @@ export default function DeskCupHolderPage() {
             <div className="grid gap-6 md:grid-cols-2">
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/desk-cup-holder-rotatable.jpg"
+                  src="/images/desk-cup-holder-product.jpg"
                   alt="Desk cup holder rotatable design"
                   className="w-full h-auto object-contain"
                 />
@@ -229,7 +229,7 @@ export default function DeskCupHolderPage() {
 
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/desk-cup-holder-usage.jpg"
+                  src="/images/desk-cup-holder-rotatable.jpg"
                   alt="Desk cup holder for different cup types"
                   className="w-full h-auto object-contain"
                 />
@@ -239,7 +239,7 @@ export default function DeskCupHolderPage() {
             <div className="mt-6 grid gap-6 md:grid-cols-3">
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/desk-cup-holder-product.jpg"
+                  src="/images/desk-cup-holder-usage.jpg"
                   alt="Desk cup holder product image"
                   className="w-full h-auto object-contain"
                 />
@@ -247,7 +247,7 @@ export default function DeskCupHolderPage() {
 
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/desk-cup-holder-size.jpg"
+                  src="/images/desk-cup-holder-protection.jpg"
                   alt="Desk cup holder size and dimensions"
                   className="w-full h-auto object-contain"
                 />
@@ -265,7 +265,7 @@ export default function DeskCupHolderPage() {
             <div className="mt-6">
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/desk-cup-holder-protection.jpg"
+                  src="/images/desk-cup-holder-size.jpg"
                   alt="Desk cup holder helps prevent accidental spills"
                   className="w-full h-auto object-contain"
                 />
