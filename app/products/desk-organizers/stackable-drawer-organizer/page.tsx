@@ -239,6 +239,7 @@ export default function StackableDrawerOrganizerPage() {
                 </a>
               </div>
 </div>
+</div>
         </section>
 
       </main>
