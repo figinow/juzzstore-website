@@ -256,7 +256,7 @@ export default function FoldableStorageBoxPage() {
 
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/foldable-storage-box-material.jpg"
+                  src="/images/foldable-storage-box-uses.jpg"
                   alt="Foldable storage box material structure"
                   className="w-full h-auto object-contain"
                 />
