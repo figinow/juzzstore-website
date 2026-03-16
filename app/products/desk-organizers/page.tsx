@@ -35,6 +35,13 @@ const deskOrganizers = [
   image: "/images/desk-cup-holder.jpg",
   href: "/products/desk-organizers/desk-cup-holder",
 },
+{
+  name: "Stackable Drawer Organizer",
+  description: "Organize stationery, cosmetics, and small desk items with stackable drawers.",
+  image: "/images/stackable-drawer-organizer.jpg",
+  href: "/products/desk-organizers/stackable-drawer-organizer",
+},
+
 ];
 
 export default function DeskOrganizersPage() {
