@@ -29,6 +29,12 @@ const deskOrganizers = [
     href: '/products/desk-organizers/drawer-organizer',
     image: '/images/drawer-organizer.jpg',
   },
+{
+  name: "Desk Cup Holder",
+  description: "Secure drinks beside your desk and free up tabletop space.",
+  image: "/images/desk-cup-holder.jpg",
+  href: "/products/desk-organizers/desk-cup-holder",
+},
 ];
 
 export default function DeskOrganizersPage() {
