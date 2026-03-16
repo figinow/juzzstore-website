@@ -256,7 +256,7 @@ export default function FoldableStorageOttomanPage() {
 
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/foldable-storage-ottoman-sizes.jpg"
+                  src="/images/foldable-storage-ottoman-size.jpg"
                   alt="Foldable storage ottoman size and product image"
                   className="w-full h-auto object-contain"
                 />
