@@ -200,8 +200,7 @@ export default function StackableDrawerOrganizerPage() {
             <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
               <img src="/images/stackable-drawer-organizer-display.jpg" className="w-full h-auto object-contain"/>
            </div>
-            </div>
-          </div>
+           </div>
         </section>
 
         {/* Bottom CTA */}
