@@ -35,6 +35,13 @@ const tools = [
     href: '/products/everyday-picks/drawer-retractable-divider',
     image: '/images/drawer-retractable-divider.jpg',
   },
+{
+    name: 'Foldable Storage Box',
+    description: 'A foldable storage box for clothes, toys, books, and everyday home organization.',
+    href: '/products/everyday-picks/drawer-retractable-divider',
+    image: '/images/drawer-retractable-divider.jpg',
+  },
+
 
 ];
 
