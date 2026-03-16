@@ -41,7 +41,12 @@ const tools = [
     href: '/products/everyday-picks/foldable-storage-box',
     image: '/images/foldable-storage-box.jpg',
   },
-
+{
+  name: "Foldable Storage Ottoman",
+  description: "A foldable storage ottoman for seating, storage, and tidier rooms.",
+  image: "/images/foldable-storage-ottoman.jpg",
+  href: "/products/everyday-picks/foldable-storage-ottoman",
+},
 
 ];
 
