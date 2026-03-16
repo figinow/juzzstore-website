@@ -90,7 +90,7 @@ export default function DeskFileOrganizerPage() {
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="PRODUCT_LINK_HERE"
+                href="https://s.shopee.sg/50UMZWyf34"
                 target="_blank"
                 rel="noopener noreferrer"
               >
