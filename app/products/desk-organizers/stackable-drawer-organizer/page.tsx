@@ -125,7 +125,7 @@ export default function StackableDrawerOrganizerPage() {
                 </Button>
               </a>
             </div>
-<p className="text-sm text-gray-500 mt-2 text-center">
+<p className="mt-2 text-center text-sm text-gray-500">
   ✔ Fast SG Delivery • ✔ Secure Payment
 </p>
 
