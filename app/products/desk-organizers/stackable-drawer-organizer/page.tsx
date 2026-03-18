@@ -124,10 +124,9 @@ export default function StackableDrawerOrganizerPage() {
                   Ask a Question
                 </Button>
               </a>
-<p className="text-sm text-gray-500 mt-3 text-center">
+<p className="text-sm text-gray-700 mt-3 text-center font-medium">
   ✔ Fast SG Delivery • ✔ Secure Payment
-</p>
-            </div>
+</p>            </div>
           </div>
         </section>
 
