@@ -106,12 +106,12 @@ export default function StackableDrawerOrganizerPage() {
             <div className="mt-8 flex flex-wrap justify-center gap-4">
 
               <a
-                href="https://vt.tiktok.com/ZS9R8h1Q643qA-lo60E/"
+                href="https://juzzstore-3.myshopify.com › products › stackable-drawer-organizer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
-                  View Product
+                  Buy Now
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </a>
@@ -124,7 +124,9 @@ export default function StackableDrawerOrganizerPage() {
                   Ask a Question
                 </Button>
               </a>
-
+<p className="text-sm text-gray-500 mt-3 text-center">
+  ✔ Fast SG Delivery • ✔ Secure Payment
+</p>
             </div>
           </div>
         </section>
