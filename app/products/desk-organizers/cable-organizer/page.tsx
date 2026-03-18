@@ -106,7 +106,7 @@ export default function CableOrganizerPage() {
             <div className="mt-8 flex flex-wrap justify-center gap-4">
 
               <a
-                href="https://vt.tiktok.com/ZS9dtpMQVWQwW-y7YDt/"
+                href="https://juzzstore-3.myshopify.com/products/adjustable-under-desk-cable-organizer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -126,6 +126,9 @@ export default function CableOrganizerPage() {
               </a>
 
             </div>
+<p className="mt-2 text-center text-sm text-gray-500">
+  ✔ Fast SG Delivery • ✔ Secure Payment
+</p>
           </div>
         </section>
 
