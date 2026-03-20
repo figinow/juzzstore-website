@@ -98,7 +98,7 @@ export default function CableOrganizerPage() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="https://juzzstore-3.myshopify.com/products/adjustable-under-desk-cable-organizer"
+                href="https://shop.juzzstore.com/products/adjustable-under-desk-cable-organizer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
