@@ -103,7 +103,7 @@ export default function CableOrganizerPage() {
                 rel="noopener noreferrer"
               >
                 <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
-                  Shop Now
+                  Proceed to Checkout
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </a>
