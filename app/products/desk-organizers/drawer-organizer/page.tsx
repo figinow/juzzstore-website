@@ -5,14 +5,14 @@ import { Button } from '../../../components/ui/button';
 export const metadata = {
   title: 'Drawer Organizer | JuzzStore',
   description:
-    'A multi-layer desktop drawer organizer designed to keep stationery, notes, makeup and everyday small items neatly arranged.',
+    'A multi-layer desktop drawer organizer designed to keep stationery, notes, makeup, and everyday small items neatly arranged.',
 };
 
 const highlights = [
   'Multi-layer storage with drawers and top compartments',
   'Helps keep stationery, makeup, office tools, and small items neatly arranged',
   'Wide drawer design can hold A4-sized paper',
-  'Waterproof and dustproof PP material for easier maintenance',
+  'Waterproof and dust-resistant PP material for easier maintenance',
   'Suitable for desk, study table, vanity, or office use',
 ];
 
@@ -40,6 +40,7 @@ export default function DrawerOrganizerPage() {
       </header>
 
       <main>
+        {/* Top section */}
         <section className="mx-auto grid max-w-7xl gap-10 px-6 py-12 md:grid-cols-[1.05fr_0.95fr] md:py-16">
           <div className="rounded-[2rem] border border-gray-200 bg-white p-5 shadow-sm md:p-6">
             <div className="flex items-center justify-center rounded-[1.5rem] bg-neutral-100 p-4">
@@ -61,10 +62,9 @@ export default function DrawerOrganizerPage() {
             </h1>
 
             <p className="mt-5 max-w-xl text-base leading-7 text-neutral-600 md:text-lg">
-              A practical desktop organizer designed to keep stationery, office tools,
-              notes, makeup, and everyday small items neatly arranged and easier to reach.
-              The top tray keeps frequently used items visible, while the drawers help
-              keep smaller things tidy and out of sight.
+              Keep stationery, office tools, notes, makeup, and everyday small items neatly
+              arranged and easier to reach. The top tray keeps frequently used items visible,
+              while the drawers help store smaller things neatly out of sight.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3 text-sm text-neutral-600">
@@ -78,17 +78,20 @@ export default function DrawerOrganizerPage() {
                 Fits A4 paper
               </div>
             </div>
+          </div>
+        </section>
 
-            <div className="mt-12 flex justify-center">
-              <iframe
-                src="https://www.tiktok.com/player/v1/7455556033352699154"
-                className="w-full max-w-[320px] rounded-2xl border border-gray-200"
-                style={{ height: '570px' }}
-                allow="fullscreen"
-              />
-            </div>
+        {/* Video + buttons */}
+        <section className="mx-auto max-w-7xl px-6 pb-4 md:pb-8">
+          <div className="flex flex-col items-center">
+            <iframe
+              src="https://www.tiktok.com/player/v1/7455556033352699154"
+              className="w-full max-w-[320px] rounded-2xl border border-gray-200"
+              style={{ height: '570px' }}
+              allow="fullscreen"
+            />
 
-            <div className="mt-8 flex flex-wrap gap-4">
+            <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
                 href="https://vt.tiktok.com/ZS9dqeg6snKqd-Tjtx0/"
                 target="_blank"
@@ -106,9 +109,14 @@ export default function DrawerOrganizerPage() {
                 </Button>
               </a>
             </div>
+
+            <p className="mt-2 text-center text-sm text-gray-500">
+              🌍 Worldwide Shipping • 7–12 Days Delivery • ✔ Secure Payment
+            </p>
           </div>
         </section>
 
+        {/* Features / Good for */}
         <section className="mx-auto max-w-7xl px-6 py-4 md:py-8">
           <div className="grid gap-6 md:grid-cols-2">
             <div className="rounded-[1.75rem] border border-gray-200 bg-white p-6 shadow-sm">
@@ -137,6 +145,7 @@ export default function DrawerOrganizerPage() {
           </div>
         </section>
 
+        {/* Product overview */}
         <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
           <div className="grid gap-8 rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:grid-cols-2 md:p-10">
             <div>
@@ -180,6 +189,7 @@ export default function DrawerOrganizerPage() {
           </div>
         </section>
 
+        {/* Why it stands out */}
         <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
           <div className="rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:p-10">
             <div className="mb-6">
@@ -192,33 +202,34 @@ export default function DrawerOrganizerPage() {
             </div>
 
             <div className="grid gap-6 md:grid-cols-3">
-  <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
-    <img
-      src="/images/drawer-organizer-a4.jpg"
-      alt="Drawer organizer fits A4 paper"
-      className="w-full h-auto object-contain"
-    />
-  </div>
+              <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
+                <img
+                  src="/images/drawer-organizer-a4.jpg"
+                  alt="Drawer organizer fits A4 paper"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
 
-  <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
-    <img
-      src="/images/drawer-organizer-pull.jpg"
-      alt="Drawer organizer smooth pulling drawer"
-      className="w-full h-auto object-contain"
-    />
-  </div>
+              <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
+                <img
+                  src="/images/drawer-organizer-pull.jpg"
+                  alt="Drawer organizer smooth pulling drawer"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
 
-  <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
-    <img
-      src="/images/drawer-organizer-capacity.jpg"
-      alt="Drawer organizer high capacity desktop setup"
-      className="w-full h-auto object-contain"
-    />
-  </div>
-</div>
-</div>
+              <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
+                <img
+                  src="/images/drawer-organizer-capacity.jpg"
+                  alt="Drawer organizer high capacity desktop setup"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+            </div>
+          </div>
         </section>
 
+        {/* Bottom CTA */}
         <section className="mx-auto max-w-7xl px-6 pb-12 md:pb-16">
           <div className="rounded-[2rem] bg-emerald-600 px-8 py-10 text-white shadow-xl md:px-10 md:py-12">
             <div className="max-w-3xl">
