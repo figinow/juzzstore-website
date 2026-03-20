@@ -5,14 +5,14 @@ import { Button } from '../../../components/ui/button';
 export const metadata = {
   title: 'Desk File Organizer | JuzzStore',
   description:
-    'A practical multi-layer desk file organizer designed to keep documents, magazines, notes, and small desk items neatly arranged while saving space.',
+    'A multi-layer desk file organizer designed to keep documents, magazines, notes, and small desk items neatly arranged while saving space.',
 };
 
 const highlights = [
   'Multi-layer vertical storage helps organize files, magazines, and documents neatly',
   'Top tray provides extra space for small desk essentials and daily items',
   'Bottom basket adds convenient storage for accessories and loose items',
-  'Space-saving upright design helps reduce desk clutter',
+  'Space-saving upright design helps reduce clutter on desks and workspaces',
   'Suitable for office desks, study tables, and home workspaces',
 ];
 
@@ -61,10 +61,9 @@ export default function DeskFileOrganizerPage() {
             </h1>
 
             <p className="mt-5 max-w-xl text-base leading-7 text-neutral-600 md:text-lg">
-              A practical multi-layer desk file organizer designed to keep documents,
-              magazines, notebooks, and small desk essentials neatly arranged while
-              saving workspace. The upright design helps reduce clutter and makes daily
-              items easier to see and access.
+              Keep documents, magazines, notebooks, and small desk essentials neatly arranged
+              while saving space. Its upright design helps reduce clutter and makes daily items
+              easier to see, sort, and access.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3 text-sm text-neutral-600">
@@ -90,12 +89,12 @@ export default function DeskFileOrganizerPage() {
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="https://s.shopee.sg/50UMZWyf34"
+                href="https://shop.juzzstore.com/products/desk-file-organizer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
-                  View Product
+                  Continue to Checkout
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </a>
@@ -106,6 +105,10 @@ export default function DeskFileOrganizerPage() {
                 </Button>
               </a>
             </div>
+
+            <p className="mt-2 text-sm text-gray-500">
+              🌍 Worldwide Shipping • 7–12 Days Delivery • ✔ Secure Payment
+            </p>
           </div>
         </section>
 
@@ -144,18 +147,18 @@ export default function DeskFileOrganizerPage() {
                 Product overview
               </div>
               <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                A simple way to keep desks, work corners, and office spaces more organized.
+                A simple way to keep documents and desk essentials organized.
               </h3>
               <p className="mt-4 leading-7 text-neutral-600">
                 This desk file organizer combines multiple angled file slots with a top tray
-                and bottom basket, making it useful for both documents and smaller daily items.
+                and bottom basket, making it useful for both paperwork and smaller daily items.
                 It helps keep papers upright, visible, and easier to reach instead of piling
                 across the desk.
               </p>
               <p className="mt-4 leading-7 text-neutral-600">
-                Compared with flat stacking, the vertical design saves desk space and creates
-                a cleaner, more organized setup. It is suitable for home offices, work desks,
-                study corners, and daily paper organization.
+                Compared with flat stacking, the vertical design helps save desk space and
+                creates a cleaner, more organized setup. It works well for home offices,
+                work desks, study corners, and everyday paper organization.
               </p>
             </div>
 
@@ -230,8 +233,8 @@ export default function DeskFileOrganizerPage() {
                 Discover more helpful tools to organize life.
               </h3>
               <p className="mt-4 max-w-2xl text-sm leading-6 text-white/75 md:text-base">
-                Browse practical organizers and workspace tools designed to make desks,
-                home offices, and everyday routines easier to manage.
+                Browse practical organizers and workspace tools designed to help create
+                cleaner desks, tidier spaces, and smoother everyday routines.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <a href="/products/everyday-picks">
