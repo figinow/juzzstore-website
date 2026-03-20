@@ -40,6 +40,7 @@ export default function DeskFileOrganizerPage() {
       </header>
 
       <main>
+        {/* Top section */}
         <section className="mx-auto grid max-w-7xl gap-10 px-6 py-12 md:grid-cols-[1.05fr_0.95fr] md:py-16">
           <div className="rounded-[2rem] border border-gray-200 bg-white p-5 shadow-sm md:p-6">
             <div className="flex items-center justify-center rounded-[1.5rem] bg-neutral-100 p-4">
@@ -77,17 +78,20 @@ export default function DeskFileOrganizerPage() {
                 For files and desk items
               </div>
             </div>
+          </div>
+        </section>
 
-            <div className="mt-12 flex justify-center">
-              <iframe
-                src="https://www.tiktok.com/player/v1/VIDEO_ID"
-                className="w-full max-w-[320px] rounded-2xl border border-gray-200"
-                style={{ height: '570px' }}
-                allow="fullscreen"
-              />
-            </div>
+        {/* Video + buttons */}
+        <section className="mx-auto max-w-7xl px-6 pb-4 md:pb-8">
+          <div className="flex flex-col items-center">
+            <iframe
+              src="https://www.tiktok.com/player/v1/VIDEO_ID"
+              className="w-full max-w-[320px] rounded-2xl border border-gray-200"
+              style={{ height: '570px' }}
+              allow="fullscreen"
+            />
 
-            <div className="mt-8 flex flex-wrap gap-4">
+            <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
                 href="https://shop.juzzstore.com/products/desk-file-organizer"
                 target="_blank"
@@ -106,12 +110,13 @@ export default function DeskFileOrganizerPage() {
               </a>
             </div>
 
-            <p className="mt-2 text-sm text-gray-500">
+            <p className="mt-2 text-center text-sm text-gray-500">
               🌍 Worldwide Shipping • 7–12 Days Delivery • ✔ Secure Payment
             </p>
           </div>
         </section>
 
+        {/* Features / Good for */}
         <section className="mx-auto max-w-7xl px-6 py-4 md:py-8">
           <div className="grid gap-6 md:grid-cols-2">
             <div className="rounded-[1.75rem] border border-gray-200 bg-white p-6 shadow-sm">
@@ -140,6 +145,7 @@ export default function DeskFileOrganizerPage() {
           </div>
         </section>
 
+        {/* Product overview */}
         <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
           <div className="grid gap-8 rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:grid-cols-2 md:p-10">
             <div>
@@ -184,6 +190,7 @@ export default function DeskFileOrganizerPage() {
           </div>
         </section>
 
+        {/* Why it stands out */}
         <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
           <div className="rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:p-10">
             <div className="mb-6">
@@ -223,6 +230,7 @@ export default function DeskFileOrganizerPage() {
           </div>
         </section>
 
+        {/* Bottom CTA */}
         <section className="mx-auto max-w-7xl px-6 pb-12 md:pb-16">
           <div className="rounded-[2rem] bg-emerald-600 px-8 py-10 text-white shadow-xl md:px-10 md:py-12">
             <div className="max-w-3xl">
