@@ -5,22 +5,22 @@ import { Button } from '../../../components/ui/button';
 export const metadata = {
   title: 'Desk File Organizer | JuzzStore',
   description:
-    'A vertical desk file organizer designed to keep documents, folders, and papers neatly arranged and easy to access.',
+    'A practical multi-layer desk file organizer designed to keep documents, magazines, notes, and small desk items neatly arranged while saving space.',
 };
 
 const highlights = [
-  'Vertical storage design helps save desk space',
-  'Multiple compartments for sorting documents and files',
-  'Open structure allows quick access to important papers',
-  'Stable and sturdy build for daily office use',
-  'Suitable for home, office, and study environments',
+  'Multi-layer vertical storage helps organize files, magazines, and documents neatly',
+  'Top tray provides extra space for small desk essentials and daily items',
+  'Bottom basket adds convenient storage for accessories and loose items',
+  'Space-saving upright design helps reduce desk clutter',
+  'Suitable for office desks, study tables, and home workspaces',
 ];
 
 const useCases = [
-  'Office documents and paperwork',
-  'School notes and folders',
-  'Bills and important letters',
-  'Daily documents for easy access',
+  'A4 files and documents',
+  'Magazines and notebooks',
+  'Desk accessories and stationery',
+  'Home office and study table organization',
 ];
 
 export default function DeskFileOrganizerPage() {
@@ -35,230 +35,205 @@ export default function DeskFileOrganizerPage() {
             <ArrowLeft className="h-4 w-4" />
             Back to Desk Organizers
           </a>
-
-          <div className="text-sm font-medium text-neutral-500">
-            File Organizer
-          </div>
+          <div className="text-sm font-medium text-neutral-500">Desk File Organizer</div>
         </div>
       </header>
 
       <main>
-
-        {/* Top section */}
         <section className="mx-auto grid max-w-7xl gap-10 px-6 py-12 md:grid-cols-[1.05fr_0.95fr] md:py-16">
-
           <div className="rounded-[2rem] border border-gray-200 bg-white p-5 shadow-sm md:p-6">
             <div className="flex items-center justify-center rounded-[1.5rem] bg-neutral-100 p-4">
               <img
-                src="/images/desk-file-organizer.jpg"
-                alt="Desk file organizer"
+                src="/images/file-organizer.jpg"
+                alt="Multi-layer desk file organizer"
                 className="max-h-[520px] w-auto max-w-full object-contain"
               />
             </div>
           </div>
 
           <div className="flex flex-col justify-center">
-
             <div className="inline-flex w-fit items-center rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 text-sm text-emerald-700">
-              Practical Desk Organizer
+              Practical Workspace Organizer
             </div>
 
             <h1 className="mt-5 max-w-xl text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
-              Desk File Organizer
+              Multi-Layer Desk File Organizer
             </h1>
 
             <p className="mt-5 max-w-xl text-base leading-7 text-neutral-600 md:text-lg">
-              Keep your documents neatly arranged and easy to find. This desk file
-              organizer helps sort papers, folders, and files into clear sections,
-              making your workspace more organized and efficient.
+              A practical multi-layer desk file organizer designed to keep documents,
+              magazines, notebooks, and small desk essentials neatly arranged while
+              saving workspace. The upright design helps reduce clutter and makes daily
+              items easier to see and access.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3 text-sm text-neutral-600">
               <div className="rounded-full border border-gray-200 bg-white px-4 py-2">
-                Vertical storage
+                Multi-layer storage
               </div>
-
               <div className="rounded-full border border-gray-200 bg-white px-4 py-2">
-                Multi compartments
+                Space-saving design
               </div>
-
               <div className="rounded-full border border-gray-200 bg-white px-4 py-2">
-                Easy access
+                For files and desk items
               </div>
             </div>
 
-          </div>
-        </section>
+            <div className="mt-12 flex justify-center">
+              <iframe
+                src="https://www.tiktok.com/player/v1/VIDEO_ID"
+                className="w-full max-w-[320px] rounded-2xl border border-gray-200"
+                style={{ height: '570px' }}
+                allow="fullscreen"
+              />
+            </div>
 
-        {/* Video + buttons */}
-        <section className="mx-auto max-w-7xl px-6 pb-4 md:pb-8">
-
-          <div className="flex flex-col items-center">
-
-            <iframe
-              src="https://www.tiktok.com/player/v1/your-video-id"
-              className="w-full max-w-[320px] rounded-2xl border border-gray-200"
-              style={{ height: '570px' }}
-              allow="fullscreen"
-            />
-
-            <div className="mt-8 flex flex-wrap justify-center gap-4">
-
+            <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="https://shop.juzzstore.com/products/desk-file-organizer"
+                href="https://s.shopee.sg/50UMZWyf34"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
-                  Continue to Checkout
+                  View Product
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </a>
 
               <a href="mailto:support@juzzstore.com">
-                <Button
-                  variant="outline"
-                  className="rounded-2xl px-6 py-6 text-sm font-medium"
-                >
+                <Button variant="outline" className="rounded-2xl px-6 py-6 text-sm font-medium">
                   Ask a Question
                 </Button>
               </a>
-
             </div>
-
-            <p className="mt-2 text-center text-sm text-gray-500">
-              🌍 Worldwide Shipping • 7–12 Days Delivery • ✔ Secure Payment
-            </p>
-
           </div>
-
         </section>
 
-        {/* Features / Good for */}
         <section className="mx-auto max-w-7xl px-6 py-4 md:py-8">
-
           <div className="grid gap-6 md:grid-cols-2">
-
             <div className="rounded-[1.75rem] border border-gray-200 bg-white p-6 shadow-sm">
-
-              <h2 className="text-lg font-semibold">
-                Key features
-              </h2>
-
+              <h2 className="text-lg font-semibold">Key features</h2>
               <ul className="mt-4 space-y-3 text-sm leading-6 text-neutral-600">
-
                 {highlights.map((item) => (
                   <li key={item} className="flex gap-3">
                     <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-emerald-600" />
                     <span>{item}</span>
                   </li>
                 ))}
-
               </ul>
             </div>
 
             <div className="rounded-[1.75rem] border border-gray-200 bg-white p-6 shadow-sm">
-
-              <h2 className="text-lg font-semibold">
-                Good for
-              </h2>
-
+              <h2 className="text-lg font-semibold">Good for</h2>
               <ul className="mt-4 space-y-3 text-sm leading-6 text-neutral-600">
-
                 {useCases.map((item) => (
                   <li key={item} className="flex gap-3">
                     <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-emerald-600" />
                     <span>{item}</span>
                   </li>
                 ))}
-
               </ul>
             </div>
-
           </div>
-
         </section>
 
-        {/* Product overview */}
         <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
-
           <div className="grid gap-8 rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:grid-cols-2 md:p-10">
-
             <div>
-
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
                 Product overview
               </div>
-
               <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                A simple way to keep documents organized and within reach.
+                A simple way to keep desks, work corners, and office spaces more organized.
               </h3>
-
               <p className="mt-4 leading-7 text-neutral-600">
-                This desk file organizer helps keep documents, folders, and
-                paperwork neatly arranged in separate sections instead of
-                piling up on your desk.
+                This desk file organizer combines multiple angled file slots with a top tray
+                and bottom basket, making it useful for both documents and smaller daily items.
+                It helps keep papers upright, visible, and easier to reach instead of piling
+                across the desk.
               </p>
-
               <p className="mt-4 leading-7 text-neutral-600">
-                Its vertical design makes it easier to sort documents by category
-                while keeping everything visible and accessible whenever needed.
+                Compared with flat stacking, the vertical design saves desk space and creates
+                a cleaner, more organized setup. It is suitable for home offices, work desks,
+                study corners, and daily paper organization.
               </p>
-
             </div>
 
             <div className="rounded-[1.75rem] bg-gray-50 p-6">
-
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
                 Simple benefits
               </div>
-
               <div className="mt-4 grid gap-4">
-
                 <div className="rounded-2xl bg-white px-4 py-4 text-sm text-neutral-700 shadow-sm">
-                  Keeps documents neatly organized
+                  Helps keep documents and magazines neatly arranged
                 </div>
-
                 <div className="rounded-2xl bg-white px-4 py-4 text-sm text-neutral-700 shadow-sm">
-                  Reduces clutter on desks and workspaces
+                  Saves desk space with upright vertical storage
                 </div>
-
                 <div className="rounded-2xl bg-white px-4 py-4 text-sm text-neutral-700 shadow-sm">
-                  Helps improve workspace efficiency
+                  Top and bottom compartments add extra storage flexibility
                 </div>
-
                 <div className="rounded-2xl bg-white px-4 py-4 text-sm text-neutral-700 shadow-sm">
-                  Suitable for home, office, and study use
+                  Suitable for office, home, and study use
                 </div>
-
               </div>
             </div>
-
           </div>
-
         </section>
 
-        {/* Bottom CTA */}
+        <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
+          <div className="rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:p-10">
+            <div className="mb-6">
+              <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
+                Why it stands out
+              </div>
+              <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
+                Designed for visibility, space saving, and everyday desk organization.
+              </h3>
+            </div>
+
+            <div className="grid gap-6 md:grid-cols-3">
+              <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
+                <img
+                  src="/images/file-organizer-size.jpg"
+                  alt="Desk file organizer size and dimensions"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+
+              <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
+                <img
+                  src="/images/file-organizer-usage.jpg"
+                  alt="Desk file organizer with documents and accessories"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+
+              <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
+                <img
+                  src="/images/file-organizer-install.jpg"
+                  alt="Desk file organizer showing space-saving use"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="mx-auto max-w-7xl px-6 pb-12 md:pb-16">
           <div className="rounded-[2rem] bg-emerald-600 px-8 py-10 text-white shadow-xl md:px-10 md:py-12">
-
             <div className="max-w-3xl">
-
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-white/60">
                 Explore more
               </div>
-
               <h3 className="mt-3 text-2xl font-semibold tracking-tight md:text-4xl">
                 Discover more helpful tools to organize life.
               </h3>
-
               <p className="mt-4 max-w-2xl text-sm leading-6 text-white/75 md:text-base">
-                Explore practical organizers and useful tools designed to help
-                create cleaner desks and more organized everyday spaces.
+                Browse practical organizers and workspace tools designed to make desks,
+                home offices, and everyday routines easier to manage.
               </p>
-
               <div className="mt-8 flex flex-wrap gap-4">
-
                 <a href="/products/everyday-picks">
                   <Button className="rounded-2xl bg-white px-6 py-6 text-sm font-medium text-gray-900 hover:bg-white/90">
                     Explore Helpful Tools
@@ -273,14 +248,10 @@ export default function DeskFileOrganizerPage() {
                     Back to Homepage
                   </Button>
                 </a>
-
               </div>
-
             </div>
-
           </div>
         </section>
-
       </main>
     </div>
   );
