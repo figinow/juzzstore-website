@@ -93,12 +93,12 @@ export default function DrawerOrganizerPage() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="https://vt.tiktok.com/ZS9dqeg6snKqd-Tjtx0/"
+                href="https://shop.juzzstore.com/products/multi-layer-desktop-drawer-organizer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
-                  View Product
+                  Continue To Checkout
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </a>
