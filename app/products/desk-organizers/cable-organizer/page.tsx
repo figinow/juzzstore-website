@@ -127,7 +127,7 @@ export default function CableOrganizerPage() {
 
             </div>
 <p className="mt-2 text-center text-sm text-gray-500">
-  ✔ Fast SG Delivery • ✔ Secure Payment
+  🌍 Worldwide Shipping • 7–12 Days Delivery • ✔ Secure Payment
 </p>
           </div>
         </section>
