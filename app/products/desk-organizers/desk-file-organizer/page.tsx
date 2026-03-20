@@ -93,7 +93,7 @@ export default function DeskFileOrganizerPage() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="https://shop.juzzstore.com/products/desk-file-organizer
+                href="https://shop.juzzstore.com/products/desk-file-organizer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
