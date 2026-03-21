@@ -118,6 +118,9 @@ export default function DeskCupHolderPage() {
                 </Button>
               </a>
             </div>
+       <p className="mt-2 text-center text-sm text-gray-500">
+              🌍 Worldwide Shipping • 7–12 Days Delivery • ✔ Secure Payment
+            </p>
           </div>
         </section>
 
