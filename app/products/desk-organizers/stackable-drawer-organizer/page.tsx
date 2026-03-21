@@ -119,7 +119,7 @@ export default function StackableDrawerOrganizerPage() {
             </div>
 
             <p className="mt-2 text-center text-sm text-gray-500">
-              🌍 Worldwide Shipping • 7–12 Days Delivery • ✔ Secure Payment
+              🇸🇬 SG Delivery: 2–4 Days • 🌍 Worldwide: 7–12 Days • ✔ Secure Payment
             </p>
           </div>
         </section>
