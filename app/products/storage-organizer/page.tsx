@@ -94,7 +94,7 @@ export default function StorageOrganizerPage() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="https://vt.tiktok.com/ZS9dbVSqcUhGo-rrrFG/"
+                href="https://shop.juzzstore.com/products/storage-organizer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
