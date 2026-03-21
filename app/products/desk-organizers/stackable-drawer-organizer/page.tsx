@@ -226,7 +226,7 @@ export default function StackableDrawerOrganizerPage() {
             <div className="grid gap-6 md:grid-cols-3">
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/stackable-drawer-organizer-usage.jpg"
+                  src="/images/stackable-drawer-organizer-uses.jpg"
                   alt="Stackable drawer organizer in use"
                   className="w-full h-auto object-contain"
                 />
@@ -234,7 +234,7 @@ export default function StackableDrawerOrganizerPage() {
 
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/stackable-drawer-organizer-closeup.jpg"
+                  src="/images/stackable-drawer-organizer.jpg"
                   alt="Close-up of transparent stackable drawer organizer"
                   className="w-full h-auto object-contain"
                 />
@@ -242,7 +242,7 @@ export default function StackableDrawerOrganizerPage() {
 
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/stackable-drawer-organizer-storage.jpg"
+                  src="/images/stackable-drawer-organizer-display.jpg"
                   alt="Drawer organizer storing small everyday items"
                   className="w-full h-auto object-contain"
                 />
