@@ -94,7 +94,7 @@ export default function StorageOrganizerPage() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="https://shop.juzzstore.com/products/storage-organizer"
+                href="https://shop.juzzstore.com/products/foldable-transparent-storage-organizer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
