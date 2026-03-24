@@ -99,12 +99,12 @@ export default function VacuumCompressionBagPage() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="https://vt.tiktok.com/ZS9dv6aJ42Ht2-PcmBJ/"
+                href="https://shop.juzzstore.com/products/vacuum-compression-bag-set"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
-                  View Product
+                  Continue To Checkout
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </a>
@@ -118,6 +118,10 @@ export default function VacuumCompressionBagPage() {
                 </Button>
               </a>
             </div>
+<p className="mt-2 text-center text-sm text-gray-500">
+              🚚 Local Delivery: 2–4 Days • 🌍 Worldwide: 7–12 Days • ✔ Secure Payment
+            </p>
+
           </div>
         </section>
 
