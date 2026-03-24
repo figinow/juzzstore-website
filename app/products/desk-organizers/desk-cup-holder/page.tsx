@@ -99,7 +99,7 @@ export default function DeskCupHolderPage() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="https://vt.tiktok.com/ZS9RRgHvhsJCY-9mtnU/"
+                href="https://shop.juzzstore.com/products/rotatable-clamp-on-desk-cup-holder"
                 target="_blank"
                 rel="noopener noreferrer"
               >
