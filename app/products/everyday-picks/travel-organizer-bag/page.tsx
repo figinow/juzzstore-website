@@ -92,12 +92,12 @@ export default function TravelOrganizerBagPage() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="https://vt.tiktok.com/ZS9d73mfwwBpd-tpkPx/"
+                href="https://shop.juzzstore.com/products/foldable-travel-organizer-bag"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
-                  View Product
+                  Continue To Checkout
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </a>
