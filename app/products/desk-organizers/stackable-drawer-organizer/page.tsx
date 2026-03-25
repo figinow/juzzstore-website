@@ -98,7 +98,9 @@ export default function StackableDrawerOrganizerPage() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="https://shop.juzzstore.com/products/stackable-drawer-organizer"
+                href="https://shop.juzzstore.com/products/desk-storage-drawers-stackable-drawer-organizer
+
+"
                 target="_blank"
                 rel="noopener noreferrer"
               >
