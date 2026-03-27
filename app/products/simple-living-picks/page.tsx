@@ -17,12 +17,6 @@ const picks = [
     image: '/images/vacuum-compression-quilt.jpg',
   },
   {
-    name: 'Bag Sealer',
-    description: 'Help keep opened food packs sealed and more organized.',
-    href: '/products/simple-living-picks/bag-sealer',
-    image: '/images/bag-sealer.jpg',
-  },
-  {
     name: 'Foldable Storage Box',
     description:
       'A foldable storage box for clothes, toys, books, and everyday home organization.',

@@ -12,13 +12,7 @@ const tools = [
     href: '/products/everyday-useful-tools/bag-sealer',
     image: '/images/bag-sealer.jpg',
   },
-  {
-    name: 'Cordless Vacuum Pump',
-    description:
-      'A useful tool for quickly compressing storage bags and saving space with less manual effort.',
-    href: '/products/everyday-useful-tools/vacuum-compression-bag',
-    image: '/images/cordless-vacuum-pump.jpg',
-  },
+
 ];
 
 export default function EverydayUsefulToolsPage() {

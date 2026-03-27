@@ -48,6 +48,13 @@ const deskOrganizers = [
     href: '/products/desk-organizers/foldable-organizer',
     image: '/images/foldable-organizer-1.jpg',
   },
+{
+    name: 'Storage Organizer',
+    description:
+      'Hide wires, chargers, and power strips neatly under the desk for a cleaner workspace.',
+    href: '/products/desk-organizers/storage-organizer',
+    image: '/images/foldable-organizer.jpg',
+  },
 
 ];
 
