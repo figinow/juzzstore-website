@@ -37,7 +37,7 @@ const products = [
     name: 'Everyday Useful Tools',
     desc: 'A practical foldable storage organizer designed to keep clothes, blankets, and household items neatly arranged while saving space.',
     image: '/images/storage-organizer.jpg',
-    link: '/products/storage-organizer',
+    link: '/products/everyday-useful-tools',
     button: 'View Product',
   },
   {
