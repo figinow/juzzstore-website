@@ -29,11 +29,11 @@ export default function BagSealerPage() {
       <header className="border-b bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a
-            href="/products/everyday-picks"
+            href="/products/everyday-useful-tools"
             className="inline-flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900"
           >
             <ArrowLeft className="h-4 w-4" />
-            Back to Helpful Tools
+            Back to Everyday Useful Tools
           </a>
 
           <div className="text-sm font-medium text-neutral-500">
@@ -105,7 +105,7 @@ export default function BagSealerPage() {
                 rel="noopener noreferrer"
               >
                 <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
-                  View Product
+                  Buy Now
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </a>
@@ -283,9 +283,9 @@ export default function BagSealerPage() {
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">
-                <a href="/products/everyday-picks">
+                <a href="/products">
                   <Button className="rounded-2xl bg-white px-6 py-6 text-sm font-medium text-gray-900 hover:bg-white/90">
-                    Explore Helpful Tools
+                    Explore Products
                   </Button>
                 </a>
 
