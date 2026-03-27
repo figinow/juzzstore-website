@@ -9,7 +9,7 @@ export const metadata = {
 
 const deskOrganizers = [
   {
-    name: 'Desk File Organizer',
+    name: 'Desk & Space Organization',
     description:
       'Keep documents, folders, magazines, and small desk essentials neatly arranged in one place.',
     href: '/products/desk-organizers/desk-file-organizer',
