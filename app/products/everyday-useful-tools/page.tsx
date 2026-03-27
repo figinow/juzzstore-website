@@ -80,6 +80,40 @@ export default function EverydayUsefulToolsPage() {
             </a>
           ))}
         </section>
+
+        <section className="mt-16 rounded-[2rem] bg-emerald-600 px-8 py-10 text-white shadow-xl md:px-10 md:py-12">
+          <div className="max-w-3xl">
+            <div className="text-sm font-medium uppercase tracking-[0.18em] text-white/60">
+              Explore more
+            </div>
+
+            <h3 className="mt-3 text-2xl font-semibold tracking-tight md:text-4xl">
+              Discover more helpful tools to organize life.
+            </h3>
+
+            <p className="mt-4 max-w-2xl text-sm leading-6 text-white/75 md:text-base">
+              Browse practical organizers and useful tools designed to make desks,
+              work corners, and daily routines easier to manage.
+            </p>
+
+            <div className="mt-8 flex flex-wrap gap-4">
+              <a href="/#products">
+                <Button className="rounded-2xl bg-white px-6 py-6 text-sm font-medium text-gray-900 hover:bg-white/90">
+                  Explore Products
+                </Button>
+              </a>
+
+              <a href="/">
+                <Button
+                  variant="outline"
+                  className="rounded-2xl border-white/20 bg-transparent px-6 py-6 text-sm font-medium text-white hover:bg-white/10"
+                >
+                  Back to Homepage
+                </Button>
+              </a>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
