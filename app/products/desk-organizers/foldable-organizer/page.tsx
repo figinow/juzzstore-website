@@ -184,6 +184,7 @@ export default function FoldableStorageOrganizerPage() {
                     Back to Homepage
                   </Button>
               </a>
+</div>
             </div>
           </div>
         </section>
