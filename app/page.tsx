@@ -44,7 +44,7 @@ const products = [
     name: 'Simple Living Picks',
     desc: 'Curated practical items that help make daily tasks, small spaces, and work areas easier to handle.',
     image: '/images/everyday-tools.jpg',
-    link: '/products/everyday-picks',
+    link: '/products/simple-living-picks',
     button: 'Explore Picks',
   },
 ];
