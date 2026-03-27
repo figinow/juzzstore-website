@@ -27,21 +27,21 @@ const features = [
 
 const products = [
   {
-    name: 'Desk File Organizer',
+    name: 'Desk & Space Organization',
     desc: 'A compact organizer for documents, papers, and notes to keep your table looking clean and easier to manage.',
     image: '/images/file-organizer.jpg',
     link: '/products/desk-organizers',
     button: 'View Product',
   },
   {
-    name: 'Storage Organizer',
+    name: 'Everyday Useful Tools',
     desc: 'A practical foldable storage organizer designed to keep clothes, blankets, and household items neatly arranged while saving space.',
     image: '/images/storage-organizer.jpg',
     link: '/products/storage-organizer',
     button: 'View Product',
   },
   {
-    name: 'Useful Everyday Picks',
+    name: 'Simple Living Picks',
     desc: 'Curated practical items that help make daily tasks, small spaces, and work areas easier to handle.',
     image: '/images/everyday-tools.jpg',
     link: '/products/everyday-picks',
