@@ -4,13 +4,7 @@ import { ArrowLeft } from 'lucide-react';
 import { Button } from '../../components/ui/button';
 
 const tools = [
-  {
-    name: 'Garlic Chopper Tool',
-    description:
-      'A simple kitchen helper for chopping garlic, ginger, chilli, and other small ingredients with less mess and less effort.',
-    href: '/products/everyday-useful-tools/garlic-chopper-tool',
-    image: '/images/garlic-tool.jpg',
-  },
+ 
   {
     name: 'Bag Sealer',
     description:
@@ -19,32 +13,11 @@ const tools = [
     image: '/images/bag-sealer.jpg',
   },
   {
-    name: 'Mini Heat Sealer',
-    description:
-      'A compact everyday tool that helps reseal plastic bags quickly for simpler food storage.',
-    href: '/products/everyday-useful-tools/mini-heat-sealer',
-    image: '/images/mini-heat-sealer.jpg',
-  },
-  {
     name: 'Cordless Vacuum Pump',
     description:
       'A useful tool for quickly compressing storage bags and saving space with less manual effort.',
-    href: '/products/everyday-useful-tools/cordless-vacuum-pump',
+    href: '/products/everyday-useful-tools/vacuum-compression-bag',
     image: '/images/cordless-vacuum-pump.jpg',
-  },
-  {
-    name: 'Portable Cleaning Brush',
-    description:
-      'A practical helper for cleaning small corners, gaps, and hard-to-reach areas more easily.',
-    href: '/products/everyday-useful-tools/portable-cleaning-brush',
-    image: '/images/portable-cleaning-brush.jpg',
-  },
-  {
-    name: 'Multi-Purpose Kitchen Tool',
-    description:
-      'A simple daily-use tool designed to make basic kitchen tasks quicker and easier to handle.',
-    href: '/products/everyday-useful-tools/multi-purpose-kitchen-tool',
-    image: '/images/multi-purpose-kitchen-tool.jpg',
   },
 ];
 
