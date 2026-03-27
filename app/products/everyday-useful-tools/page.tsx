@@ -21,11 +21,11 @@ export default function EverydayUsefulToolsPage() {
       <header className="border-b bg-white">
         <div className="mx-auto max-w-7xl px-6 py-4">
           <a
-            href="/products/everyday-useful-tools"
+            href="/"
             className="flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900"
           >
             <ArrowLeft className="h-4 w-4" />
-            Back to Everyday Useful Tools
+            Back to Homepage
           </a>
         </div>
       </header>
