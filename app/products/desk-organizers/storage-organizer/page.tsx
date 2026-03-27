@@ -29,11 +29,11 @@ export default function StorageOrganizerPage() {
       <header className="border-b bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a
-            href="/"
+            href="/products/desk-organizers"
             className="inline-flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900"
           >
             <ArrowLeft className="h-4 w-4" />
-            Back to Homepage
+            Back to Desk & Space Organization
           </a>
           <div className="text-sm font-medium text-neutral-500">Storage Organizer</div>
         </div>
@@ -241,9 +241,9 @@ export default function StorageOrganizerPage() {
                 and daily life easier to manage.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
-                <a href="/products/everyday-picks">
+                <a href="/#products">
                   <Button className="rounded-2xl bg-white px-6 py-6 text-sm font-medium text-gray-900 hover:bg-white/90">
-                    Explore Helpful Tools
+                    Explore Products
                   </Button>
                 </a>
 
