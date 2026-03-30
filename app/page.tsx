@@ -489,7 +489,7 @@ export default function JuzzStoreWebsite() {
               </h3>
             </div>
           </div>
-
+</div>
           <div className="grid gap-6 md:grid-cols-3">
             {categories.map((category) => (
               <Card
