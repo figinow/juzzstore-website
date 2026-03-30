@@ -240,23 +240,18 @@ export default function JuzzStoreWebsite() {
               </p>
 
 <div className="mt-8">
-  <Button
-    type="button"
-    className="rounded-2xl px-6 py-6 text-sm font-medium"
+  <button
     onClick={() => {
-      const section = document.getElementById('categories');
-      if (section) {
-        section.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start',
-        });
-      }
+      categoriesRef.current?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
     }}
+    className="rounded-2xl bg-black px-6 py-4 text-sm font-medium text-white hover:opacity-90"
   >
     Explore Organization Solutions
-  </Button>
+  </button>
 </div>
-
               <div className="mt-8 flex items-center gap-6">
                 <a
                   href="https://www.tiktok.com/@sgjuzzstore"
@@ -479,10 +474,9 @@ export default function JuzzStoreWebsite() {
               </div>
             </div>
           </div>
-        </section>
-
         <section
   id="categories"
+  ref={categoriesRef}
   className="scroll-mt-28 mx-auto max-w-7xl px-6 py-12 md:py-16"
 >
           <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
