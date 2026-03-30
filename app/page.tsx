@@ -64,37 +64,60 @@ const categories = [
 ];
 
 const principles = [
-  'See things clearly instead of hiding them away',
-  'Use space better, especially vertical space',
-  'Give daily items a proper place',
-  'Make it easier to stay neat, not harder',
+  'Reduce visible clutter',
+  'Use space better',
+  'Keep daily things easy to find',
+  'Make your setup easier to maintain',
 ];
 
 function HeroPanel() {
   return (
-    <div className="grid w-full max-w-xl gap-4 rounded-[2rem] border border-gray-200 bg-white p-5 shadow-xl shadow-neutral-200/60">
-      <div className="grid grid-cols-3 gap-4">
-        <div className="rounded-3xl bg-neutral-100 p-5">
-          <div className="mb-10 h-20 rounded-2xl border border-dashed border-neutral-300 bg-white" />
-          <div className="h-3 w-16 rounded-full bg-neutral-300" />
+    <div className="w-full max-w-xl overflow-hidden rounded-[2rem] border border-gray-200 bg-white shadow-xl shadow-neutral-200/60">
+      <div className="grid gap-0 md:grid-cols-[1.05fr_0.95fr]">
+        <div className="border-b border-gray-200 bg-neutral-100 md:border-b-0 md:border-r">
+          <div className="aspect-[4/3] w-full overflow-hidden">
+            <Image
+              src="/images/messy-desk.jpg"
+              alt="Messy desk with papers and scattered items"
+              className="h-full w-full object-cover"
+              width={1200}
+              height={900}
+            />
+          </div>
+          <div className="px-5 py-4">
+            <div className="text-sm font-semibold text-red-500">Before</div>
+            <p className="mt-1 text-sm leading-6 text-neutral-600">
+              Papers stack up, small items spread out, and the space starts to feel harder to manage.
+            </p>
+          </div>
         </div>
-        <div className="rounded-3xl bg-emerald-600 p-5 text-white">
-          <div className="mb-10 h-20 rounded-2xl border border-white/20 bg-white/10" />
-          <div className="h-3 w-14 rounded-full bg-white/40" />
-        </div>
-        <div className="rounded-3xl bg-neutral-100 p-5">
-          <div className="mb-10 h-20 rounded-2xl border border-dashed border-neutral-300 bg-white" />
-          <div className="h-3 w-12 rounded-full bg-neutral-300" />
+
+        <div className="bg-white">
+          <div className="aspect-[4/3] w-full overflow-hidden">
+            <Image
+              src="/images/organized-desk.jpg"
+              alt="Organized desk with cleaner setup"
+              className="h-full w-full object-cover"
+              width={1200}
+              height={900}
+            />
+          </div>
+          <div className="px-5 py-4">
+            <div className="text-sm font-semibold text-emerald-600">After</div>
+            <p className="mt-1 text-sm leading-6 text-neutral-600">
+              A better setup helps keep things visible, in place, and easier to handle every day.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div className="rounded-3xl border border-gray-200 bg-gray-50 p-6">
-        <div className="mb-4 flex items-center gap-3 text-sm font-medium text-neutral-700">
+      <div className="border-t border-gray-200 bg-gray-50 p-5">
+        <div className="mb-3 flex items-center gap-2 text-sm font-medium text-neutral-700">
           <Sparkles className="h-4 w-4" />
-          The JuzzStore way
+          What JuzzStore helps with
         </div>
         <div className="grid gap-3">
-          {['Clear the pile', 'Use space better', 'Keep things easy to find'].map((item) => (
+          {principles.map((item) => (
             <div
               key={item}
               className="flex items-center justify-between rounded-2xl bg-white px-4 py-3 shadow-sm"
@@ -216,15 +239,10 @@ export default function JuzzStoreWebsite() {
                 improve focus, and make desks, homes, and everyday setups easier to manage.
               </p>
 
-              <div className="mt-8 flex flex-wrap gap-4">
-                <a href="/products/desk-organizers">
-                  <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
-                    Shop Organizers
-                  </Button>
-                </a>
+              <div className="mt-8">
                 <a href="#categories">
-                  <Button variant="outline" className="rounded-2xl px-6 py-6 text-sm font-medium">
-                    Browse Categories
+                  <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
+                    Explore Organization Solutions
                   </Button>
                 </a>
               </div>
@@ -405,56 +423,6 @@ export default function JuzzStoreWebsite() {
                   <span className="text-sm text-neutral-700">{item}</span>
                 </div>
               ))}
-            </div>
-          </div>
-        </section>
-
-        <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
-          <div className="mb-8 text-center">
-            <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
-              Simple Everyday Transformation
-            </div>
-            <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-              From piled-up clutter to a cleaner, easier setup.
-            </h3>
-            <p className="mx-auto mt-4 max-w-2xl leading-7 text-neutral-600">
-              The right organizer can make a visible difference. Keep papers, tools, and daily-use
-              items in place so the space feels cleaner and easier to use.
-            </p>
-          </div>
-
-          <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-[1.75rem] border border-gray-200 bg-white p-6 shadow-sm">
-              <div className="mb-4 text-sm font-semibold text-red-500">Before</div>
-              <div className="aspect-[4/3] w-full overflow-hidden rounded-2xl bg-neutral-100">
-                <Image
-                  src="/images/messy-desk.jpg"
-                  alt="Messy desk with scattered papers"
-                  className="h-full w-full object-cover"
-                  width={1200}
-                  height={900}
-                />
-              </div>
-              <p className="mt-4 text-sm text-neutral-600">
-                Things stack up, papers spread out, and the desk becomes harder to work with.
-              </p>
-            </div>
-
-            <div className="rounded-[1.75rem] border border-gray-200 bg-white p-6 shadow-sm">
-              <div className="mb-4 text-sm font-semibold text-emerald-600">After</div>
-              <div className="aspect-[4/3] w-full overflow-hidden rounded-2xl bg-neutral-100">
-                <Image
-                  src="/images/organized-desk.jpg"
-                  alt="Organized desk using file organizer"
-                  className="h-full w-full object-cover"
-                  width={1200}
-                  height={900}
-                />
-              </div>
-              <p className="mt-4 text-sm text-neutral-600">
-                The space feels cleaner, important items stay visible, and daily work becomes easier
-                to manage.
-              </p>
             </div>
           </div>
         </section>
