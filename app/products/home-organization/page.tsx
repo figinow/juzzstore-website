@@ -11,7 +11,20 @@ const tools = [
     href: '/products/home-organization/drawer-retractable-divider',
     image: '/images/drawer-retractable-divider.jpg',
   },
-
+{
+    name: 'Foldable Storage Box',
+    description:
+      'A foldable storage box for clothes, toys, books, and everyday home organization.',
+    href: '/products/home-organization/foldable-storage-box',
+    image: '/images/foldable-storage-box.jpg',
+  },
+  {
+    name: 'Foldable Storage Ottoman',
+    description:
+      'A foldable storage ottoman for seating, storage, and tidier rooms.',
+    image: '/images/foldable-storage-ottoman.jpg',
+    href: '/products/home-organization/foldable-storage-ottoman',
+  },
 
 ];
 
