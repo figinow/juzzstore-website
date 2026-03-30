@@ -16,20 +16,7 @@ const picks = [
     href: '/products/simple-living/vacuum-compression-bag',
     image: '/images/vacuum-compression-quilt.jpg',
   },
-  {
-    name: 'Foldable Storage Box',
-    description:
-      'A foldable storage box for clothes, toys, books, and everyday home organization.',
-    href: '/products/simple-living/foldable-storage-box',
-    image: '/images/foldable-storage-box.jpg',
-  },
-  {
-    name: 'Foldable Storage Ottoman',
-    description:
-      'A foldable storage ottoman for seating, storage, and tidier rooms.',
-    image: '/images/foldable-storage-ottoman.jpg',
-    href: '/products/simple-living/foldable-storage-ottoman',
-  },
+  
 ];
 
 export default function SimpleLivingPicksPage() {
