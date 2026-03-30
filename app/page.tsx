@@ -8,20 +8,9 @@ import { Card, CardContent } from './components/ui/card';
 import { Button } from './components/ui/button';
 
 const features = [
-  {
-    icon: <Monitor className="h-5 w-5" />,
-    title: 'Practical Everyday Use',
-    text: 'Useful tools designed to make daily work, home setups, and small spaces easier to manage.',
-  },
-  {
-    icon: <Briefcase className="h-5 w-5" />,
-    title: 'Small Business Friendly',
-    text: 'Helpful picks for sellers, home-based workers, and people who need simple everyday solutions.',
-  },
-  {
-    icon: <Sparkles className="h-5 w-5" />,
-    title: 'Simple Useful Finds',
-    text: 'A growing mix of organizers, gadgets, and practical items chosen to solve small daily problems.',
+  { icon: <Monitor className="h-5 w-5" />, title: "Curated for Everyday Use", text: "Thoughtfully selected tools for cleaner desks, calmer homes, and easier routines." },
+  { icon: <Briefcase className="h-5 w-5" />, title: "Designed for Small Spaces", text: "Practical picks for home offices and people who need simple solutions." },
+  { icon: <Sparkles className="h-5 w-5" />, title: "Simple & Reliable", text: "Curated essentials that solve small daily problems without clutter.",
   },
 ];
 
