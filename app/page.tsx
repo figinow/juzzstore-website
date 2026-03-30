@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useRef } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import {
@@ -134,7 +134,6 @@ function HeroPanel() {
 
 export default function JuzzStoreWebsite() {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
-  const categoriesRef = useRef<HTMLElement | null>(null);
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
@@ -241,18 +240,11 @@ export default function JuzzStoreWebsite() {
               </p>
 
               <div className="mt-8">
-                <button
-                  type="button"
-                  onClick={() => {
-                    categoriesRef.current?.scrollIntoView({
-                      behavior: 'smooth',
-                      block: 'start',
-                    });
-                  }}
-                  className="rounded-2xl bg-black px-6 py-4 text-sm font-medium text-white hover:opacity-90"
-                >
-                  Explore Organization Solutions
-                </button>
+                <a href="#categories">
+                  <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
+                    Explore Organization Solutions
+                  </Button>
+                </a>
               </div>
 
               <div className="mt-8 flex items-center gap-6">
@@ -479,11 +471,7 @@ export default function JuzzStoreWebsite() {
           </div>
         </section>
 
-        <section
-          id="categories"
-          ref={categoriesRef}
-          className="scroll-mt-28 mx-auto max-w-7xl px-6 py-12 md:py-16"
-        >
+        <section id="categories" className="mx-auto max-w-7xl px-6 py-12 md:py-16">
           <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
