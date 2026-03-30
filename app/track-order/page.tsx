@@ -53,7 +53,7 @@ export default function TrackOrderPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-2xl bg-emerald-600 px-6 py-4 text-sm font-medium text-white hover:opacity-90 transition"
             >
-              Track with 17TRACK
+              Track Your Order
             </a>
           </div>
 
