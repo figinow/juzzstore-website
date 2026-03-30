@@ -139,7 +139,7 @@ export default function JuzzStoreWebsite() {
     <div className="min-h-screen bg-gray-50 text-gray-900">
       <header className="sticky top-0 z-40 border-b border-gray-200/80 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6">
-          <a href="/" className="flex items-center gap-3">
+          <a href="/" className="flex items-center gap-3 cursor-pointer">
             <Image
               src="/logo/juzzstore-logo.png"
               alt="JuzzStore Logo"
