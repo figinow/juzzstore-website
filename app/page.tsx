@@ -161,7 +161,7 @@ export default function JuzzStoreWebsite() {
             <a href="/products/simple-living" className="transition hover:text-gray-900">
               Simple Living
             </a>
-            <a href="/about" className="transition hover:text-gray-900">
+            <a href="#our-story" className="transition hover:text-gray-900">
               About
             </a>
             <a href="/faq" className="transition hover:text-gray-900">
@@ -474,7 +474,7 @@ export default function JuzzStoreWebsite() {
           </div>
         </section>
 
-        <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
+        <section id="our-story" className="mx-auto max-w-7xl px-6 py-12 md:py-16">
           <div className="grid gap-8 rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:grid-cols-2 md:p-10">
             <div>
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
