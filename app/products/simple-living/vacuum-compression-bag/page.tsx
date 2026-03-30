@@ -3,41 +3,41 @@ import { Button } from '../../../components/ui/button';
 
 /* SEO metadata */
 export const metadata = {
-  title: 'Drawer Retractable Divider | JuzzStore',
+  title: 'Vacuum Compression Bag | JuzzStore',
   description:
-    'A retractable drawer divider designed to create neat sections inside drawers for clothes, underwear, socks, and other small daily items.',
+    'A practical vacuum compression bag set designed to help save luggage and storage space by compressing clothes, quilts, and bulky items more efficiently.',
 };
 
 const highlights = [
-  'Retractable design adjusts to different drawer sizes',
-  'EVA anti-slip pads on both ends help keep the divider in place',
-  'Suitable for drawers, wardrobes, kitchens, and shelves',
-  'Helps create neat sections for better storage and easier access',
-  'Simple installation design makes setup quick and easy',
+  'Helps compress bulky clothing, quilts, and soft items to save storage space',
+  'Cordless air pump design makes compression more convenient',
+  'Suitable for travel, wardrobe storage, and home organization',
+  'Resealable bag design helps keep stored items cleaner and more compact',
+  'Useful for luggage packing, seasonal clothing, and bedding storage',
 ];
 
 const useCases = [
-  'Socks and underwear drawers',
-  'Clothing and wardrobe drawers',
-  'Kitchen and household storage drawers',
-  'Small item organization in cabinets or shelves',
+  'Travel luggage packing',
+  'Quilts and bedding storage',
+  'Seasonal clothing organization',
+  'Wardrobe and bedroom storage',
 ];
 
-export default function DrawerRetractableDividerPage() {
+export default function VacuumCompressionBagPage() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
       <header className="border-b bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a
-            href="/products/simple-living-picks"
+            href="/products/simple-living"
             className="inline-flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900"
           >
             <ArrowLeft className="h-4 w-4" />
-            Back Simple Living Picks
+            Back to Simple Living
           </a>
 
           <div className="text-sm font-medium text-neutral-500">
-            Drawer Retractable Divider
+            Vacuum Compression Bag
           </div>
         </div>
       </header>
@@ -48,8 +48,8 @@ export default function DrawerRetractableDividerPage() {
           <div className="rounded-[2rem] border border-gray-200 bg-white p-5 shadow-sm md:p-6">
             <div className="flex items-center justify-center rounded-[1.5rem] bg-neutral-100 p-4">
               <img
-                src="/images/drawer-retractable-divider.jpg"
-                alt="Drawer retractable divider"
+                src="/images/vacuum-compression-quilt.jpg"
+                alt="Vacuum compression bag with cordless air pump"
                 className="max-h-[520px] w-auto max-w-full object-contain"
               />
             </div>
@@ -57,31 +57,31 @@ export default function DrawerRetractableDividerPage() {
 
           <div className="flex flex-col justify-center">
             <div className="inline-flex w-fit items-center rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 text-sm text-emerald-700">
-              Practical Drawer Organizer
+              Practical Travel Organizer
             </div>
 
             <h1 className="mt-5 max-w-xl text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
-              Drawer Retractable Divider
+              Vacuum Compression Bag Set
             </h1>
 
             <p className="mt-5 max-w-xl text-base leading-7 text-neutral-600 md:text-lg">
-              A practical retractable drawer divider designed to create neat
-              sections inside drawers for clothing, underwear, socks, and other
-              small daily items. The adjustable design helps make drawer spaces
-              tidier and easier to organize.
+              A practical vacuum compression bag set designed to help reduce the
+              space taken up by bulky clothing, quilts, and soft items. By removing
+              excess air, the bags help make packing and storage more efficient,
+              whether for travel luggage or home organization.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3 text-sm text-neutral-600">
               <div className="rounded-full border border-gray-200 bg-white px-4 py-2">
-                Adjustable length
+                Cordless air pump
               </div>
 
               <div className="rounded-full border border-gray-200 bg-white px-4 py-2">
-                Anti-slip ends
+                Space-saving storage
               </div>
 
               <div className="rounded-full border border-gray-200 bg-white px-4 py-2">
-                Easy drawer organization
+                Travel and home use
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ export default function DrawerRetractableDividerPage() {
         <section className="mx-auto max-w-7xl px-6 pb-4 md:pb-8">
           <div className="flex flex-col items-center">
             <iframe
-              src="https://www.tiktok.com/player/v1/VIDEO_ID"
+              src="https://www.tiktok.com/player/v1/7574287802733513991"
               className="w-full max-w-[320px] rounded-2xl border border-gray-200"
               style={{ height: '570px' }}
               allow="fullscreen"
@@ -99,12 +99,12 @@ export default function DrawerRetractableDividerPage() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="https://vt.tiktok.com/ZS9dvXM9C2T8W-YBEIv/"
+                href="https://shop.juzzstore.com/products/vacuum-compression-bag-set"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
-                  Buy Now
+                  Continue To Checkout
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </a>
@@ -118,6 +118,10 @@ export default function DrawerRetractableDividerPage() {
                 </Button>
               </a>
             </div>
+<p className="mt-2 text-center text-sm text-gray-500">
+              🚚 Local Delivery: 2–4 Days • 🌍 Worldwide: 7–12 Days • ✔ Secure Payment
+            </p>
+
           </div>
         </section>
 
@@ -161,21 +165,21 @@ export default function DrawerRetractableDividerPage() {
               </div>
 
               <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                A simple way to make drawers tidier and easier to manage.
+                A simple way to save space in luggage and storage areas.
               </h3>
 
               <p className="mt-4 leading-7 text-neutral-600">
-                This retractable drawer divider helps split drawer space into
-                cleaner sections so clothing, socks, underwear, and smaller items
-                do not get mixed together. It is useful for keeping drawers more
-                organized without needing permanent installation.
+                This vacuum compression bag set helps reduce the volume of clothing,
+                quilts, jackets, and other soft household items by removing excess air.
+                It is especially useful when packing luggage for travel or storing
+                bedding and seasonal clothes at home.
               </p>
 
               <p className="mt-4 leading-7 text-neutral-600">
-                The adjustable design allows the divider to fit different drawer
-                widths, while the anti-slip ends help keep it in place. It can be
-                used in bedroom drawers, wardrobes, kitchen drawers, and other
-                storage areas that need clearer separation.
+                With the cordless air pump, compression becomes easier and more
+                convenient compared with manual storage methods. The resealable design
+                helps keep items compact and more manageable while supporting cleaner
+                wardrobe and bedroom organization.
               </p>
             </div>
 
@@ -186,19 +190,19 @@ export default function DrawerRetractableDividerPage() {
 
               <div className="mt-4 grid gap-4">
                 <div className="rounded-2xl bg-white px-4 py-4 text-sm text-neutral-700 shadow-sm">
-                  Helps create cleaner and more organized drawer sections
+                  Helps save luggage and wardrobe space
                 </div>
 
                 <div className="rounded-2xl bg-white px-4 py-4 text-sm text-neutral-700 shadow-sm">
-                  Makes small clothing items easier to sort and access
+                  Makes bulky items easier to store and manage
                 </div>
 
                 <div className="rounded-2xl bg-white px-4 py-4 text-sm text-neutral-700 shadow-sm">
-                  Adjustable size fits different drawers more flexibly
+                  Useful for travel packing and home storage
                 </div>
 
                 <div className="rounded-2xl bg-white px-4 py-4 text-sm text-neutral-700 shadow-sm">
-                  Useful for bedroom, wardrobe, kitchen, and storage drawers
+                  Supports cleaner and more organized storage areas
                 </div>
               </div>
             </div>
@@ -214,23 +218,23 @@ export default function DrawerRetractableDividerPage() {
               </div>
 
               <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                Designed for flexible drawer organization and quick setup.
+                Designed for fast compression, convenient storage, and travel-friendly use.
               </h3>
             </div>
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/drawer-retractable-divider-anti-slip.jpg"
-                  alt="Drawer divider with EVA anti-slip pads"
+                  src="/images/vacuum-compression-pump.jpg"
+                  alt="Cordless air pump for vacuum compression bag"
                   className="w-full h-auto object-contain"
                 />
               </div>
 
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/drawer-retractable-divider-size.jpg"
-                  alt="Drawer divider short and long adjustable sizes"
+                  src="/images/vacuum-compression-travel.jpg"
+                  alt="Vacuum compression bag used for travel packing"
                   className="w-full h-auto object-contain"
                 />
               </div>
@@ -239,34 +243,42 @@ export default function DrawerRetractableDividerPage() {
             <div className="mt-6 grid gap-6 md:grid-cols-3">
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/drawer-retractable-divider-drawer.jpg"
-                  alt="Drawer divider used inside drawer"
+                  src="/images/vacuum-compression-size.jpg"
+                  alt="Vacuum compression bag for quilts and bedding"
                   className="w-full h-auto object-contain"
                 />
               </div>
 
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/drawer-retractable-divider-storage.jpg"
-                  alt="Drawer divider storage and organization example"
+                  src="/images/vacuum-compression-valve.jpg"
+                  alt="Vacuum compression bag valve design"
                   className="w-full h-auto object-contain"
                 />
               </div>
 
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/drawer-retractable-divider-install.jpg"
-                  alt="Drawer divider installation steps"
+                  src="/images/vacuum-compression-storage.jpg"
+                  alt="Vacuum compression bag space-saving storage result"
                   className="w-full h-auto object-contain"
                 />
               </div>
             </div>
 
-            <div className="mt-6">
+            <div className="mt-6 grid gap-6 md:grid-cols-2">
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/drawer-retractable-divider-dimensions.jpg"
-                  alt="Drawer divider dimension and usage example"
+                  src="/images/vacuum-compression-wardrobe.jpg"
+                  alt="Before and after wardrobe storage using compression bag"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+
+              <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
+                <img
+                  src="/images/vacuum-compression-bag.jpg"
+                  alt="Vacuum compression bag medium size and storage capacity"
                   className="w-full h-auto object-contain"
                 />
               </div>
@@ -288,11 +300,11 @@ export default function DrawerRetractableDividerPage() {
 
               <p className="mt-4 max-w-2xl text-sm leading-6 text-white/75 md:text-base">
                 Browse practical organizers and useful tools designed to make
-                drawers, wardrobes, and everyday spaces easier to manage.
+                packing, storage, and daily routines easier to manage.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">
-                <a href="/#products/">
+                <a href="/#products">
                   <Button className="rounded-2xl bg-white px-6 py-6 text-sm font-medium text-gray-900 hover:bg-white/90">
                     Explore Products
                   </Button>

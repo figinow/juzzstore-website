@@ -4,7 +4,13 @@ import { ArrowLeft } from 'lucide-react';
 import { Button } from '../../components/ui/button';
 
 const tools = [
- 
+   {
+    name: 'Drawer Retractable Divider',
+    description:
+      'Keep drawer more neatly and keep daily storage more organized.',
+    href: '/products/home-organization/drawer-retractable-divider',
+    image: '/images/drawer-retractable-divider.jpg',
+  },
   {
     name: 'Bag Sealer',
     description:

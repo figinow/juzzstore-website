@@ -3,53 +3,49 @@ import { Button } from '../../../components/ui/button';
 
 /* SEO metadata */
 export const metadata = {
-  title: 'Vacuum Compression Bag | JuzzStore',
+  title: 'Travel Organizer Bag | JuzzStore',
   description:
-    'A practical vacuum compression bag set designed to help save luggage and storage space by compressing clothes, quilts, and bulky items more efficiently.',
+    'A foldable travel organizer bag designed to keep clothes, toiletries, and small travel essentials neatly sorted inside luggage.',
 };
 
 const highlights = [
-  'Helps compress bulky clothing, quilts, and soft items to save storage space',
-  'Cordless air pump design makes compression more convenient',
-  'Suitable for travel, wardrobe storage, and home organization',
-  'Resealable bag design helps keep stored items cleaner and more compact',
-  'Useful for luggage packing, seasonal clothing, and bedding storage',
+  'Multiple compartments help separate clothing, toiletries, and small travel items',
+  'Foldable design makes it easy to pack away when not in use',
+  'Hanging style allows easier access inside luggage or when unpacking',
+  'Smooth zipper and buckle details support convenient everyday use',
+  'Suitable for travel, short trips, gym use, and simple daily organization',
 ];
 
 const useCases = [
-  'Travel luggage packing',
-  'Quilts and bedding storage',
-  'Seasonal clothing organization',
-  'Wardrobe and bedroom storage',
+  'Clothes and underwear',
+  'Toiletries and cosmetics',
+  'Travel essentials and small accessories',
+  'Short trips, vacations, and gym packing',
 ];
 
-export default function VacuumCompressionBagPage() {
+export default function TravelOrganizerBagPage() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
       <header className="border-b bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a
-            href="/products/simple-living-picks"
+            href="/products/simple-living"
             className="inline-flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900"
           >
             <ArrowLeft className="h-4 w-4" />
-            Back to Simple Living Picks
+            Back to Simple Living
           </a>
-
-          <div className="text-sm font-medium text-neutral-500">
-            Vacuum Compression Bag
-          </div>
+          <div className="text-sm font-medium text-neutral-500">Travel Organizer Bag</div>
         </div>
       </header>
 
       <main>
-        {/* Top section */}
         <section className="mx-auto grid max-w-7xl gap-10 px-6 py-12 md:grid-cols-[1.05fr_0.95fr] md:py-16">
           <div className="rounded-[2rem] border border-gray-200 bg-white p-5 shadow-sm md:p-6">
             <div className="flex items-center justify-center rounded-[1.5rem] bg-neutral-100 p-4">
               <img
-                src="/images/vacuum-compression-quilt.jpg"
-                alt="Vacuum compression bag with cordless air pump"
+                src="/images/travel-organizer-bag.jpg"
+                alt="Foldable travel organizer bag"
                 className="max-h-[520px] w-auto max-w-full object-contain"
               />
             </div>
@@ -61,37 +57,34 @@ export default function VacuumCompressionBagPage() {
             </div>
 
             <h1 className="mt-5 max-w-xl text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
-              Vacuum Compression Bag Set
+              Foldable Travel Organizer Bag
             </h1>
 
             <p className="mt-5 max-w-xl text-base leading-7 text-neutral-600 md:text-lg">
-              A practical vacuum compression bag set designed to help reduce the
-              space taken up by bulky clothing, quilts, and soft items. By removing
-              excess air, the bags help make packing and storage more efficient,
-              whether for travel luggage or home organization.
+              A practical travel organizer bag designed to keep clothing, toiletries,
+              and small essentials neatly sorted inside your luggage. Its foldable
+              structure and multiple storage sections make packing easier while helping
+              your suitcase stay cleaner and more organized.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3 text-sm text-neutral-600">
               <div className="rounded-full border border-gray-200 bg-white px-4 py-2">
-                Cordless air pump
+                Foldable design
               </div>
-
               <div className="rounded-full border border-gray-200 bg-white px-4 py-2">
-                Space-saving storage
+                Multi-compartment storage
               </div>
-
               <div className="rounded-full border border-gray-200 bg-white px-4 py-2">
-                Travel and home use
+                Easy travel packing
               </div>
             </div>
           </div>
         </section>
 
-        {/* Video + buttons */}
         <section className="mx-auto max-w-7xl px-6 pb-4 md:pb-8">
           <div className="flex flex-col items-center">
             <iframe
-              src="https://www.tiktok.com/player/v1/7574287802733513991"
+              src="https://www.tiktok.com/player/v1/7579940829402336519"
               className="w-full max-w-[320px] rounded-2xl border border-gray-200"
               style={{ height: '570px' }}
               allow="fullscreen"
@@ -99,7 +92,7 @@ export default function VacuumCompressionBagPage() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="https://shop.juzzstore.com/products/vacuum-compression-bag-set"
+                href="https://shop.juzzstore.com/products/foldable-travel-organizer-bag"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -110,10 +103,7 @@ export default function VacuumCompressionBagPage() {
               </a>
 
               <a href="mailto:support@juzzstore.com">
-                <Button
-                  variant="outline"
-                  className="rounded-2xl px-6 py-6 text-sm font-medium"
-                >
+                <Button variant="outline" className="rounded-2xl px-6 py-6 text-sm font-medium">
                   Ask a Question
                 </Button>
               </a>
@@ -125,12 +115,10 @@ export default function VacuumCompressionBagPage() {
           </div>
         </section>
 
-        {/* Features / Good for */}
         <section className="mx-auto max-w-7xl px-6 py-4 md:py-8">
           <div className="grid gap-6 md:grid-cols-2">
             <div className="rounded-[1.75rem] border border-gray-200 bg-white p-6 shadow-sm">
               <h2 className="text-lg font-semibold">Key features</h2>
-
               <ul className="mt-4 space-y-3 text-sm leading-6 text-neutral-600">
                 {highlights.map((item) => (
                   <li key={item} className="flex gap-3">
@@ -143,7 +131,6 @@ export default function VacuumCompressionBagPage() {
 
             <div className="rounded-[1.75rem] border border-gray-200 bg-white p-6 shadow-sm">
               <h2 className="text-lg font-semibold">Good for</h2>
-
               <ul className="mt-4 space-y-3 text-sm leading-6 text-neutral-600">
                 {useCases.map((item) => (
                   <li key={item} className="flex gap-3">
@@ -156,30 +143,26 @@ export default function VacuumCompressionBagPage() {
           </div>
         </section>
 
-        {/* Product overview */}
         <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
           <div className="grid gap-8 rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:grid-cols-2 md:p-10">
             <div>
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
                 Product overview
               </div>
-
               <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                A simple way to save space in luggage and storage areas.
+                A simple travel storage bag that helps keep luggage better organized.
               </h3>
-
               <p className="mt-4 leading-7 text-neutral-600">
-                This vacuum compression bag set helps reduce the volume of clothing,
-                quilts, jackets, and other soft household items by removing excess air.
-                It is especially useful when packing luggage for travel or storing
-                bedding and seasonal clothes at home.
+                This travel organizer bag uses multiple compartments to separate
+                clothing, underwear, socks, toiletries, and smaller travel items.
+                Instead of mixing everything together in one suitcase compartment,
+                it helps keep essentials grouped and easier to find.
               </p>
-
               <p className="mt-4 leading-7 text-neutral-600">
-                With the cordless air pump, compression becomes easier and more
-                convenient compared with manual storage methods. The resealable design
-                helps keep items compact and more manageable while supporting cleaner
-                wardrobe and bedroom organization.
+                The foldable structure makes it easy to carry and pack, while the
+                hanging-style layout helps with quick access when travelling. It is
+                suitable for vacations, short trips, business travel, gym use, or
+                simple daily packing needs.
               </p>
             </div>
 
@@ -187,54 +170,48 @@ export default function VacuumCompressionBagPage() {
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
                 Simple benefits
               </div>
-
               <div className="mt-4 grid gap-4">
                 <div className="rounded-2xl bg-white px-4 py-4 text-sm text-neutral-700 shadow-sm">
-                  Helps save luggage and wardrobe space
+                  Helps keep luggage cleaner and more organized
                 </div>
-
                 <div className="rounded-2xl bg-white px-4 py-4 text-sm text-neutral-700 shadow-sm">
-                  Makes bulky items easier to store and manage
+                  Makes clothes and essentials easier to separate and find
                 </div>
-
                 <div className="rounded-2xl bg-white px-4 py-4 text-sm text-neutral-700 shadow-sm">
-                  Useful for travel packing and home storage
+                  Foldable design saves space when not in use
                 </div>
-
                 <div className="rounded-2xl bg-white px-4 py-4 text-sm text-neutral-700 shadow-sm">
-                  Supports cleaner and more organized storage areas
+                  Useful for travel, gym, and short trip packing
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Why it stands out */}
         <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
           <div className="rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:p-10">
             <div className="mb-6">
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
                 Why it stands out
               </div>
-
               <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                Designed for fast compression, convenient storage, and travel-friendly use.
+                Designed for cleaner packing, easier access, and better travel organization.
               </h3>
             </div>
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/vacuum-compression-pump.jpg"
-                  alt="Cordless air pump for vacuum compression bag"
+                  src="/images/travel-organizer-before-after.jpg"
+                  alt="Before and after using travel organizer bag"
                   className="w-full h-auto object-contain"
                 />
               </div>
 
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/vacuum-compression-travel.jpg"
-                  alt="Vacuum compression bag used for travel packing"
+                  src="/images/travel-organizer-layout.jpg"
+                  alt="Travel organizer bag compartment layout"
                   className="w-full h-auto object-contain"
                 />
               </div>
@@ -243,42 +220,24 @@ export default function VacuumCompressionBagPage() {
             <div className="mt-6 grid gap-6 md:grid-cols-3">
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/vacuum-compression-size.jpg"
-                  alt="Vacuum compression bag for quilts and bedding"
+                  src="/images/travel-organizer-pack.jpg"
+                  alt="Travel organizer bag inside luggage"
                   className="w-full h-auto object-contain"
                 />
               </div>
 
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/vacuum-compression-valve.jpg"
-                  alt="Vacuum compression bag valve design"
+                  src="/images/travel-organizer-details.jpg"
+                  alt="Travel organizer bag handle zipper and buckle details"
                   className="w-full h-auto object-contain"
                 />
               </div>
 
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/vacuum-compression-storage.jpg"
-                  alt="Vacuum compression bag space-saving storage result"
-                  className="w-full h-auto object-contain"
-                />
-              </div>
-            </div>
-
-            <div className="mt-6 grid gap-6 md:grid-cols-2">
-              <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
-                <img
-                  src="/images/vacuum-compression-wardrobe.jpg"
-                  alt="Before and after wardrobe storage using compression bag"
-                  className="w-full h-auto object-contain"
-                />
-              </div>
-
-              <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
-                <img
-                  src="/images/vacuum-compression-bag.jpg"
-                  alt="Vacuum compression bag medium size and storage capacity"
+                  src="/images/travel-organizer-size.jpg"
+                  alt="Travel organizer bag size and folded view"
                   className="w-full h-auto object-contain"
                 />
               </div>
@@ -286,23 +245,19 @@ export default function VacuumCompressionBagPage() {
           </div>
         </section>
 
-        {/* Bottom CTA */}
         <section className="mx-auto max-w-7xl px-6 pb-12 md:pb-16">
           <div className="rounded-[2rem] bg-emerald-600 px-8 py-10 text-white shadow-xl md:px-10 md:py-12">
             <div className="max-w-3xl">
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-white/60">
                 Explore more
               </div>
-
               <h3 className="mt-3 text-2xl font-semibold tracking-tight md:text-4xl">
                 Discover more helpful tools to organize life.
               </h3>
-
               <p className="mt-4 max-w-2xl text-sm leading-6 text-white/75 md:text-base">
-                Browse practical organizers and useful tools designed to make
-                packing, storage, and daily routines easier to manage.
+                Browse practical travel tools, organizers, and useful everyday picks
+                designed to make packing and daily routines easier to manage.
               </p>
-
               <div className="mt-8 flex flex-wrap gap-4">
                 <a href="/#products">
                   <Button className="rounded-2xl bg-white px-6 py-6 text-sm font-medium text-gray-900 hover:bg-white/90">

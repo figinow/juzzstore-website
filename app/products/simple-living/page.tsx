@@ -7,20 +7,20 @@ const picks = [
   {
     name: 'Travel Organizer Bag',
     description: 'Keep your travel essentials neatly sorted and easy to access.',
-    href: '/products/simple-living-picks/travel-organizer-bag',
+    href: '/products/simple-living/travel-organizer-bag',
     image: '/images/travel-organizer-bag.jpg',
   },
   {
     name: 'Vacuum Compression Bag',
     description: 'Save luggage and storage space by compressing bulky items.',
-    href: '/products/simple-living-picks/vacuum-compression-bag',
+    href: '/products/simple-living/vacuum-compression-bag',
     image: '/images/vacuum-compression-quilt.jpg',
   },
   {
     name: 'Foldable Storage Box',
     description:
       'A foldable storage box for clothes, toys, books, and everyday home organization.',
-    href: '/products/simple-living-picks/foldable-storage-box',
+    href: '/products/simple-living/foldable-storage-box',
     image: '/images/foldable-storage-box.jpg',
   },
   {
@@ -28,7 +28,7 @@ const picks = [
     description:
       'A foldable storage ottoman for seating, storage, and tidier rooms.',
     image: '/images/foldable-storage-ottoman.jpg',
-    href: '/products/simple-living-picks/foldable-storage-ottoman',
+    href: '/products/simple-living/foldable-storage-ottoman',
   },
 ];
 

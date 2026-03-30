@@ -3,41 +3,41 @@ import { Button } from '../../../components/ui/button';
 
 /* SEO metadata */
 export const metadata = {
-  title: 'Foldable Storage Ottoman | JuzzStore',
+  title: 'Drawer Retractable Divider | JuzzStore',
   description:
-    'A foldable storage ottoman designed to provide seating and hidden storage for blankets, toys, clothing, and everyday household items.',
+    'A retractable drawer divider designed to create neat sections inside drawers for clothes, underwear, socks, and other small daily items.',
 };
 
 const highlights = [
-  'Foldable design saves space when not in use',
-  'Large storage capacity for blankets, toys, clothes, and daily items',
-  'Functions as both a storage box and a sitting stool',
-  'Water-resistant surface helps with easier cleaning',
-  'Padded seat design adds comfort for daily use',
+  'Retractable design adjusts to different drawer sizes',
+  'EVA anti-slip pads on both ends help keep the divider in place',
+  'Suitable for drawers, wardrobes, kitchens, and shelves',
+  'Helps create neat sections for better storage and easier access',
+  'Simple installation design makes setup quick and easy',
 ];
 
 const useCases = [
-  'Bedroom and wardrobe storage',
-  'Blankets, quilts, and soft items',
-  'Toys and household clutter',
-  'Extra seating or footrest at home',
+  'Socks and underwear drawers',
+  'Clothing and wardrobe drawers',
+  'Kitchen and household storage drawers',
+  'Small item organization in cabinets or shelves',
 ];
 
-export default function FoldableStorageOttomanPage() {
+export default function DrawerRetractableDividerPage() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
       <header className="border-b bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a
-            href="/products/simple-living-picks"
+            href="/products/home-organization"
             className="inline-flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900"
           >
             <ArrowLeft className="h-4 w-4" />
-            Back to Simple Living Picks
+            Back to Home Orgazization
           </a>
 
           <div className="text-sm font-medium text-neutral-500">
-            Foldable Storage Ottoman
+            Drawer Retractable Divider
           </div>
         </div>
       </header>
@@ -48,8 +48,8 @@ export default function FoldableStorageOttomanPage() {
           <div className="rounded-[2rem] border border-gray-200 bg-white p-5 shadow-sm md:p-6">
             <div className="flex items-center justify-center rounded-[1.5rem] bg-neutral-100 p-4">
               <img
-                src="/images/foldable-storage-ottoman.jpg"
-                alt="Foldable storage ottoman"
+                src="/images/drawer-retractable-divider.jpg"
+                alt="Drawer retractable divider"
                 className="max-h-[520px] w-auto max-w-full object-contain"
               />
             </div>
@@ -57,31 +57,31 @@ export default function FoldableStorageOttomanPage() {
 
           <div className="flex flex-col justify-center">
             <div className="inline-flex w-fit items-center rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 text-sm text-emerald-700">
-              Practical Home Organizer
+              Practical Drawer Organizer
             </div>
 
             <h1 className="mt-5 max-w-xl text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
-              Foldable Storage Ottoman
+              Drawer Retractable Divider
             </h1>
 
             <p className="mt-5 max-w-xl text-base leading-7 text-neutral-600 md:text-lg">
-              A practical foldable storage ottoman designed to help keep rooms
-              tidier while adding an extra seat or footrest. Its hidden storage
-              space is useful for blankets, toys, clothing, and other bulky daily
-              items that can easily make a room feel cluttered.
+              A practical retractable drawer divider designed to create neat
+              sections inside drawers for clothing, underwear, socks, and other
+              small daily items. The adjustable design helps make drawer spaces
+              tidier and easier to organize.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3 text-sm text-neutral-600">
               <div className="rounded-full border border-gray-200 bg-white px-4 py-2">
-                Foldable design
+                Adjustable length
               </div>
 
               <div className="rounded-full border border-gray-200 bg-white px-4 py-2">
-                Hidden storage
+                Anti-slip ends
               </div>
 
               <div className="rounded-full border border-gray-200 bg-white px-4 py-2">
-                Seat and storage
+                Easy drawer organization
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ export default function FoldableStorageOttomanPage() {
         <section className="mx-auto max-w-7xl px-6 pb-4 md:pb-8">
           <div className="flex flex-col items-center">
             <iframe
-              src="https://www.tiktok.com/player/v1/7387010311292751122"
+              src="https://www.tiktok.com/player/v1/VIDEO_ID"
               className="w-full max-w-[320px] rounded-2xl border border-gray-200"
               style={{ height: '570px' }}
               allow="fullscreen"
@@ -99,7 +99,7 @@ export default function FoldableStorageOttomanPage() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="https://vt.tiktok.com/ZS9R8QwAfc9rb-L77fq//"
+                href="https://vt.tiktok.com/ZS9dvXM9C2T8W-YBEIv/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -161,22 +161,21 @@ export default function FoldableStorageOttomanPage() {
               </div>
 
               <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                A simple way to add storage, seating, and cleaner organization at home.
+                A simple way to make drawers tidier and easier to manage.
               </h3>
 
               <p className="mt-4 leading-7 text-neutral-600">
-                This foldable storage ottoman helps store bulky household items
-                such as quilts, blankets, toys, and clothing while also serving as
-                a bench, footstool, or extra sitting seat. It is useful for homes
-                where storage space is limited and furniture needs to serve more
-                than one purpose.
+                This retractable drawer divider helps split drawer space into
+                cleaner sections so clothing, socks, underwear, and smaller items
+                do not get mixed together. It is useful for keeping drawers more
+                organized without needing permanent installation.
               </p>
 
               <p className="mt-4 leading-7 text-neutral-600">
-                The foldable structure makes it easier to store away when not in
-                use, while the padded lid provides a more comfortable surface for
-                sitting. It works well in bedrooms, living rooms, wardrobes, and
-                entryway areas where clutter tends to build up.
+                The adjustable design allows the divider to fit different drawer
+                widths, while the anti-slip ends help keep it in place. It can be
+                used in bedroom drawers, wardrobes, kitchen drawers, and other
+                storage areas that need clearer separation.
               </p>
             </div>
 
@@ -187,26 +186,26 @@ export default function FoldableStorageOttomanPage() {
 
               <div className="mt-4 grid gap-4">
                 <div className="rounded-2xl bg-white px-4 py-4 text-sm text-neutral-700 shadow-sm">
-                  Helps hide bulky items and reduce visible clutter
+                  Helps create cleaner and more organized drawer sections
                 </div>
 
                 <div className="rounded-2xl bg-white px-4 py-4 text-sm text-neutral-700 shadow-sm">
-                  Adds extra seating without needing separate furniture
+                  Makes small clothing items easier to sort and access
                 </div>
 
                 <div className="rounded-2xl bg-white px-4 py-4 text-sm text-neutral-700 shadow-sm">
-                  Foldable design supports easier storage when unused
+                  Adjustable size fits different drawers more flexibly
                 </div>
 
                 <div className="rounded-2xl bg-white px-4 py-4 text-sm text-neutral-700 shadow-sm">
-                  Useful for bedrooms, living rooms, and wardrobe spaces
+                  Useful for bedroom, wardrobe, kitchen, and storage drawers
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Why it stands out - max 5 images total including hero */}
+        {/* Why it stands out */}
         <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
           <div className="rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:p-10">
             <div className="mb-6">
@@ -215,23 +214,23 @@ export default function FoldableStorageOttomanPage() {
               </div>
 
               <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                Designed for large storage, simple setup, and practical everyday use.
+                Designed for flexible drawer organization and quick setup.
               </h3>
             </div>
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/foldable-storage-ottoman-storage.jpg"
-                  alt="Foldable storage ottoman versatile storage"
+                  src="/images/drawer-retractable-divider-anti-slip.jpg"
+                  alt="Drawer divider with EVA anti-slip pads"
                   className="w-full h-auto object-contain"
                 />
               </div>
 
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/foldable-storage-ottoman-steps.jpg"
-                  alt="Foldable storage ottoman setup steps"
+                  src="/images/drawer-retractable-divider-size.jpg"
+                  alt="Drawer divider short and long adjustable sizes"
                   className="w-full h-auto object-contain"
                 />
               </div>
@@ -240,24 +239,34 @@ export default function FoldableStorageOttomanPage() {
             <div className="mt-6 grid gap-6 md:grid-cols-3">
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/foldable-storage-ottoman-foldable.jpg"
-                  alt="Foldable storage ottoman different use cases"
+                  src="/images/drawer-retractable-divider-drawer.jpg"
+                  alt="Drawer divider used inside drawer"
                   className="w-full h-auto object-contain"
                 />
               </div>
 
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/foldable-storage-ottoman-small.jpg"
-                  alt="Foldable storage ottoman waterproof and padded material"
+                  src="/images/drawer-retractable-divider-storage.jpg"
+                  alt="Drawer divider storage and organization example"
                   className="w-full h-auto object-contain"
                 />
               </div>
 
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
-                  src="/images/foldable-storage-ottoman-size.jpg"
-                  alt="Foldable storage ottoman size and product image"
+                  src="/images/drawer-retractable-divider-install.jpg"
+                  alt="Drawer divider installation steps"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+            </div>
+
+            <div className="mt-6">
+              <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
+                <img
+                  src="/images/drawer-retractable-divider-dimensions.jpg"
+                  alt="Drawer divider dimension and usage example"
                   className="w-full h-auto object-contain"
                 />
               </div>
@@ -279,11 +288,11 @@ export default function FoldableStorageOttomanPage() {
 
               <p className="mt-4 max-w-2xl text-sm leading-6 text-white/75 md:text-base">
                 Browse practical organizers and useful tools designed to make
-                rooms, wardrobes, and everyday home spaces easier to manage.
+                drawers, wardrobes, and everyday spaces easier to manage.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">
-                <a href="/#products">
+                <a href="/#products/">
                   <Button className="rounded-2xl bg-white px-6 py-6 text-sm font-medium text-gray-900 hover:bg-white/90">
                     Explore Products
                   </Button>
