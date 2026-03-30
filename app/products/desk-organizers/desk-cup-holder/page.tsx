@@ -26,7 +26,8 @@ const useCases = [
 export default function DeskCupHolderPage() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
-      <header className="border-b bg-white">
+      <header className="sticky top-0 z-40 border-b border-gray-200/80 bg-white/95 backdrop-blur">
+
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a
             href="/products/desk-organizers"
@@ -295,7 +296,7 @@ export default function DeskCupHolderPage() {
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">
-                <a href="/#products">
+                <a href="/#categories">
                   <Button className="rounded-2xl bg-white px-6 py-6 text-sm font-medium text-gray-900 hover:bg-white/90">
                     Explore Products
                   </Button>
