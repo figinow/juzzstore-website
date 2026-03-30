@@ -92,18 +92,14 @@ export default function JuzzStoreWebsite() {
           </a>
 
           <nav className="hidden gap-8 text-sm text-neutral-600 md:flex">
-            <a href="#about" className="transition hover:text-gray-900">
-              About
-            </a>
-            <a href="#features" className="transition hover:text-gray-900">
-              Why JuzzStore
-            </a>
-            <a href="#products" className="transition hover:text-gray-900">
-              Products
-            </a>
-            <a href="#contact" className="transition hover:text-gray-900">
-              Contact
-            </a>
+  <a href="/" className="transition hover:text-gray-900">Shop</a>
+  <a href="/products/desk-organizers" className="transition hover:text-gray-900">Desk Organization</a>
+  <a href="/products/home-organization" className="transition hover:text-gray-900">Home Organization</a>
+  <a href="/products/simple-living" className="transition hover:text-gray-900">Simple Living</a>
+  <a href="/about" className="transition hover:text-gray-900">About</a>
+  <a href="/faq" className="transition hover:text-gray-900">FAQ</a>
+  <a href="/track-order" className="transition hover:text-gray-900">Track Order</a>
+</nav>
           </nav>
 
           <button
