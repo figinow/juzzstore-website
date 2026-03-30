@@ -98,8 +98,8 @@ export default function JuzzStoreWebsite() {
   <a href="/products/simple-living" className="transition hover:text-gray-900">Simple Living</a>
   <a href="/about" className="transition hover:text-gray-900">About</a>
   <a href="/faq" className="transition hover:text-gray-900">FAQ</a>
-  <a href="/track-order" className="transition hover:text-gray-900">Track Order</a>
-</nav>
+  <a href="/track-order" className="transition hover:text-gray-900">Track Order
+            </a>
           </nav>
 
           <button
