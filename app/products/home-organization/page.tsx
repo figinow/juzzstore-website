@@ -9,7 +9,7 @@ const tools = [
     name: 'Bag Sealer',
     description:
       'A handy tool to help seal opened food packs more neatly and keep daily storage more organized.',
-    href: '/products/everyday-useful-tools/bag-sealer',
+    href: '/products/home-organization/bag-sealer',
     image: '/images/bag-sealer.jpg',
   },
 
