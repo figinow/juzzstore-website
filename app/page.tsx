@@ -141,11 +141,11 @@ export default function JuzzStoreWebsite() {
                 Practical tools for everyday use
               </div>
               <h1 className="max-w-xl text-4xl font-semibold leading-tight tracking-tight md:text-6xl">
-                Practical everyday tools that help make work, home, and daily tasks easier.
-              </h1>
-              <p className="mt-6 max-w-xl text-base leading-7 text-neutral-600 md:text-lg">
-                JuzzStore offers practical everyday tools, simple organizers, and useful gadgets designed to solve small daily problems and make everyday routines easier to manage.
-              </p>
+  Organize your space. Simplify your day.
+</h1>
+<p className="mt-6 max-w-xl text-base leading-7 text-neutral-600 md:text-lg">
+  Thoughtfully selected tools for cleaner desks, calmer homes, and easier everyday routines.
+</p>
               <div className="mt-8 flex items-center gap-6">
                 <a href="https://www.tiktok.com/@sgjuzzstore" target="_blank" rel="noopener noreferrer" className="hover:opacity-80">
                   <Image src="/icons/tiktok.png" alt="TikTok" className="h-9 w-9 transition-transform hover:scale-110" width={36} height={36} />
