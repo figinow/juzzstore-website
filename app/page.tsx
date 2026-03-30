@@ -240,11 +240,14 @@ export default function JuzzStoreWebsite() {
               </p>
 
               <div className="mt-8">
-                <a href="#categories">
-                  <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
-                    Explore Organization Solutions
-                  </Button>
-                </a>
+                <Button
+  asChild
+  className="rounded-2xl px-6 py-6 text-sm font-medium"
+>
+  <a href="#categories">
+    Explore Organization Solutions
+  </a>
+</Button>
               </div>
             </motion.div>
 
