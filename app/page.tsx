@@ -15,26 +15,9 @@ const features = [
 ];
 
 const products = [
-  {
-    name: 'Desk & Space Organization',
-    desc: 'A compact organizer for documents, papers, and notes to keep your table looking clean and easier to manage.',
-    image: '/images/file-organizer.jpg',
-    link: '/products/desk-organizers',
-    button: 'View Product',
-  },
-  {
-    name: 'Everyday Useful Tools',
-    desc: 'A practical foldable storage organizer designed to keep clothes, blankets, and household items neatly arranged while saving space.',
-    image: '/images/storage-organizer.jpg',
-    link: '/products/everyday-useful-tools',
-    button: 'View Product',
-  },
-  {
-    name: 'Simple Living Picks',
-    desc: 'Curated practical items that help make daily tasks, small spaces, and work areas easier to handle.',
-    image: '/images/everyday-tools.jpg',
-    link: '/products/simple-living-picks',
-    button: 'Explore Picks',
+  { name: "Desk Organization", desc: "Tidy your workspace with smart essentials that keep cables, papers, and tools neatly in place.", image: "/images/file-organizer.jpg", link: "/products/desk-organizers", button: "View Collection" },
+  { name: "Home Organization", desc: "Create calm, clutter-free corners in kitchen, bathroom, and living areas.", image: "/images/storage-organizer.jpg", link: "/products/home-organization", button: "View Collection" },
+  { name: "Simple Living", desc: "Everyday picks that make routines easier without adding more stuff.", image: "/images/everyday-tools.jpg", link: "/products/simple-living", button: "Explore Picks",
   },
 ];
 
