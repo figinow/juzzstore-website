@@ -481,7 +481,10 @@ export default function JuzzStoreWebsite() {
           </div>
         </section>
 
-        <section id="categories" className="mx-auto max-w-7xl px-6 py-12 md:py-16">
+        <section
+  id="categories"
+  className="scroll-mt-28 mx-auto max-w-7xl px-6 py-12 md:py-16"
+>
           <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
