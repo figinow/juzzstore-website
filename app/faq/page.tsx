@@ -1,6 +1,3 @@
-'use client';
-
-import React from 'react';
 import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 
@@ -11,12 +8,8 @@ export const metadata = {
 };
 
 export default function FAQPage() {
-  const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
-
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
-
-      {/* Header (same style as homepage) */}
       <header className="sticky top-0 z-40 border-b border-gray-200/80 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6">
           <a href="/" className="flex items-center gap-3">
@@ -43,7 +36,7 @@ export default function FAQPage() {
             <a href="/#our-story" className="hover:text-gray-900">
               About
             </a>
-            <a href="/faq" className="text-gray-900 font-medium">
+            <a href="/faq" className="font-medium text-gray-900">
               FAQ
             </a>
             <a href="/track-order" className="hover:text-gray-900">
@@ -51,33 +44,18 @@ export default function FAQPage() {
             </a>
           </nav>
 
-          <button
-            type="button"
-            className="inline-flex items-center justify-center rounded-xl border border-gray-200 p-2 text-neutral-700 md:hidden"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          >
-            {mobileMenuOpen ? <X /> : <Menu />}
-          </button>
-        </div>
-
-        {mobileMenuOpen && (
-          <div className="border-t border-gray-200 bg-white px-6 py-4 md:hidden">
-            <nav className="flex flex-col gap-4 text-sm text-neutral-600">
-              <a href="/products/desk-organizers">Desk Organization</a>
-              <a href="/products/home-organization">Home Organization</a>
-              <a href="/products/simple-living">Simple Living</a>
-              <a href="/#our-story">About</a>
-              <a href="/faq">FAQ</a>
-              <a href="/track-order">Track Order</a>
-            </nav>
+          <div className="md:hidden">
+            <a
+              href="/"
+              className="inline-flex items-center justify-center rounded-xl border border-gray-200 px-4 py-2 text-sm text-neutral-700"
+            >
+              Home
+            </a>
           </div>
-        )}
+        </div>
       </header>
 
-      {/* Main */}
       <main className="mx-auto max-w-7xl px-6 py-16">
-
-        {/* Title */}
         <section className="max-w-3xl">
           <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">
             Frequently Asked Questions
@@ -88,10 +66,7 @@ export default function FAQPage() {
           </p>
         </section>
 
-        {/* FAQ List */}
         <section className="mt-12 grid gap-6 md:grid-cols-2">
-
-          {/* FAQ Item */}
           <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
             <h3 className="font-semibold">How long does delivery take?</h3>
             <p className="mt-3 text-sm text-neutral-600">
@@ -147,23 +122,17 @@ export default function FAQPage() {
               You can reach us at support@juzzstore.com and we will get back to you as soon as possible.
             </p>
           </div>
-
         </section>
-
       </main>
 
-      {/* Footer */}
       <footer className="border-t border-gray-200 bg-white">
         <div className="mx-auto max-w-7xl px-6 py-8 text-center text-sm text-neutral-500">
           <div className="font-medium text-neutral-700">JuzzStore</div>
           <div className="mt-1">Make it Simple</div>
           <div className="mt-2">Singapore</div>
-          <div className="mt-3 text-xs text-neutral-400">
-            © 2026 JuzzStore. All rights reserved.
-          </div>
+          <div className="mt-3 text-xs text-neutral-400">© 2026 JuzzStore. All rights reserved.</div>
         </div>
       </footer>
-
     </div>
   );
 }
