@@ -30,11 +30,11 @@ export default function FoldableStorageOttomanPage() {
 
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a
-            href="/products/simple-living"
+            href="/products/home-organization"
             className="inline-flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900"
           >
             <ArrowLeft className="h-4 w-4" />
-            Back to Simple Living
+            Back to Home Organization
           </a>
 
           <div className="text-sm font-medium text-neutral-500">
