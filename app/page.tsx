@@ -203,23 +203,40 @@ export default function JuzzStoreWebsite() {
             </h3>
           </div>
           <div className="grid gap-6 md:grid-cols-3">
-            {product.link ? (
-  <a 
-    href={product.link} 
-    target={product.link.startsWith('http') ? '_blank' : undefined} 
-    rel={product.link.startsWith('http') ? 'noopener noreferrer' : undefined}
-    className="mt-5 inline-block"
-  >
-    <Button variant="outline" className="rounded-2xl flex items-center gap-2">
-      {product.button}
-      <ArrowRight className="h-4 w-4" />
-    </Button>
-  </a>
-) : (
-  <Button variant="outline" className="mt-5 rounded-2xl opacity-60 cursor-default disabled">
-    {product.button}
-  </Button>
-)}
+            {products.map((product) => (
+  <Card key={product.name} className="overflow-hidden rounded-1.75rem border-gray-200 shadow-sm">
+    <div className="aspect-[4/3] w-full overflow-hidden">
+      <Image 
+        src={product.image} 
+        alt={product.name} 
+        width={1200} 
+        height={900}
+        className="h-full w-full object-cover" 
+      />
+    </div>
+    <CardContent className="p-6">
+      <h4 className="text-lg font-semibold">{product.name}</h4>
+      <p className="mt-3 text-sm leading-6 text-neutral-600">{product.desc}</p>
+      {product.link ? (
+        <a 
+          href={product.link} 
+          target={product.link.startsWith('http') ? '_blank' : undefined} 
+          rel={product.link.startsWith('http') ? 'noopener noreferrer' : undefined}
+          className="mt-5 inline-block"
+        >
+          <Button variant="outline" className="rounded-2xl flex items-center gap-2">
+            {product.button}
+            <ArrowRight className="h-4 w-4" />
+          </Button>
+        </a>
+      ) : (
+        <Button variant="outline" className="mt-5 rounded-2xl opacity-60 cursor-default disabled">
+          {product.button}
+        </Button>
+      )}
+    </CardContent>
+  </Card>
+))}
           </div>
         </section>
 
