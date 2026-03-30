@@ -1,5 +1,3 @@
-'use client';
-
 import { ArrowLeft } from 'lucide-react';
 import { Button } from '../../components/ui/button';
 
@@ -84,7 +82,7 @@ export default function HomeOrganizationPage() {
               href={tool.href}
               className="overflow-hidden rounded-3xl border bg-white transition hover:-translate-y-0.5 hover:shadow-md"
             >
-              <div className="aspect-[4/3] bg-gray-100 overflow-hidden">
+              <div className="aspect-[4/3] overflow-hidden bg-gray-100">
                 <img
                   src={tool.image}
                   alt={tool.name}
