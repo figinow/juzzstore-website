@@ -22,17 +22,17 @@ const features = [
   {
     icon: <Monitor className="h-5 w-5" />,
     title: 'Made for Real-Life Clutter',
-    text: 'From papers on the desk to daily items with no proper place, JuzzStore focuses on organizers that solve visible everyday mess.',
+    text: 'Thoughtfully selected organizers for papers, daily-use items, and spaces that slowly become harder to manage.',
   },
   {
     icon: <Briefcase className="h-5 w-5" />,
     title: 'Helpful for Small Spaces',
-    text: 'Practical organization tools for home offices, work corners, compact homes, and people who want things to feel easier to manage.',
+    text: 'Practical organization tools for home offices, compact homes, work corners, and everyday setups.',
   },
   {
     icon: <Sparkles className="h-5 w-5" />,
     title: 'Simple, Useful, Practical',
-    text: 'No overcomplicated systems. Just useful organizers and everyday solutions that help your space feel cleaner and calmer.',
+    text: 'No complicated system. Just useful organizers that help spaces feel cleaner, calmer, and easier to maintain.',
   },
 ];
 
@@ -87,7 +87,7 @@ function HeroPanel() {
           <div className="px-5 py-4">
             <div className="text-sm font-semibold text-red-500">Before</div>
             <p className="mt-1 text-sm leading-6 text-neutral-600">
-              Papers stack up, small items spread out, and the space starts to feel harder to manage.
+              Papers stack up, items spread out, and the space starts to feel harder to manage.
             </p>
           </div>
         </div>
@@ -240,57 +240,10 @@ export default function JuzzStoreWebsite() {
               </p>
 
               <div className="mt-8">
-                <a href="#categories">
+                <a href="/products">
                   <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
                     Explore Organization Solutions
                   </Button>
-                </a>
-              </div>
-
-              <div className="mt-8 flex items-center gap-6">
-                <a
-                  href="https://www.tiktok.com/@sgjuzzstore"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:opacity-80"
-                >
-                  <Image
-                    src="/icons/tiktok.png"
-                    alt="TikTok"
-                    className="h-9 w-9 transition-transform hover:scale-110"
-                    width={36}
-                    height={36}
-                  />
-                </a>
-
-                <a
-                  href="https://shopee.sg/juzzstore"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:opacity-80"
-                >
-                  <Image
-                    src="/icons/shopee.png"
-                    alt="Shopee"
-                    className="h-9 w-9 transition-transform hover:scale-110"
-                    width={36}
-                    height={36}
-                  />
-                </a>
-
-                <a
-                  href="https://www.facebook.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:opacity-80"
-                >
-                  <Image
-                    src="/icons/facebook.png"
-                    alt="Facebook"
-                    className="h-9 w-9 transition-transform hover:scale-110"
-                    width={36}
-                    height={36}
-                  />
                 </a>
               </div>
             </motion.div>
@@ -365,6 +318,57 @@ export default function JuzzStoreWebsite() {
                 complicated system.
               </p>
             </div>
+          </div>
+        </section>
+
+        <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
+          <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+            <div>
+              <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
+                Browse by Category
+              </div>
+              <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
+                Organization solutions for different everyday spaces.
+              </h3>
+            </div>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-3">
+            {categories.map((category, idx) => (
+              <motion.div
+                key={category.name}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.45, delay: idx * 0.08 }}
+              >
+                <Card className="overflow-hidden rounded-[1.75rem] border-gray-200 shadow-sm">
+                  <div className="aspect-[4/3] w-full overflow-hidden">
+                    <Image
+                      src={category.image}
+                      alt={category.name}
+                      className="h-full w-full object-cover"
+                      width={1200}
+                      height={900}
+                    />
+                  </div>
+
+                  <CardContent className="p-6">
+                    <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-2xl bg-emerald-600 text-white">
+                      {category.icon}
+                    </div>
+                    <h4 className="text-lg font-semibold">{category.name}</h4>
+                    <p className="mt-3 text-sm leading-6 text-neutral-600">{category.desc}</p>
+                    <a href={category.link}>
+                      <Button variant="outline" className="mt-5 flex items-center gap-2 rounded-2xl">
+                        {category.button}
+                        <ArrowRight className="h-4 w-4" />
+                      </Button>
+                    </a>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            ))}
           </div>
         </section>
 
@@ -468,52 +472,6 @@ export default function JuzzStoreWebsite() {
                 </a>
               </div>
             </div>
-          </div>
-        </section>
-
-        <section id="categories" className="mx-auto max-w-7xl px-6 py-12 md:py-16">
-          <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
-            <div>
-              <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
-                Browse by Category
-              </div>
-              <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                Organization solutions for different everyday spaces.
-              </h3>
-            </div>
-          </div>
-
-          <div className="grid gap-6 md:grid-cols-3">
-            {categories.map((category) => (
-              <Card
-                key={category.name}
-                className="overflow-hidden rounded-[1.75rem] border-gray-200 shadow-sm"
-              >
-                <div className="aspect-[4/3] w-full overflow-hidden">
-                  <Image
-                    src={category.image}
-                    alt={category.name}
-                    className="h-full w-full object-cover"
-                    width={1200}
-                    height={900}
-                  />
-                </div>
-
-                <CardContent className="p-6">
-                  <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-2xl bg-emerald-600 text-white">
-                    {category.icon}
-                  </div>
-                  <h4 className="text-lg font-semibold">{category.name}</h4>
-                  <p className="mt-3 text-sm leading-6 text-neutral-600">{category.desc}</p>
-                  <a href={category.link}>
-                    <Button variant="outline" className="mt-5 flex items-center gap-2 rounded-2xl">
-                      {category.button}
-                      <ArrowRight className="h-4 w-4" />
-                    </Button>
-                  </a>
-                </CardContent>
-              </Card>
-            ))}
           </div>
         </section>
 
