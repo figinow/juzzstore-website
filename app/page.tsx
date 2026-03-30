@@ -240,7 +240,7 @@ export default function JuzzStoreWebsite() {
               </p>
 
               <div className="mt-8">
-                <a
+               <a
   href="#categories"
   className="inline-flex items-center justify-center rounded-2xl px-6 py-6 text-sm font-medium bg-emerald-600 text-white hover:opacity-90 transition"
 >
