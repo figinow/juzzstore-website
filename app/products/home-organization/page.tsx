@@ -24,17 +24,17 @@ const tools = [
 export default function EverydayUsefulToolsPage() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
-      <header className="border-b bg-white">
-        <div className="mx-auto max-w-7xl px-6 py-4">
-          <a
-            href="/"
-            className="flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Back to Homepage
-          </a>
-        </div>
-      </header>
+     <header className="sticky top-0 z-40 border-b border-gray-200/80 bg-white/95 backdrop-blur">
+  <div className="mx-auto max-w-7xl px-6 py-4">
+    <a
+      href="/"
+      className="inline-flex items-center gap-2 rounded-xl px-3 py-2 text-sm text-neutral-600 transition hover:bg-gray-100 hover:text-neutral-900"
+    >
+      <ArrowLeft className="h-4 w-4" />
+      Back to Homepage
+    </a>
+  </div>
+</header>
 
       <main className="mx-auto max-w-7xl px-6 py-16">
         <section className="max-w-3xl">
@@ -103,7 +103,7 @@ export default function EverydayUsefulToolsPage() {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <a href="/#products"> 
+              <a href="/#categories"> 
                 <Button className="rounded-2xl bg-white px-6 py-6 text-sm font-medium text-gray-900 hover:bg-white/90">
                   Explore Products
                 </Button>
