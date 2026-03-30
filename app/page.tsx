@@ -187,7 +187,9 @@ export default function JuzzStoreWebsite() {
         {mobileMenuOpen && (
           <div className="border-t border-gray-200 bg-white px-6 py-4 md:hidden">
             <nav className="flex flex-col gap-4 text-sm text-neutral-600">
-             
+              <a href="/" onClick={() => setMobileMenuOpen(false)}>
+                Home
+              </a>
               <a href="/products/desk-organizers" onClick={() => setMobileMenuOpen(false)}>
                 Desk Organization
               </a>
