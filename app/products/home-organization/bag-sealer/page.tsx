@@ -33,7 +33,7 @@ export default function BagSealerPage() {
             className="inline-flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900"
           >
             <ArrowLeft className="h-4 w-4" />
-            Back to Everyday Useful Tools
+            Back to Home Organization
           </a>
 
           <div className="text-sm font-medium text-neutral-500">
