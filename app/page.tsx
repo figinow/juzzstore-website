@@ -3,74 +3,151 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { Package, Sparkles, Monitor, Briefcase, ArrowRight, CheckCircle2, Menu, X } from 'lucide-react';
+import {
+  Sparkles,
+  Monitor,
+  Briefcase,
+  ArrowRight,
+  CheckCircle2,
+  Menu,
+  X,
+  Layers3,
+  House,
+  PackageCheck,
+} from 'lucide-react';
 import { Card, CardContent } from './components/ui/card';
 import { Button } from './components/ui/button';
 
 const features = [
-  { icon: <Monitor className="h-5 w-5" />, title: "Curated for Everyday Use", text: "Thoughtfully selected tools for cleaner desks, calmer homes, and easier routines." },
-  { icon: <Briefcase className="h-5 w-5" />, title: "Designed for Small Spaces", text: "Practical picks for home offices and people who need simple solutions." },
-  { icon: <Sparkles className="h-5 w-5" />, title: "Simple & Reliable", text: "Curated essentials that solve small daily problems without clutter.",
+  {
+    icon: <Monitor className="h-5 w-5" />,
+    title: 'Made for Real-Life Clutter',
+    text: 'From papers on the desk to daily items with no proper place, JuzzStore focuses on organizers that solve visible everyday mess.',
+  },
+  {
+    icon: <Briefcase className="h-5 w-5" />,
+    title: 'Helpful for Small Spaces',
+    text: 'Practical organization tools for home offices, work corners, compact homes, and people who want things to feel easier to manage.',
+  },
+  {
+    icon: <Sparkles className="h-5 w-5" />,
+    title: 'Simple, Useful, Practical',
+    text: 'No overcomplicated systems. Just useful organizers and everyday solutions that help your space feel cleaner and calmer.',
   },
 ];
 
-const products = [
-  { name: "Desk Organization", desc: "Tidy your workspace with smart essentials that keep cables, papers, and tools neatly in place.", image: "/images/file-organizer.jpg", link: "/products/desk-organizers", button: "View Collection" },
-  { name: "Home Organization", desc: "Create calm, clutter-free corners in kitchen, bathroom, and living areas.", image: "/images/storage-organizer.jpg", link: "/products/home-organization", button: "View Collection" },
-  { name: "Simple Living", desc: "Everyday picks that make routines easier without adding more stuff.", image: "/images/everyday-tools.jpg", link: "/products/simple-living", button: "Explore Picks",
+const categories = [
+  {
+    name: 'Desk Organization',
+    desc: 'File organizers, document holders, and desk essentials that help keep your workspace clear and easier to manage.',
+    image: '/images/file-organizer.jpg',
+    link: '/products/desk-organizers',
+    button: 'Explore Desk Organization',
+    icon: <Layers3 className="h-5 w-5" />,
+  },
+  {
+    name: 'Home Organization',
+    desc: 'Storage picks for everyday corners that need a better system, from shared spaces to daily-use areas at home.',
+    image: '/images/storage-organizer.jpg',
+    link: '/products/home-organization',
+    button: 'Explore Home Organization',
+    icon: <House className="h-5 w-5" />,
+  },
+  {
+    name: 'Simple Living',
+    desc: 'Useful organization tools that make daily routines feel tidier, smoother, and easier without adding more clutter.',
+    image: '/images/everyday-tools.jpg',
+    link: '/products/simple-living',
+    button: 'Explore Simple Living',
+    icon: <PackageCheck className="h-5 w-5" />,
   },
 ];
 
-const reasons = [
-  'Simple and practical product choices',
-  'Built for everyday use',
-  'Suitable for small spaces and daily routines',
-  'Helpful for homes, work corners, sellers, and busy households',
+const principles = [
+  'See things clearly instead of hiding them away',
+  'Use space better, especially vertical space',
+  'Give daily items a proper place',
+  'Make it easier to stay neat, not harder',
 ];
 
-function JuzzStoreLogo() {
+function HeroPanel() {
   return (
-    <svg
-      width="18"
-      height="18"
-      viewBox="0 0 24 24"
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      aria-hidden="true"
-    >
-      <rect x="3" y="6" width="4" height="12" fill="currentColor" />
-      <rect x="10" y="6" width="4" height="12" fill="currentColor" />
-      <rect x="17" y="6" width="4" height="12" fill="currentColor" />
-    </svg>
+    <div className="grid w-full max-w-xl gap-4 rounded-[2rem] border border-gray-200 bg-white p-5 shadow-xl shadow-neutral-200/60">
+      <div className="grid grid-cols-3 gap-4">
+        <div className="rounded-3xl bg-neutral-100 p-5">
+          <div className="mb-10 h-20 rounded-2xl border border-dashed border-neutral-300 bg-white" />
+          <div className="h-3 w-16 rounded-full bg-neutral-300" />
+        </div>
+        <div className="rounded-3xl bg-emerald-600 p-5 text-white">
+          <div className="mb-10 h-20 rounded-2xl border border-white/20 bg-white/10" />
+          <div className="h-3 w-14 rounded-full bg-white/40" />
+        </div>
+        <div className="rounded-3xl bg-neutral-100 p-5">
+          <div className="mb-10 h-20 rounded-2xl border border-dashed border-neutral-300 bg-white" />
+          <div className="h-3 w-12 rounded-full bg-neutral-300" />
+        </div>
+      </div>
+
+      <div className="rounded-3xl border border-gray-200 bg-gray-50 p-6">
+        <div className="mb-4 flex items-center gap-3 text-sm font-medium text-neutral-700">
+          <Sparkles className="h-4 w-4" />
+          The JuzzStore way
+        </div>
+        <div className="grid gap-3">
+          {['Clear the pile', 'Use space better', 'Keep things easy to find'].map((item) => (
+            <div
+              key={item}
+              className="flex items-center justify-between rounded-2xl bg-white px-4 py-3 shadow-sm"
+            >
+              <span className="text-sm text-neutral-700">{item}</span>
+              <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
   );
 }
 
 export default function JuzzStoreWebsite() {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
+
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
       <header className="sticky top-0 z-40 border-b border-gray-200/80 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6">
           <a href="/" className="flex items-center gap-3">
-<Image
-  src="/logo/juzzstore-logo.png"
-  alt="JuzzStore Logo"
-  width={260}
-  height={80}
-  className="h-14 w-auto"
-  priority
-/>
-
+            <Image
+              src="/logo/juzzstore-logo.png"
+              alt="JuzzStore Logo"
+              width={260}
+              height={80}
+              className="h-14 w-auto"
+              priority
+            />
           </a>
 
           <nav className="hidden gap-8 text-sm text-neutral-600 md:flex">
-  <a href="/" className="transition hover:text-gray-900">Shop</a>
-  <a href="/products/desk-organizers" className="transition hover:text-gray-900">Desk Organization</a>
-  <a href="/products/home-organization" className="transition hover:text-gray-900">Home Organization</a>
-  <a href="/products/simple-living" className="transition hover:text-gray-900">Simple Living</a>
-  <a href="/about" className="transition hover:text-gray-900">About</a>
-  <a href="/faq" className="transition hover:text-gray-900">FAQ</a>
-  <a href="/track-order" className="transition hover:text-gray-900">Track Order
+            <a href="/" className="transition hover:text-gray-900">
+              Home
+            </a>
+            <a href="/products/desk-organizers" className="transition hover:text-gray-900">
+              Desk Organization
+            </a>
+            <a href="/products/home-organization" className="transition hover:text-gray-900">
+              Home Organization
+            </a>
+            <a href="/products/simple-living" className="transition hover:text-gray-900">
+              Simple Living
+            </a>
+            <a href="/about" className="transition hover:text-gray-900">
+              About
+            </a>
+            <a href="/faq" className="transition hover:text-gray-900">
+              FAQ
+            </a>
+            <a href="/track-order" className="transition hover:text-gray-900">
+              Track Order
             </a>
           </nav>
 
@@ -85,23 +162,38 @@ export default function JuzzStoreWebsite() {
         </div>
 
         {mobileMenuOpen && (
-  <div className="border-t border-gray-200 bg-white px-6 py-4 md:hidden">
-    <nav className="flex flex-col gap-4 text-sm text-neutral-600">
-      <a href="/" onClick={() => setMobileMenuOpen(false)}>Shop</a>
-      <a href="/products/desk-organizers" onClick={() => setMobileMenuOpen(false)}>Desk Organization</a>
-      <a href="/products/home-organization" onClick={() => setMobileMenuOpen(false)}>Home Organization</a>
-      <a href="/products/simple-living" onClick={() => setMobileMenuOpen(false)}>Simple Living</a>
-      <a href="/about" onClick={() => setMobileMenuOpen(false)}>About</a>
-      <a href="/faq" onClick={() => setMobileMenuOpen(false)}>FAQ</a>
-      <a href="/track-order" onClick={() => setMobileMenuOpen(false)}>Track Order</a>
-    </nav>
-  </div>
-)}
+          <div className="border-t border-gray-200 bg-white px-6 py-4 md:hidden">
+            <nav className="flex flex-col gap-4 text-sm text-neutral-600">
+              <a href="/" onClick={() => setMobileMenuOpen(false)}>
+                Home
+              </a>
+              <a href="/products/desk-organizers" onClick={() => setMobileMenuOpen(false)}>
+                Desk Organization
+              </a>
+              <a href="/products/home-organization" onClick={() => setMobileMenuOpen(false)}>
+                Home Organization
+              </a>
+              <a href="/products/simple-living" onClick={() => setMobileMenuOpen(false)}>
+                Simple Living
+              </a>
+              <a href="/about" onClick={() => setMobileMenuOpen(false)}>
+                About
+              </a>
+              <a href="/faq" onClick={() => setMobileMenuOpen(false)}>
+                FAQ
+              </a>
+              <a href="/track-order" onClick={() => setMobileMenuOpen(false)}>
+                Track Order
+              </a>
+            </nav>
+          </div>
+        )}
       </header>
 
       <main>
         <section className="relative overflow-hidden">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(0,0,0,0.06),_transparent_30%),radial-gradient(circle_at_left,_rgba(0,0,0,0.04),_transparent_25%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(16,185,129,0.10),_transparent_30%),radial-gradient(circle_at_left,_rgba(0,0,0,0.04),_transparent_25%)]" />
+
           <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:grid-cols-2 md:py-24">
             <motion.div
               initial={{ opacity: 0, y: 24 }}
@@ -109,26 +201,78 @@ export default function JuzzStoreWebsite() {
               transition={{ duration: 0.6 }}
               className="flex flex-col justify-center"
             >
-              <div className="mb-4 inline-flex w-fit items-center rounded-full border border-gray-200 bg-white px-4 py-2 text-sm text-neutral-600 shadow-sm">
-                Practical tools for everyday use
+              <div className="mb-4 inline-flex w-fit items-center rounded-full border border-emerald-100 bg-white px-4 py-2 text-sm text-neutral-600 shadow-sm">
+                Organization tools for everyday spaces
               </div>
-              <h1 className="max-w-xl text-4xl font-semibold leading-tight tracking-tight md:text-6xl">
-  Organize your space. Simplify your day.
-</h1>
-<p className="mt-6 max-w-xl text-base leading-7 text-neutral-600 md:text-lg">
-  Thoughtfully selected tools for cleaner desks, calmer homes, and easier everyday routines.
-</p>
+
+              <h1 className="max-w-2xl text-4xl font-semibold leading-tight tracking-tight md:text-6xl">
+                Clear space.
+                <br />
+                Make daily life easier.
+              </h1>
+
+              <p className="mt-6 max-w-xl text-base leading-7 text-neutral-600 md:text-lg">
+                JuzzStore is built around practical organization tools that help reduce clutter,
+                improve focus, and make desks, homes, and everyday setups easier to manage.
+              </p>
+
+              <div className="mt-8 flex flex-wrap gap-4">
+                <a href="/products/desk-organizers">
+                  <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
+                    Shop Organizers
+                  </Button>
+                </a>
+                <a href="#categories">
+                  <Button variant="outline" className="rounded-2xl px-6 py-6 text-sm font-medium">
+                    Browse Categories
+                  </Button>
+                </a>
+              </div>
+
               <div className="mt-8 flex items-center gap-6">
-                <a href="https://www.tiktok.com/@sgjuzzstore" target="_blank" rel="noopener noreferrer" className="hover:opacity-80">
-                  <Image src="/icons/tiktok.png" alt="TikTok" className="h-9 w-9 transition-transform hover:scale-110" width={36} height={36} />
+                <a
+                  href="https://www.tiktok.com/@sgjuzzstore"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80"
+                >
+                  <Image
+                    src="/icons/tiktok.png"
+                    alt="TikTok"
+                    className="h-9 w-9 transition-transform hover:scale-110"
+                    width={36}
+                    height={36}
+                  />
                 </a>
 
-                <a href="https://shopee.sg/juzzstore" target="_blank" rel="noopener noreferrer" className="hover:opacity-80">
-                  <Image src="/icons/shopee.png" alt="Shopee" className="h-9 w-9 transition-transform hover:scale-110" width={36} height={36} />
+                <a
+                  href="https://shopee.sg/juzzstore"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80"
+                >
+                  <Image
+                    src="/icons/shopee.png"
+                    alt="Shopee"
+                    className="h-9 w-9 transition-transform hover:scale-110"
+                    width={36}
+                    height={36}
+                  />
                 </a>
 
-                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80">
-                  <Image src="/icons/facebook.png" alt="Facebook" className="h-9 w-9 transition-transform hover:scale-110" width={36} height={36} />
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80"
+                >
+                  <Image
+                    src="/icons/facebook.png"
+                    alt="Facebook"
+                    className="h-9 w-9 transition-transform hover:scale-110"
+                    width={36}
+                    height={36}
+                  />
                 </a>
               </div>
             </motion.div>
@@ -139,63 +283,68 @@ export default function JuzzStoreWebsite() {
               transition={{ duration: 0.7 }}
               className="flex items-center justify-center"
             >
-              <div className="grid w-full max-w-xl gap-4 rounded-[2rem] border border-gray-200 bg-white p-5 shadow-xl shadow-neutral-200/60">
-                <div className="grid grid-cols-3 gap-4">
-                  <div className="rounded-3xl bg-neutral-100 p-5">
-                    <div className="mb-10 h-20 rounded-2xl border border-dashed border-neutral-300 bg-white" />
-                    <div className="h-3 w-16 rounded-full bg-neutral-300" />
-                  </div>
-                  <div className="rounded-3xl bg-emerald-600 p-5 text-white">
-                    <div className="mb-10 h-20 rounded-2xl border border-white/20 bg-white/10" />
-                    <div className="h-3 w-14 rounded-full bg-white/40" />
-                  </div>
-                  <div className="rounded-3xl bg-neutral-100 p-5">
-                    <div className="mb-10 h-20 rounded-2xl border border-dashed border-neutral-300 bg-white" />
-                    <div className="h-3 w-12 rounded-full bg-neutral-300" />
-                  </div>
-                </div>
-                <div className="rounded-3xl border border-gray-200 bg-gray-50 p-6">
-                  <div className="mb-4 flex items-center gap-3 text-sm font-medium text-neutral-700">
-                    <Package className="h-4 w-4" />
-                    Useful everyday solutions
-                  </div>
-                  <div className="grid gap-3">
-                    {['File organizers', 'Everyday organizers', 'Useful compact tools'].map((item) => (
-                      <div
-                        key={item}
-                        className="flex items-center justify-between rounded-2xl bg-white px-4 py-3 shadow-sm"
-                      >
-                        <span className="text-sm text-neutral-700">{item}</span>
-                        <CheckCircle2 className="h-4 w-4 text-neutral-400" />
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
+              <HeroPanel />
             </motion.div>
           </div>
         </section>
 
-        <section id="about" className="mx-auto max-w-7xl px-6 py-8 md:py-12">
+        <section className="mx-auto max-w-7xl px-6 py-8 md:py-12">
           <div className="grid gap-6 rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:grid-cols-[1.2fr_0.8fr] md:p-10">
             <div>
               <div className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
                 About JuzzStore
               </div>
               <h2 className="text-2xl font-semibold tracking-tight md:text-4xl">
-                Useful products for people who want everyday things to feel simpler and easier.
+                An organization-focused brand for people who want their space to feel simpler,
+                clearer, and easier to manage.
               </h2>
               <p className="mt-4 max-w-2xl leading-7 text-neutral-600">
-                JuzzStore is built around practical everyday solutions, with a current focus on organizers, useful tools, and simple products that support home setups, daily tasks, and small business routines.
+                JuzzStore focuses on organizer solutions for desks, homes, and daily routines. The
+                goal is not to sell random products, but to offer practical tools that help people
+                create better systems for everyday life.
               </p>
             </div>
+
             <div className="rounded-[1.5rem] bg-emerald-600 p-6 text-white shadow-lg">
-              <div className="text-sm text-white/70">Our focus</div>
+              <div className="text-sm text-white/70">What we believe</div>
               <div className="mt-3 text-2xl font-semibold">
-                Simple products that solve visible daily problems.
+                A clearer space can make daily life feel lighter.
               </div>
-              <p className="mt-4 text-sm leading-6 text-white/75">
-                From cluttered corners to everyday mess, JuzzStore focuses on practical improvements that make small spaces and daily routines easier to manage.
+              <p className="mt-4 text-sm leading-6 text-white/80">
+                Small improvements in how things are stored, sorted, and placed can make workspaces,
+                corners, and routines easier to keep up with every day.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
+          <div className="grid gap-8 rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:grid-cols-2 md:p-10">
+            <div className="flex flex-col justify-center">
+              <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
+                The Everyday Problem
+              </div>
+              <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
+                It is not always a big mess. Things just slowly pile up.
+              </h3>
+              <p className="mt-4 leading-7 text-neutral-600">
+                Papers you still need. Daily-use items with no proper place. Small spaces that start
+                off neat, then slowly become harder to manage. Not enough to fix urgently, but
+                enough to feel distracting.
+              </p>
+            </div>
+
+            <div className="flex flex-col justify-center">
+              <div className="text-sm font-medium uppercase tracking-[0.18em] text-emerald-600">
+                The JuzzStore Approach
+              </div>
+              <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
+                Use better organization, not more effort.
+              </h3>
+              <p className="mt-4 leading-7 text-neutral-600">
+                JuzzStore focuses on organizers that help make things easier to see, easier to
+                reach, and easier to keep in place so your setup stays cleaner without needing a
+                complicated system.
               </p>
             </div>
           </div>
@@ -207,9 +356,10 @@ export default function JuzzStoreWebsite() {
               Why JuzzStore
             </div>
             <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-              Practical tools designed for real everyday use.
+              Practical organizers designed for real daily use.
             </h3>
           </div>
+
           <div className="grid gap-6 md:grid-cols-3">
             {features.map((feature, idx) => (
               <motion.div
@@ -234,28 +384,27 @@ export default function JuzzStoreWebsite() {
         </section>
 
         <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
-          <div className="grid gap-8 rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:grid-cols-2 md:p-10">
-            <div className="flex flex-col justify-center">
+          <div className="grid gap-8 rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:grid-cols-[0.95fr_1.05fr] md:p-10">
+            <div>
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
-                A Common Everyday Problem
+                The JuzzStore Organization System
               </div>
               <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                Mess and scattered items can make daily work feel harder.
+                A simpler way to organize everyday spaces.
               </h3>
               <p className="mt-4 leading-7 text-neutral-600">
-                Many people struggle with papers piling up, clutter building up, and limited space at home or work. When everything is scattered, daily tasks feel more tiring and harder to manage.
+                Our direction is simple: use practical organization tools that help you manage
+                clutter in a way that feels easier to maintain.
               </p>
             </div>
-            <div className="flex flex-col justify-center">
-              <div className="text-sm font-medium uppercase tracking-[0.18em] text-emerald-600">
-                Our Solution
-              </div>
-              <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                Simple products that help keep everyday things in place.
-              </h3>
-              <p className="mt-4 leading-7 text-neutral-600">
-                JuzzStore focuses on practical organizers and useful tools designed to keep documents, daily items, and small essentials neatly arranged so spaces stay cleaner and easier to manage.
-              </p>
+
+            <div className="grid gap-4">
+              {principles.map((item) => (
+                <div key={item} className="flex items-center gap-3 rounded-2xl bg-gray-50 px-4 py-4">
+                  <CheckCircle2 className="h-5 w-5 shrink-0 text-emerald-600" />
+                  <span className="text-sm text-neutral-700">{item}</span>
+                </div>
+              ))}
             </div>
           </div>
         </section>
@@ -266,10 +415,11 @@ export default function JuzzStoreWebsite() {
               Simple Everyday Transformation
             </div>
             <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-              From cluttered space to a cleaner setup.
+              From piled-up clutter to a cleaner, easier setup.
             </h3>
             <p className="mx-auto mt-4 max-w-2xl leading-7 text-neutral-600">
-              A simple organizer can make a big difference. Keep papers, tools, and daily essentials in one place so the space feels cleaner and easier to use.
+              The right organizer can make a visible difference. Keep papers, tools, and daily-use
+              items in place so the space feels cleaner and easier to use.
             </p>
           </div>
 
@@ -277,21 +427,33 @@ export default function JuzzStoreWebsite() {
             <div className="rounded-[1.75rem] border border-gray-200 bg-white p-6 shadow-sm">
               <div className="mb-4 text-sm font-semibold text-red-500">Before</div>
               <div className="aspect-[4/3] w-full overflow-hidden rounded-2xl bg-neutral-100">
-                <Image src="/images/messy-desk.jpg" alt="Messy desk with scattered papers" className="h-full w-full object-cover" width={1200} height={900} />
+                <Image
+                  src="/images/messy-desk.jpg"
+                  alt="Messy desk with scattered papers"
+                  className="h-full w-full object-cover"
+                  width={1200}
+                  height={900}
+                />
               </div>
               <p className="mt-4 text-sm text-neutral-600">
-                Papers pile up, documents get lost, and the desk feels stressful to work on.
+                Things stack up, papers spread out, and the desk becomes harder to work with.
               </p>
             </div>
 
             <div className="rounded-[1.75rem] border border-gray-200 bg-white p-6 shadow-sm">
               <div className="mb-4 text-sm font-semibold text-emerald-600">After</div>
               <div className="aspect-[4/3] w-full overflow-hidden rounded-2xl bg-neutral-100">
-                <Image src="/images/organized-desk.jpg" alt="Organized desk using file organizer" className="h-full w-full object-cover" width={1200} height={900} />
+                <Image
+                  src="/images/organized-desk.jpg"
+                  alt="Organized desk using file organizer"
+                  className="h-full w-full object-cover"
+                  width={1200}
+                  height={900}
+                />
               </div>
               <p className="mt-4 text-sm text-neutral-600">
-                Documents are neatly arranged, the workspace looks cleaner, and everything is easier
-                to find.
+                The space feels cleaner, important items stay visible, and daily work becomes easier
+                to manage.
               </p>
             </div>
           </div>
@@ -301,96 +463,89 @@ export default function JuzzStoreWebsite() {
           <div className="grid gap-8 rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:grid-cols-2 md:p-10">
             <div className="flex items-center justify-center">
               <div className="aspect-[4/3] w-full overflow-hidden rounded-3xl bg-neutral-100">
-                <Image src="/images/file-organizer.jpg" alt="File organizer product" className="h-full w-full object-cover" width={1200} height={900} />
+                <Image
+                  src="/images/file-organizer.jpg"
+                  alt="Desk file organizer product"
+                  className="h-full w-full object-cover"
+                  width={1200}
+                  height={900}
+                />
               </div>
             </div>
 
             <div className="flex flex-col justify-center">
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-emerald-600">
-                Recommended Workspace Pick
+                Featured Organizer
               </div>
               <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                The Simple File Organizer for Everyday Use
+                Desk File Organizer for a cleaner workspace
               </h3>
               <p className="mt-4 leading-7 text-neutral-600">
-                Designed for desks, home corners, and daily use, this file organizer helps keep documents, notes, and folders neatly arranged so the space stays clean and easier to manage.
+                A practical desk organizer for documents, notes, and folders that helps keep your
+                workspace clear, visible, and easier to manage day to day.
               </p>
 
               <ul className="mt-6 space-y-2 text-sm text-neutral-700">
-                <li>• Keeps documents organized and visible</li>
-                <li>• Saves desk space</li>
-                <li>• Ideal for home use, small work areas, and simple setups</li>
-                <li>• Helps maintain a cleaner desk setup</li>
+                <li>• Keeps papers and documents neatly arranged</li>
+                <li>• Helps save desk space</li>
+                <li>• Makes important items easier to see and reach</li>
+                <li>• Suitable for small work areas and home setups</li>
               </ul>
 
               <div className="mt-8">
-                <a href="/products/desk-organizers/desk-file-organizer"><Button className="rounded-2xl px-6 py-6 text-sm font-medium">View Product</Button></a>
+                <a href="/products/desk-organizers/desk-file-organizer">
+                  <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
+                    View Product
+                  </Button>
+                </a>
               </div>
             </div>
           </div>
         </section>
 
-        <section id="products" className="mx-auto max-w-7xl px-6 py-12 md:py-16">
+        <section id="categories" className="mx-auto max-w-7xl px-6 py-12 md:py-16">
           <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
-                Featured Products
+                Browse by Category
               </div>
               <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                Practical products designed to help organize daily life.
+                Organization solutions for different everyday spaces.
               </h3>
             </div>
           </div>
 
           <div className="grid gap-6 md:grid-cols-3">
-            {products.map((product) => (
-              <Card key={product.name} className="overflow-hidden rounded-[1.75rem] border-gray-200 shadow-sm">
+            {categories.map((category) => (
+              <Card
+                key={category.name}
+                className="overflow-hidden rounded-[1.75rem] border-gray-200 shadow-sm"
+              >
                 <div className="aspect-[4/3] w-full overflow-hidden">
-                  <Image src={product.image} alt={product.name} className="h-full w-full object-cover" width={1200} height={900} />
+                  <Image
+                    src={category.image}
+                    alt={category.name}
+                    className="h-full w-full object-cover"
+                    width={1200}
+                    height={900}
+                  />
                 </div>
+
                 <CardContent className="p-6">
-                  <h4 className="text-lg font-semibold">{product.name}</h4>
-                  <p className="mt-3 text-sm leading-6 text-neutral-600">{product.desc}</p>
-                  {product.link === '#' ? (
-                    <Button
-                      variant="outline"
-                      className="mt-5 rounded-2xl opacity-60 cursor-default"
-                      disabled
-                    >
-                      {product.button}
+                  <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-2xl bg-emerald-600 text-white">
+                    {category.icon}
+                  </div>
+                  <h4 className="text-lg font-semibold">{category.name}</h4>
+                  <p className="mt-3 text-sm leading-6 text-neutral-600">{category.desc}</p>
+                  <a href={category.link}>
+                    <Button variant="outline" className="mt-5 flex items-center gap-2 rounded-2xl">
+                      {category.button}
+                      <ArrowRight className="h-4 w-4" />
                     </Button>
-                  ) : (
-                    <a href={product.link} target={product.link.startsWith('http') ? '_blank' : undefined} rel={product.link.startsWith('http') ? 'noopener noreferrer' : undefined}>
-                      <Button variant="outline" className="mt-5 rounded-2xl flex items-center gap-2">
-                        {product.button}
-                        <ArrowRight className="h-4 w-4" />
-                      </Button>
-                    </a>
-                  )}
+                  </a>
                 </CardContent>
               </Card>
             ))}
-          </div>
-        </section>
-
-        <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
-          <div className="grid gap-8 rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:grid-cols-[0.95fr_1.05fr] md:p-10">
-            <div>
-              <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
-                Why customers may choose us
-              </div>
-              <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                A practical brand for useful, simple everyday solutions.
-              </h3>
-            </div>
-            <div className="grid gap-4">
-              {reasons.map((reason) => (
-                <div key={reason} className="flex items-center gap-3 rounded-2xl bg-gray-50 px-4 py-4">
-                  <CheckCircle2 className="h-5 w-5 shrink-0 text-neutral-500" />
-                  <span className="text-sm text-neutral-700">{reason}</span>
-                </div>
-              ))}
-            </div>
           </div>
         </section>
 
@@ -401,16 +556,19 @@ export default function JuzzStoreWebsite() {
                 Our Story
               </div>
               <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                Built from the need to keep daily spaces simple and practical.
+                Built from the need to keep everyday spaces simpler and easier to manage.
               </h3>
               <p className="mt-4 leading-7 text-neutral-600">
-                JuzzStore started from a simple everyday challenge — messy spaces, scattered items, and limited room while running an online business. Over time, it became clear that small practical tools could make a big difference in keeping daily setups more organized and easier to manage.
+                JuzzStore started from a simple everyday challenge: papers piling up, items getting
+                scattered, and limited space making daily setups feel harder to manage.
               </p>
               <p className="mt-4 leading-7 text-neutral-600">
-                Instead of complicated systems, JuzzStore focuses on simple, useful solutions that
-                help people work more comfortably and keep their daily environment tidy.
+                Over time, it became clear that practical organizers and useful storage tools can
+                make a real difference. That is why JuzzStore focuses on organization products that
+                support cleaner desks, calmer spaces, and easier routines.
               </p>
             </div>
+
             <div className="flex items-center justify-center">
               <div className="aspect-[4/3] w-full overflow-hidden rounded-3xl bg-neutral-100">
                 <Image
@@ -432,26 +590,68 @@ export default function JuzzStoreWebsite() {
                 Stay connected
               </div>
               <h3 className="mt-3 text-2xl font-semibold tracking-tight md:text-4xl">
-                Follow JuzzStore for practical everyday ideas, useful product finds, and simple solutions that make daily life easier.
+                Follow JuzzStore for practical organizer ideas, useful product finds, and simple
+                ways to keep everyday spaces in better order.
               </h3>
               <p className="mt-4 max-w-2xl text-sm leading-6 text-white/75 md:text-base">
-                Follow JuzzStore across our marketplaces and social channels where we share useful everyday finds, practical tools, and new product ideas.
+                Follow JuzzStore across our marketplaces and social channels where we share useful
+                organizers, product ideas, and simple everyday solutions.
               </p>
+
               <div className="mt-8 flex items-center gap-8">
                 <a href="mailto:support@juzzstore.com" className="hover:opacity-90">
-                  <Image src="/icons/email.png" alt="Email" className="h-9 w-9 transition-transform hover:scale-110" width={36} height={36} />
+                  <Image
+                    src="/icons/email.png"
+                    alt="Email"
+                    className="h-9 w-9 transition-transform hover:scale-110"
+                    width={36}
+                    height={36}
+                  />
                 </a>
 
-                <a href="https://www.tiktok.com/@sgjuzzstore" target="_blank" rel="noopener noreferrer" className="hover:opacity-90">
-                  <Image src="/icons/tiktok.png" alt="TikTok" className="h-9 w-9 transition-transform hover:scale-110" width={36} height={36} />
+                <a
+                  href="https://www.tiktok.com/@sgjuzzstore"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-90"
+                >
+                  <Image
+                    src="/icons/tiktok.png"
+                    alt="TikTok"
+                    className="h-9 w-9 transition-transform hover:scale-110"
+                    width={36}
+                    height={36}
+                  />
                 </a>
 
-                <a href="https://shopee.sg/juzzstore" target="_blank" rel="noopener noreferrer" className="hover:opacity-90">
-                  <Image src="/icons/shopee.png" alt="Shopee" className="h-9 w-9 transition-transform hover:scale-110" width={36} height={36} />
+                <a
+                  href="https://shopee.sg/juzzstore"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-90"
+                >
+                  <Image
+                    src="/icons/shopee.png"
+                    alt="Shopee"
+                    className="h-9 w-9 transition-transform hover:scale-110"
+                    width={36}
+                    height={36}
+                  />
                 </a>
 
-                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-90">
-                  <Image src="/icons/facebook.png" alt="Facebook" className="h-9 w-9 transition-transform hover:scale-110" width={36} height={36} />
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-90"
+                >
+                  <Image
+                    src="/icons/facebook.png"
+                    alt="Facebook"
+                    className="h-9 w-9 transition-transform hover:scale-110"
+                    width={36}
+                    height={36}
+                  />
                 </a>
               </div>
             </div>
@@ -460,7 +660,8 @@ export default function JuzzStoreWebsite() {
       </main>
 
       <div className="mx-auto max-w-7xl px-6 pb-4 text-center text-xs text-neutral-400">
-        JuzzStore offers practical desk organizers, everyday workspace tools, and simple solutions for home offices, small businesses, and daily setups.
+        JuzzStore offers desk organizers, home organization tools, and simple everyday solutions
+        designed to help keep spaces clear, practical, and easier to manage.
       </div>
 
       <footer className="border-t border-gray-200 bg-white">
@@ -468,17 +669,16 @@ export default function JuzzStoreWebsite() {
           <div className="font-medium text-neutral-700">JuzzStore</div>
           <div className="mt-1">Make it Simple</div>
           <div className="mt-2">Singapore</div>
-<div className="mt-3">
-  <a
-    href="/desk-organization-guide"
-    className="text-xs text-neutral-500 hover:text-neutral-800"
-  >
-    Desk Organization Guide
-  </a>
-   </div> 
+          <div className="mt-3">
+            <a
+              href="/desk-organization-guide"
+              className="text-xs text-neutral-500 hover:text-neutral-800"
+            >
+              Desk Organization Guide
+            </a>
+          </div>
           <div className="mt-3 text-xs text-neutral-400">© 2026 JuzzStore. All rights reserved.</div>
-   
- </div>
+        </div>
       </footer>
     </div>
   );
