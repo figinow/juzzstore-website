@@ -239,13 +239,19 @@ export default function JuzzStoreWebsite() {
                 improve focus, and make desks, homes, and everyday setups easier to manage.
               </p>
 
-              <div className="mt-8">
-                <a href="#categories">
-                  <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
-                    Explore Organization Solutions
-                  </Button>
-                </a>
-              </div>
+           <div className="mt-8">
+  <Button
+    className="rounded-2xl px-6 py-6 text-sm font-medium"
+    onClick={() => {
+      document.getElementById('categories')?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }}
+  >
+    Explore Organization Solutions
+  </Button>
+</div>
 
               <div className="mt-8 flex items-center gap-6">
                 <a
