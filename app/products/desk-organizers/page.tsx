@@ -64,11 +64,11 @@ export default function DeskOrganizersPage() {
       <header className="sticky top-0 z-40 border-b border-gray-200/80 bg-white/95 backdrop-blur">
   <div className="mx-auto max-w-7xl px-6 py-4">
     <a
-      href="/"
+      href="/#categories"
       className="inline-flex items-center gap-2 rounded-xl px-3 py-2 text-sm text-neutral-600 transition hover:bg-gray-100 hover:text-neutral-900"
     >
       <ArrowLeft className="h-4 w-4" />
-      Back to Homepage
+      Back to Category
     </a>
   </div>
 </header>
