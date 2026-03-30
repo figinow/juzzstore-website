@@ -117,23 +117,18 @@ export default function JuzzStoreWebsite() {
         </div>
 
         {mobileMenuOpen && (
-          <div className="border-t border-gray-200 bg-white px-6 py-4 md:hidden">
-            <nav className="flex flex-col gap-4 text-sm text-neutral-600">
-              <a href="#about" className="transition hover:text-gray-900" onClick={() => setMobileMenuOpen(false)}>
-                About
-              </a>
-              <a href="#features" className="transition hover:text-gray-900" onClick={() => setMobileMenuOpen(false)}>
-                Why JuzzStore
-              </a>
-              <a href="#products" className="transition hover:text-gray-900" onClick={() => setMobileMenuOpen(false)}>
-                Products
-              </a>
-              <a href="#contact" className="transition hover:text-gray-900" onClick={() => setMobileMenuOpen(false)}>
-                Contact
-              </a>
-            </nav>
-          </div>
-        )}
+  <div className="border-t border-gray-200 bg-white px-6 py-4 md:hidden">
+    <nav className="flex flex-col gap-4 text-sm text-neutral-600">
+      <a href="/" onClick={() => setMobileMenuOpen(false)}>Shop</a>
+      <a href="/products/desk-organizers" onClick={() => setMobileMenuOpen(false)}>Desk Organization</a>
+      <a href="/products/home-organization" onClick={() => setMobileMenuOpen(false)}>Home Organization</a>
+      <a href="/products/simple-living" onClick={() => setMobileMenuOpen(false)}>Simple Living</a>
+      <a href="/about" onClick={() => setMobileMenuOpen(false)}>About</a>
+      <a href="/faq" onClick={() => setMobileMenuOpen(false)}>FAQ</a>
+      <a href="/track-order" onClick={() => setMobileMenuOpen(false)}>Track Order</a>
+    </nav>
+  </div>
+)}
       </header>
 
       <main>
