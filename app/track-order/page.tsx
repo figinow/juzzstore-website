@@ -10,7 +10,7 @@ export default function TrackOrderPage() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
 
-      {/* Header */}
+      {/* Header (same as FAQ) */}
       <header className="sticky top-0 z-40 border-b border-gray-200/80 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6">
           <a href="/" className="flex items-center gap-3">
@@ -23,19 +23,41 @@ export default function TrackOrderPage() {
               priority
             />
           </a>
+
+          <nav className="hidden gap-8 text-sm text-neutral-600 md:flex">
+            <a href="/products/desk-organizers" className="hover:text-gray-900">
+              Desk Organization
+            </a>
+            <a href="/products/home-organization" className="hover:text-gray-900">
+              Home Organization
+            </a>
+            <a href="/products/simple-living" className="hover:text-gray-900">
+              Simple Living
+            </a>
+            <a href="/#our-story" className="hover:text-gray-900">
+              About
+            </a>
+            <a href="/faq" className="hover:text-gray-900">
+              FAQ
+            </a>
+            <a href="/track-order" className="font-medium text-gray-900">
+              Track Order
+            </a>
+          </nav>
         </div>
       </header>
 
       {/* Main */}
       <main className="mx-auto max-w-7xl px-6 py-16">
 
-        <section className="max-w-2xl">
+        {/* Title */}
+        <section className="max-w-3xl">
           <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">
             Track Your Order
           </h1>
 
-          <p className="mt-6 text-base leading-7 text-neutral-600">
-            Enter your tracking number below to check your delivery status.
+          <p className="mt-6 text-base leading-7 text-neutral-600 md:text-lg">
+            Enter your tracking number to check the latest delivery status of your order.
           </p>
         </section>
 
@@ -44,6 +66,10 @@ export default function TrackOrderPage() {
 
           <p className="text-sm text-neutral-600">
             After your order is shipped, you will receive a tracking number via email.
+          </p>
+
+          <p className="mt-3 text-sm text-neutral-500">
+            You will be redirected to our tracking partner to view delivery updates.
           </p>
 
           <div className="mt-6">
@@ -67,6 +93,9 @@ export default function TrackOrderPage() {
           <div className="font-medium text-neutral-700">JuzzStore</div>
           <div className="mt-1">Make it Simple</div>
           <div className="mt-2">Singapore</div>
+          <div className="mt-3 text-xs text-neutral-400">
+            © 2026 JuzzStore. All rights reserved.
+          </div>
         </div>
       </footer>
 
