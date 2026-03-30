@@ -240,7 +240,7 @@ export default function JuzzStoreWebsite() {
               </p>
 
               <div className="mt-8">
-                <a href="/categories">
+                <a href="/#categories">
                   <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
                     Explore Organization Solutions
                   </Button>
@@ -321,7 +321,7 @@ export default function JuzzStoreWebsite() {
           </div>
         </section>
 
-        <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
+        <section id="categories" className="mx-auto max-w-7xl px-6 py-12 md:py-16">
           <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
