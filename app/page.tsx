@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useRef } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import {
@@ -134,6 +134,7 @@ function HeroPanel() {
 
 export default function JuzzStoreWebsite() {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
+  const categoriesRef = useRef<HTMLElement | null>(null);
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
@@ -239,19 +240,21 @@ export default function JuzzStoreWebsite() {
                 improve focus, and make desks, homes, and everyday setups easier to manage.
               </p>
 
-<div className="mt-8">
-  <button
-    onClick={() => {
-      categoriesRef.current?.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-      });
-    }}
-    className="rounded-2xl bg-black px-6 py-4 text-sm font-medium text-white hover:opacity-90"
-  >
-    Explore Organization Solutions
-  </button>
-</div>
+              <div className="mt-8">
+                <button
+                  type="button"
+                  onClick={() => {
+                    categoriesRef.current?.scrollIntoView({
+                      behavior: 'smooth',
+                      block: 'start',
+                    });
+                  }}
+                  className="rounded-2xl bg-black px-6 py-4 text-sm font-medium text-white hover:opacity-90"
+                >
+                  Explore Organization Solutions
+                </button>
+              </div>
+
               <div className="mt-8 flex items-center gap-6">
                 <a
                   href="https://www.tiktok.com/@sgjuzzstore"
@@ -474,11 +477,13 @@ export default function JuzzStoreWebsite() {
               </div>
             </div>
           </div>
+        </section>
+
         <section
-  id="categories"
-  ref={categoriesRef}
-  className="scroll-mt-28 mx-auto max-w-7xl px-6 py-12 md:py-16"
->
+          id="categories"
+          ref={categoriesRef}
+          className="scroll-mt-28 mx-auto max-w-7xl px-6 py-12 md:py-16"
+        >
           <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
@@ -489,7 +494,7 @@ export default function JuzzStoreWebsite() {
               </h3>
             </div>
           </div>
-</div>
+
           <div className="grid gap-6 md:grid-cols-3">
             {categories.map((category) => (
               <Card
