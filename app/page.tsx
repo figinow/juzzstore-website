@@ -151,9 +151,7 @@ export default function JuzzStoreWebsite() {
           </a>
 
           <nav className="hidden gap-8 text-sm text-neutral-600 md:flex">
-            <a href="/" className="transition hover:text-gray-900">
-              Home
-            </a>
+         
             <a href="/products/desk-organizers" className="transition hover:text-gray-900">
               Desk Organization
             </a>
