@@ -215,7 +215,7 @@ export default function JuzzStoreWebsite() {
 
       <main>
         <section className="relative overflow-hidden">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(16,185,129,0.10),_transparent_30%),radial-gradient(circle_at_left,_rgba(0,0,0,0.04),_transparent_25%)]" />
+          <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(16,185,129,0.10),_transparent_30%),radial-gradient(circle_at_left,_rgba(0,0,0,0.04),_transparent_25%)]" />
 
           <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:grid-cols-2 md:py-24">
             <motion.div
