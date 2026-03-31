@@ -83,7 +83,9 @@ export default function DeskFileOrganizerPage() {
             </div>
           </div>
         </section>
-
+<p className="mt-4 text-sm text-neutral-500">
+  Inspired by real desk setups where papers slowly pile up and space becomes limited.
+</p>
         {/* Video + buttons */}
         <section className="mx-auto max-w-7xl px-6 pb-4 md:pb-8">
           <div className="flex flex-col items-center">
