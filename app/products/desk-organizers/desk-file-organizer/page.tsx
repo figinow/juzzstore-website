@@ -174,7 +174,6 @@ export default function DeskFileOrganizerPage() {
                 work desks, study corners, and everyday paper organization.
               </p>
             </div>
-
             <div className="rounded-[1.75rem] bg-gray-50 p-6">
               <div className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
                 Simple benefits
