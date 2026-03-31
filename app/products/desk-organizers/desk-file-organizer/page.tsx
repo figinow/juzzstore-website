@@ -196,7 +196,6 @@ export default function DeskFileOrganizerPage() {
             </div>
           </div>
         </section>
-
         {/* Why it stands out */}
         <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
           <div className="rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:p-10">
