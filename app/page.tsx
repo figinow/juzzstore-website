@@ -466,7 +466,7 @@ export default function JuzzStoreWebsite() {
               <div className="mt-8">
                 <a href="/products/desk-organizers/desk-file-organizer">
                   <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
-                    View Product
+                    View Details
                   </Button>
                 </a>
               </div>
