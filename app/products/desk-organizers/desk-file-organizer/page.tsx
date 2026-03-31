@@ -46,7 +46,7 @@ export default function DeskFileOrganizerPage() {
           <div className="rounded-[2rem] border border-gray-200 bg-white p-5 shadow-sm md:p-6">
             <div className="flex items-center justify-center rounded-[1.5rem] bg-neutral-100 p-4">
               <img
-                src="/images/file-organizer.jpg"
+                src="/images/desk-file-organizer.jpg"
                 alt="Multi-layer desk file organizer"
                 className="max-h-[520px] w-auto max-w-full object-contain"
               />
