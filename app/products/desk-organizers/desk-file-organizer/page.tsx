@@ -137,7 +137,6 @@ export default function DeskFileOrganizerPage() {
                 ))}
               </ul>
             </div>
-
             <div className="rounded-[1.75rem] border border-gray-200 bg-white p-6 shadow-sm">
               <h2 className="text-lg font-semibold">Good for</h2>
               <ul className="mt-4 space-y-3 text-sm leading-6 text-neutral-600">
@@ -151,7 +150,6 @@ export default function DeskFileOrganizerPage() {
             </div>
           </div>
         </section>
-
         {/* Product overview */}
         <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
           <div className="grid gap-8 rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:grid-cols-2 md:p-10">
