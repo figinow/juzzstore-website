@@ -70,6 +70,10 @@ export default function DeskFileOrganizerPage() {
 <p className="mt-3 text-sm text-neutral-500">
   Ideal for small desks where space is limited but clutter builds up easily.
 </p>
+
+<p className="mt-2 text-sm text-neutral-500">
+  Inspired by real desk setups where papers slowly pile up and space becomes limited.
+</p>
             <div className="mt-6 flex flex-wrap gap-3 text-sm text-neutral-600">
               <div className="rounded-full border border-gray-200 bg-white px-4 py-2">
                 Multi-layer storage
@@ -83,9 +87,7 @@ export default function DeskFileOrganizerPage() {
             </div>
           </div>
         </section>
-<p className="mt-4 text-sm text-neutral-500">
-  Inspired by real desk setups where papers slowly pile up and space becomes limited.
-</p>
+
         {/* Video + buttons */}
         <section className="mx-auto max-w-7xl px-6 pb-4 md:pb-8">
           <div className="flex flex-col items-center">
