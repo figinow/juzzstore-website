@@ -221,6 +221,14 @@ export default function DeskFileOrganizerPage() {
               </div>
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
+                  src="/images/desk-file-organizer 4layer white1.jpg"
+                  alt="Desk file organizer showing space-saving use"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+ </div>
+              <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
+                <img
                   src="/images/file-organizer-install.jpg"
                   alt="Desk file organizer showing space-saving use"
                   className="w-full h-auto object-contain"
