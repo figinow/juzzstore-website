@@ -126,7 +126,7 @@ export default function DeskOrganizersPage() {
 
                 <div className="mt-5">
                   <Button variant="outline" className="rounded-2xl">
-                    View Product
+                    View Details
                   </Button>
                 </div>
               </div>
