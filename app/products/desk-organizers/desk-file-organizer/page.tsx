@@ -204,7 +204,6 @@ export default function DeskFileOrganizerPage() {
                 Designed to keep documents visible, reduce clutter, and save valuable desk space.
               </h3>
             </div>
-
             <div className="grid gap-6 md:grid-cols-3">
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
@@ -213,7 +212,6 @@ export default function DeskFileOrganizerPage() {
                   className="w-full h-auto object-contain"
                 />
               </div>
-
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
                   src="/images/file-organizer-usage.jpg"
@@ -221,7 +219,6 @@ export default function DeskFileOrganizerPage() {
                   className="w-full h-auto object-contain"
                 />
               </div>
-
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
                   src="/images/file-organizer-install.jpg"
@@ -232,7 +229,6 @@ export default function DeskFileOrganizerPage() {
             </div>
           </div>
         </section>
-
         {/* Bottom CTA */}
         <section className="mx-auto max-w-7xl px-6 pb-12 md:pb-16">
           <div className="rounded-[2rem] bg-emerald-600 px-8 py-10 text-white shadow-xl md:px-10 md:py-12">
@@ -253,7 +249,6 @@ export default function DeskFileOrganizerPage() {
                   variant="outline"
                   className="rounded-2xl border-white/20 bg-transparent px-6 py-6 text-sm font-medium text-white hover:bg-white/10"
                 >
-
                     Explore Products
                   </Button>
                 </a>
