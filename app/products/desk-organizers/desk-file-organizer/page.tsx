@@ -226,7 +226,9 @@ export default function DeskFileOrganizerPage() {
                   className="w-full h-auto object-contain"
                 />
               </div>
- </div>
+
+
+
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
                   src="/images/file-organizer-install.jpg"
