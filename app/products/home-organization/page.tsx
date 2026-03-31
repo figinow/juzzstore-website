@@ -98,7 +98,7 @@ export default function HomeOrganizationPage() {
 
                 <div className="mt-5">
                   <Button variant="outline" className="rounded-xl">
-                    View Product
+                    View Details
                   </Button>
                 </div>
               </div>
