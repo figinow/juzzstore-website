@@ -59,7 +59,7 @@ export default function DeskFileOrganizerPage() {
             </div>
 
             <h1 className="mt-5 max-w-xl text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
-              Multi-Layer Desk File Organizer
+              Save Desk Space with a Vertical File Organizer
             </h1>
 
             <p className="mt-5 max-w-xl text-base leading-7 text-neutral-600 md:text-lg">
@@ -67,7 +67,9 @@ export default function DeskFileOrganizerPage() {
               while saving space. Its upright design helps reduce clutter and makes daily items
               easier to see, sort, and access.
             </p>
-
+<p className="mt-3 text-sm text-neutral-500">
+  Ideal for small desks where space is limited but clutter builds up easily.
+</p>
             <div className="mt-6 flex flex-wrap gap-3 text-sm text-neutral-600">
               <div className="rounded-full border border-gray-200 bg-white px-4 py-2">
                 Multi-layer storage
@@ -99,7 +101,7 @@ export default function DeskFileOrganizerPage() {
                 rel="noopener noreferrer"
               >
                 <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
-                  Continue to Checkout
+                  Upgrade Your Desk
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </a>
@@ -199,7 +201,7 @@ export default function DeskFileOrganizerPage() {
                 Why it stands out
               </div>
               <h3 className="mt-2 text-2xl font-semibold tracking-tight md:text-4xl">
-                Designed for visibility, space saving, and everyday desk organization.
+                Designed to keep documents visible, reduce clutter, and save valuable desk space.
               </h3>
             </div>
 
