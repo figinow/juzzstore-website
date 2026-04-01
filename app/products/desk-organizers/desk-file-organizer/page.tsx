@@ -101,7 +101,7 @@ export default function DeskFileOrganizerPage() {
                   muted
                   playsInline
                   preload="metadata"
-                  poster="/images/desk-organizer-cover.jpg"
+                  poster="/images/desk-file-organizer.jpg"
                 >
                   <source src="/videos/desk-organizer.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
