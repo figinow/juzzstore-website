@@ -92,7 +92,7 @@ export default function DeskFileOrganizerPage() {
         {/* Video + buttons */}
         <section className="mx-auto max-w-7xl px-6 pb-4 md:pb-8">
           <div className="flex flex-col items-center">
-            <div className="w-full max-w-[380px] md:max-w-[420px] rounded-[2rem] border border-gray-200 bg-white p-3 shadow-sm">
+            <div className="w-full max-w-[320px] rounded-[2rem] border border-gray-200 bg-white p-3 shadow-sm">
               <div className="overflow-hidden rounded-[1.5rem] bg-black">
                 <video
                   className="h-auto w-full object-cover"
