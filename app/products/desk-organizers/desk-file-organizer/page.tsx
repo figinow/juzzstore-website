@@ -27,7 +27,6 @@ export default function DeskFileOrganizerPage() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
       <header className="sticky top-0 z-40 border-b border-gray-200/80 bg-white/95 backdrop-blur">
-
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a
             href="/products/desk-organizers"
@@ -67,13 +66,15 @@ export default function DeskFileOrganizerPage() {
               while saving space. Its upright design helps reduce clutter and makes daily items
               easier to see, sort, and access.
             </p>
-<p className="mt-3 text-sm text-neutral-500">
-  Ideal for small desks where space is limited but clutter builds up easily.
-</p>
 
-<p className="mt-2 text-sm text-neutral-500">
-  Inspired by real desk setups where papers slowly pile up and space becomes limited.
-</p>
+            <p className="mt-3 text-sm text-neutral-500">
+              Ideal for small desks where space is limited but clutter builds up easily.
+            </p>
+
+            <p className="mt-2 text-sm text-neutral-500">
+              Inspired by real desk setups where papers slowly pile up and space becomes limited.
+            </p>
+
             <div className="mt-6 flex flex-wrap gap-3 text-sm text-neutral-600">
               <div className="rounded-full border border-gray-200 bg-white px-4 py-2">
                 Multi-layer storage
@@ -91,12 +92,22 @@ export default function DeskFileOrganizerPage() {
         {/* Video + buttons */}
         <section className="mx-auto max-w-7xl px-6 pb-4 md:pb-8">
           <div className="flex flex-col items-center">
-            <iframe
-              src="https://www.tiktok.com/player/v1/VIDEO_ID"
-              className="w-full max-w-[320px] rounded-2xl border border-gray-200"
-              style={{ height: '570px' }}
-              allow="fullscreen"
-            />
+            <div className="w-full max-w-[320px] rounded-[2rem] border border-gray-200 bg-white p-3 shadow-sm">
+              <div className="overflow-hidden rounded-[1.5rem] bg-black">
+                <video
+                  className="h-auto w-full object-cover"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  preload="metadata"
+                  poster="/images/desk-organizer-cover.jpg"
+                >
+                  <source src="/videos/desk-organizer.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
@@ -150,6 +161,7 @@ export default function DeskFileOrganizerPage() {
             </div>
           </div>
         </section>
+
         {/* Product overview */}
         <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
           <div className="grid gap-8 rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:grid-cols-2 md:p-10">
@@ -193,6 +205,7 @@ export default function DeskFileOrganizerPage() {
             </div>
           </div>
         </section>
+
         {/* Why it stands out */}
         <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
           <div className="rounded-[2rem] border border-gray-200 bg-white p-8 shadow-sm md:p-10">
@@ -209,21 +222,21 @@ export default function DeskFileOrganizerPage() {
                 <img
                   src="/images/file-organizer-size.jpg"
                   alt="Desk file organizer size and dimensions"
-                  className="w-full h-auto object-contain"
+                  className="h-auto w-full object-contain"
                 />
               </div>
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
                   src="/images/file-organizer-usage.jpg"
                   alt="Desk file organizer with documents and accessories"
-                  className="w-full h-auto object-contain"
+                  className="h-auto w-full object-contain"
                 />
               </div>
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
                   src="/images/desk-file-organizer 4layer white1.jpg"
                   alt="Desk file organizer showing space-saving use"
-                  className="w-full h-auto object-contain"
+                  className="h-auto w-full object-contain"
                 />
               </div>
 
@@ -231,26 +244,27 @@ export default function DeskFileOrganizerPage() {
                 <img
                   src="/images/desk-file-organizer 6layer Black.jpg"
                   alt="Desk file organizer showing space-saving use"
-                  className="w-full h-auto object-contain"
+                  className="h-auto w-full object-contain"
                 />
               </div>
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
                   src="/images/desk-file-organizer 5layer white1.jpg"
                   alt="Desk file organizer showing space-saving use"
-                  className="w-full h-auto object-contain"
+                  className="h-auto w-full object-contain"
                 />
               </div>
               <div className="rounded-[1.5rem] overflow-hidden bg-neutral-100">
                 <img
                   src="/images/file-organizer-install.jpg"
                   alt="Desk file organizer showing space-saving use"
-                  className="w-full h-auto object-contain"
+                  className="h-auto w-full object-contain"
                 />
               </div>
             </div>
           </div>
         </section>
+
         {/* Bottom CTA */}
         <section className="mx-auto max-w-7xl px-6 pb-12 md:pb-16">
           <div className="rounded-[2rem] bg-emerald-600 px-8 py-10 text-white shadow-xl md:px-10 md:py-12">
@@ -268,9 +282,9 @@ export default function DeskFileOrganizerPage() {
               <div className="mt-8 flex flex-wrap gap-4">
                 <a href="/#categories">
                   <Button
-                  variant="outline"
-                  className="rounded-2xl border-white/20 bg-transparent px-6 py-6 text-sm font-medium text-white hover:bg-white/10"
-                >
+                    variant="outline"
+                    className="rounded-2xl border-white/20 bg-transparent px-6 py-6 text-sm font-medium text-white hover:bg-white/10"
+                  >
                     Explore Products
                   </Button>
                 </a>
