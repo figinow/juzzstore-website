@@ -40,12 +40,13 @@ export default function DeskFileOrganizerPage() {
             </div>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <Button asChild className="rounded-full px-6">
-                <Link href="https://www.juzzstore.com/products/desk-organizers">
-                  View Details <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
-            </div>
+  <Link
+    href="https://www.juzzstore.com/products/desk-organizers"
+    className="inline-flex items-center rounded-full bg-neutral-900 px-6 py-3 text-sm font-medium text-white transition hover:bg-neutral-800"
+  >
+    View Details <ArrowRight className="ml-2 h-4 w-4" />
+  </Link>
+</div>
           </div>
 
           {/* Right Video */}
