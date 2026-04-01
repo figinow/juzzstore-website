@@ -29,6 +29,14 @@ const tools = [
     image: '/images/foldable-storage-ottoman.jpg',
     href: '/products/home-organization/foldable-storage-ottoman',
   },
+{
+    name: 'Foldable Storage Ottoman',
+    description:
+      'A versatile home organizer that combines hidden storage with extra seating, helping rooms feel tidier without sacrificing function.',
+    image: '/images/storage-organizer.jpg',
+    href: '/products/home-organization/storage-organizer',
+  },
+
 ];
 
 export default function HomeOrganizationPage() {
