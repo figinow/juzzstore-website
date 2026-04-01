@@ -99,7 +99,7 @@ export default function DrawerOrganizerPage() {
                 rel="noopener noreferrer"
               >
                 <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
-                  Continue To Checkout
+                  Upgrade Your Desk
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </a>
