@@ -53,17 +53,15 @@ export default function DeskFileOrganizerPage() {
             <div className="w-full max-w-[320px] rounded-[2rem] border border-neutral-200 bg-neutral-50 p-3 shadow-xl">
               <div className="overflow-hidden rounded-[1.5rem] bg-black">
                 <video
-                  className="h-auto w-full object-cover"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  controls
-                  poster="/images/desk-organizer-cover.jpg"
-                >
-                  <source src="/videos/desk-organizer.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+  className="h-auto w-full object-cover"
+  autoPlay
+  loop
+  muted
+  playsInline
+  poster="/images/desk-organizer-cover.jpg"
+>
+  <source src="/videos/desk-organizer.mp4" type="video/mp4" />
+</video>
               </div>
             </div>
           </div>
