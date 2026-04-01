@@ -103,7 +103,7 @@ export default function DeskFileOrganizerPage() {
                   preload="metadata"
                   poster="/images/desk-file-organizer.jpg"
                 >
-                  <source src="/videos/desk-organizer.mp4" type="video/mp4" />
+                  <source src="/videos/Desk-File-Organizer.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
