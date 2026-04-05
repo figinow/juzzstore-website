@@ -532,7 +532,7 @@ export default function JuzzStoreWebsite() {
                     width={36}
                     height={36}
                   />
-                </a>
+              
 
                 <a
                   href="https://www.tiktok.com/@sgjuzzstore"
