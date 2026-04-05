@@ -109,10 +109,12 @@ export default function FoldableStorageBoxPage() {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </a>
-
                   </div>
-          </div>
-        </section>
+<p className="mt-2 text-center text-sm text-gray-500">
+              🚚 Local Delivery: 2–4 Days • 🌍 Worldwide: 7–12 Days • ✔ Secure Payment
+            </p>
+
+          </div>        </section>
 
         {/* Features / Good for */}
         <section className="mx-auto max-w-7xl px-6 py-4 md:py-8">
