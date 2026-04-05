@@ -111,15 +111,7 @@ export default function FoldableStorageOrganizerPage() {
                 </Button>
               </a>
 
-              <a href="mailto:support@juzzstore.com">
-                <Button
-                  variant="outline"
-                  className="rounded-2xl px-6 py-6 text-sm font-medium"
-                >
-                  Ask a Question
-                </Button>
-              </a>
-            </div>
+           </div>
 
             <p className="mt-3 text-center text-sm text-gray-500">
               🇸🇬 SG Delivery: 2–4 Days • 🌍 Worldwide: 7–12 Days • ✔ Secure Payment
