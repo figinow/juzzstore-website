@@ -105,7 +105,7 @@ export default function FoldableStorageOttomanPage() {
                 rel="noopener noreferrer"
               >
                 <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
-                  Buy Now
+                  Updrage Your Home
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </a>
