@@ -109,8 +109,11 @@ export default function DrawerRetractableDividerPage() {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </a>
+                  </div>
+<p className="mt-2 text-center text-sm text-gray-500">
+              🚚 Local Delivery: 2–4 Days • 🌍 Worldwide: 7–12 Days • ✔ Secure Payment
+            </p>
 
-             </div>
           </div>
         </section>
 
