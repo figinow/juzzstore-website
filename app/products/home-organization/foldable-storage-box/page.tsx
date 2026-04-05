@@ -110,15 +110,7 @@ export default function FoldableStorageBoxPage() {
                 </Button>
               </a>
 
-              <a href="mailto:support@juzzstore.com">
-                <Button
-                  variant="outline"
-                  className="rounded-2xl px-6 py-6 text-sm font-medium"
-                >
-                  Ask a Question
-                </Button>
-              </a>
-            </div>
+                  </div>
           </div>
         </section>
 
