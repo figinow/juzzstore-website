@@ -524,7 +524,7 @@ export default function JuzzStoreWebsite() {
               </p>
 
               <div className="mt-8 flex items-center gap-8">
-                <a href="mailto:support@juzzstore.com" className="hover:opacity-90">
+                
                   <Image
                     src="/icons/email.png"
                     alt="Email"
