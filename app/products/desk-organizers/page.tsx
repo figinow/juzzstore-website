@@ -50,13 +50,7 @@ const deskOrganizers = [
     href: '/products/desk-organizers/foldable-organizer',
     image: '/images/foldable-organizer-1.jpg',
   },
-  {
-    name: 'Storage Organizer',
-    description:
-      'A practical storage solution for keeping everyday desk items, supplies, and small accessories in a neater, more organised setup.',
-    href: '/products/desk-organizers/storage-organizer',
-    image: '/images/storage-organizer.jpg',
-  },
+
 ];
 
 export default function DeskOrganizersPage() {
