@@ -33,7 +33,7 @@ const tools = [
     name: 'Storage Organizer',
     description:
       'A practical storage solution for keeping everyday desk items, supplies, and small accessories in a neater, more organised setup.',
-    href: '/products/desk-organizers/storage-organizer',
+    href: '/products/home-organization/storage-organizer',
     image: '/images/storage-organizer.jpg',
   },
 ];
