@@ -105,20 +105,12 @@ export default function VacuumCompressionBagPage() {
                 rel="noopener noreferrer"
               >
                 <Button className="rounded-2xl px-6 py-6 text-sm font-medium">
-                  Continue To Checkout
+                  Upgrade Organization Tools
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </a>
 
-              <a href="mailto:support@juzzstore.com">
-                <Button
-                  variant="outline"
-                  className="rounded-2xl px-6 py-6 text-sm font-medium"
-                >
-                  Ask a Question
-                </Button>
-              </a>
-            </div>
+                   </div>
 <p className="mt-2 text-center text-sm text-gray-500">
               🚚 Local Delivery: 2–4 Days • 🌍 Worldwide: 7–12 Days • ✔ Secure Payment
             </p>
